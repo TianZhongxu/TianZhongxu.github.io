@@ -20,19 +20,72 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="数C习题课">
+  <meta name="description" content="第一章 摩尔定律相关知识 集成电路设计层次、设计风格 数字集成电路的成本   长沟道和短沟道的电流表达式   nmos同理 阈值电压的求解   第五章 基本参数的求解和噪声容限![[Pasted image 20221029191132.png]]  画版图 需要化成叉指形状，否则扣分！做了四插指结构        ![[Pasted image 20221029192344.png]]">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数C习题精析">
 <meta property="og:url" content="http://example.com/2022/10/29/%E6%95%B0C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/index.html">
 <meta property="og:site_name" content="大铁棍子学习乐园">
-<meta property="og:description" content="数C习题课">
+<meta property="og:description" content="第一章 摩尔定律相关知识 集成电路设计层次、设计风格 数字集成电路的成本   长沟道和短沟道的电流表达式   nmos同理 阈值电压的求解   第五章 基本参数的求解和噪声容限![[Pasted image 20221029191132.png]]  画版图 需要化成叉指形状，否则扣分！做了四插指结构        ![[Pasted image 20221029192344.png]]">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190259.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191058.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190554.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190617.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190716.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190824.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190908.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190929.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191005.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191235.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191747.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191801.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191953.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192035.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192116.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192227.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192242.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192323.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192443.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192458.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192543.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192707.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192627.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192656.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192754.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193045.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193128.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193113.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193212.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193642.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193416.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193444.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193535.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193738.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193853.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193920.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194000.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194109.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194214.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194738.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194813.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194857.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194942.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194953.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195005.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195020.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195031.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195046.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195118.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195128.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195141.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195151.png">
 <meta property="article:published_time" content="2022-10-29T10:44:32.000Z">
-<meta property="article:modified_time" content="2022-10-29T10:59:13.431Z">
+<meta property="article:modified_time" content="2022-10-29T11:56:19.412Z">
 <meta property="article:author" content="TianZhongxu">
 <meta property="article:tag" content="note">
 <meta property="article:tag" content="digital">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190259.png">
 
 <link rel="canonical" href="http://example.com/2022/10/29/%E6%95%B0C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/">
 
@@ -186,7 +239,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-10-29 18:44:32 / Modified: 18:59:13" itemprop="dateCreated datePublished" datetime="2022-10-29T18:44:32+08:00">2022-10-29</time>
+              <time title="Created: 2022-10-29 18:44:32 / Modified: 19:56:19" itemprop="dateCreated datePublished" datetime="2022-10-29T18:44:32+08:00">2022-10-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -209,7 +262,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="数C习题课"><a href="#数C习题课" class="headerlink" title="数C习题课"></a>数C习题课</h1>
+        <h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><ol>
+<li>摩尔定律相关知识<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190259.png"></li>
+<li>集成电路设计层次、设计风格<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191058.png"></li>
+<li>数字集成电路的成本<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190554.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190617.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190716.png"></li>
+<li>长沟道和短沟道的电流表达式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190824.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190908.png"> nmos同理</li>
+<li>阈值电压的求解<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190929.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191005.png"></li>
+</ol>
+<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><ol>
+<li>基本参数的求解和噪声容限![[Pasted image 20221029191132.png]] <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191235.png"></li>
+<li>画版图<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191747.png"> 需要化成叉指形状，否则扣分！<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191801.png">做了四插指结构</li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191953.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192035.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192116.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192227.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192242.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192323.png"> ![[Pasted image 20221029192344.png]]  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192443.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192458.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192543.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192707.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192627.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192656.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192754.png"></li>
+</ol>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><ol>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193045.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193128.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193113.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193212.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193642.png"> 答案为66.67ps  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193416.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193444.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193535.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193738.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193853.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193920.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194000.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194109.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194214.png">   </li>
+<li>![[Pasted image 20221029194721.png]] </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194738.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194813.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194857.png"></li>
+</ol>
+<h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><ol>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194942.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194953.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195005.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195020.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195031.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195046.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195118.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195128.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195141.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195151.png"></li>
+</ol>
+
     </div>
 
     
@@ -293,7 +376,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0C%E4%B9%A0%E9%A2%98%E8%AF%BE"><span class="nav-number">1.</span> <span class="nav-text">数C习题课</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0"><span class="nav-number">1.</span> <span class="nav-text">第一章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">第五章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E5%85%AD%E7%AB%A0"><span class="nav-number">3.</span> <span class="nav-text">第六章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%83%E7%AB%A0"><span class="nav-number">4.</span> <span class="nav-text">第七章</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
