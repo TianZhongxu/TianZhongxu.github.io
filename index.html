@@ -184,7 +184,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-10-30 09:37:22 / Modified: 13:38:42" itemprop="dateCreated datePublished" datetime="2022-10-30T09:37:22+08:00">2022-10-30</time>
+              <time title="Created: 2022-10-30 09:37:22 / Modified: 14:45:17" itemprop="dateCreated datePublished" datetime="2022-10-30T09:37:22+08:00">2022-10-30</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -740,10 +740,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2022-10-29 17:43:45 / Modified: 23:52:13" itemprop="dateCreated datePublished" datetime="2022-10-29T17:43:45+08:00">2022-10-29</time>
+              <time title="Created: 2022-10-29 17:43:45" itemprop="dateCreated datePublished" datetime="2022-10-29T17:43:45+08:00">2022-10-29</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-10-30 14:45:22" itemprop="dateModified" datetime="2022-10-30T14:45:22+08:00">2022-10-30</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -823,7 +829,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-10-30 13:33:11" itemprop="dateModified" datetime="2022-10-30T13:33:11+08:00">2022-10-30</time>
+                <time title="Modified: 2022-10-30 14:43:40" itemprop="dateModified" datetime="2022-10-30T14:43:40+08:00">2022-10-30</time>
               </span>
 
           
@@ -844,6 +850,7 @@
 <ul>
 <li>学业板块中，作者计划继续推出【复习精粹】，提供更加精炼的重点总结供读者学习</li>
 <li>如果工作和生活两个板块内容过少则说明作者<strong>只会学习</strong></li>
+<li>10.30：增加公式适配</li>
 </ul>
 
       
@@ -1032,6 +1039,59 @@
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
