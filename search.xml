@@ -43,6 +43,9 @@
       <categories>
         <category>卷死张怡文</category>
       </categories>
+      <tags>
+        <tag>DSP</tag>
+      </tags>
   </entry>
   <entry>
     <title>DSP复习精粹</title>
@@ -51,6 +54,9 @@
       <categories>
         <category>卷死张怡文</category>
       </categories>
+      <tags>
+        <tag>DSP</tag>
+      </tags>
   </entry>
   <entry>
     <title>更新日志</title>
@@ -77,7 +83,7 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>nothing</tag>
+        <tag>menu</tag>
       </tags>
   </entry>
   <entry>
@@ -120,8 +126,7 @@
         <category>卷死张怡文</category>
       </categories>
       <tags>
-        <tag>digital</tag>
-        <tag>note</tag>
+        <tag>数C</tag>
       </tags>
   </entry>
   <entry>
@@ -132,8 +137,7 @@
         <category>卷死张怡文</category>
       </categories>
       <tags>
-        <tag>digital</tag>
-        <tag>note</tag>
+        <tag>数C</tag>
       </tags>
   </entry>
   <entry>
@@ -144,8 +148,7 @@
         <category>卷死张怡文</category>
       </categories>
       <tags>
-        <tag>analog</tag>
-        <tag>exercise</tag>
+        <tag>模C</tag>
       </tags>
   </entry>
   <entry>
@@ -155,6 +158,9 @@
       <categories>
         <category>卷死张怡文</category>
       </categories>
+      <tags>
+        <tag>自控</tag>
+      </tags>
   </entry>
   <entry>
     <title>模C复习精粹</title>
@@ -172,7 +178,6 @@
         <category>卷死张怡文</category>
       </categories>
       <tags>
-        <tag>note</tag>
         <tag>模C</tag>
       </tags>
   </entry>
@@ -183,6 +188,9 @@
       <categories>
         <category>卷死张怡文</category>
       </categories>
+      <tags>
+        <tag>自控</tag>
+      </tags>
   </entry>
   <entry>
     <title>模C学习笔记</title>
@@ -329,8 +337,7 @@
         <category>卷死张怡文</category>
       </categories>
       <tags>
-        <tag>note</tag>
-        <tag>analog</tag>
+        <tag>模C</tag>
       </tags>
   </entry>
 </search>
