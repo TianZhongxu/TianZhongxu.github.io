@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>DPS习题精析</title>
+    <url>/2022/10/29/DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+    <content><![CDATA[<p>本习题来源于课程习题以及作者本人的作业，将数字信号处理习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
+<ul>
+<li>第七章的作业题尚未整理</li>
+<li>所有作业题需要重新巩固<span id="more"></span></li>
+</ul>
+<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-判断线性系统"><a href="#1-判断线性系统" class="headerlink" title="1. 判断线性系统"></a>1. 判断线性系统</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225357.png"></p>
+<h3 id="2-判断时不变性"><a href="#2-判断时不变性" class="headerlink" title="2. 判断时不变性"></a>2. 判断时不变性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225429.png"></p>
+<h3 id="3-因果系统的判断"><a href="#3-因果系统的判断" class="headerlink" title="3. 因果系统的判断"></a>3. 因果系统的判断</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225503.png"></p>
+<h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><h3 id="1-双边序列的z变换以及有限长序列的处理"><a href="#1-双边序列的z变换以及有限长序列的处理" class="headerlink" title="1. 双边序列的z变换以及有限长序列的处理"></a>1. 双边序列的z变换以及有限长序列的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030230128.png">这道题中，z的正幂项的计算需要留心!其次还要注意在a的值讨论过程中一定要讨论全面。</p>
+<h3 id="2-有限序列的z变换"><a href="#2-有限序列的z变换" class="headerlink" title="2. 有限序列的z变换"></a>2. 有限序列的z变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030231009.png"><br>这三道题很有代表性，对于有限长序列0和无穷点ROC选择时候遵循如下技巧：0左右数值的有无对应着收敛范围0和无穷处点可取和不可取；第三题中，收敛域的判断很有讲究：要从求和式中直接判断！</p>
+<h3 id="3-z反变换——部分分式法"><a href="#3-z反变换——部分分式法" class="headerlink" title="3. z反变换——部分分式法"></a>3. z反变换——部分分式法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232038.png"><br>第一道题中，我们观察发现分子上为$z^2$而分母中只有两个z的多项式，因此需要对分子进行降低阶数处理，当然也可以直接约分为“时间常数式”，如右侧然后进行计算。</p>
+<h3 id="4-z变换与卷积"><a href="#4-z变换与卷积" class="headerlink" title="4. z变换与卷积"></a>4. z变换与卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232743.png"><br>此题在求解过程中用到了一个移位性质，即时域$n-1$,z域$z^{-1}$</p>
+<h3 id="5-系统函数：z变换与频率响应、求解幅度和相位"><a href="#5-系统函数：z变换与频率响应、求解幅度和相位" class="headerlink" title="5. 系统函数：z变换与频率响应、求解幅度和相位"></a>5. 系统函数：z变换与频率响应、求解幅度和相位</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030233041.png"></p>
+<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><h3 id="1-求解z变换、收敛域和零极点图"><a href="#1-求解z变换、收敛域和零极点图" class="headerlink" title="1. 求解z变换、收敛域和零极点图"></a>1. 求解z变换、收敛域和零极点图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104858.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104912.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104935.png"></p>
+<h3 id="2-直接卷积和z变换卷积"><a href="#2-直接卷积和z变换卷积" class="headerlink" title="2. 直接卷积和z变换卷积"></a>2. 直接卷积和z变换卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105030.png"></p>
+<h3 id="3-IDFS"><a href="#3-IDFS" class="headerlink" title="3. IDFS"></a>3. IDFS</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105717.png"></p>
+<h1 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h1><h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><h3 id="1-公式默写"><a href="#1-公式默写" class="headerlink" title="1. 公式默写"></a>1. 公式默写</h3><p>学习本章前，必须对傅里叶变换、傅里叶级数、离散序列的傅里叶变换公式熟练记忆，默写如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031080522.png"></p>
+<h3 id="2-DFS——周期性冲激串和周期序列"><a href="#2-DFS——周期性冲激串和周期序列" class="headerlink" title="2. DFS——周期性冲激串和周期序列"></a>2. DFS——周期性冲激串和周期序列</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081133.png"><br>左侧题目应当作为结论记忆，对于右侧例题，有固定解法如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081240.png"></p>
+<h3 id="3-DFT"><a href="#3-DFT" class="headerlink" title="3. DFT"></a>3. DFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082620.png"><br>右侧例题的正交特性是关键，复正弦序列的正交特性如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082737.png"></p>
+<h3 id="4-DFS和DFT的对应关系"><a href="#4-DFS和DFT的对应关系" class="headerlink" title="4. DFS和DFT的对应关系"></a>4. DFS和DFT的对应关系</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083623.png"></p>
+<h3 id="5-DFT的圆周移位性质和圆周卷积"><a href="#5-DFT的圆周移位性质和圆周卷积" class="headerlink" title="5. DFT的圆周移位性质和圆周卷积"></a>5. DFT的圆周移位性质和圆周卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083604.png"><br>注意，考试中，卷积运算需要用图解法求解</p>
+<h3 id="6-肉眼观察法求解IDFT"><a href="#6-肉眼观察法求解IDFT" class="headerlink" title="6. 肉眼观察法求解IDFT"></a>6. 肉眼观察法求解IDFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031085355.png"><br>其中前后两项对偶，如果不能直接看出来，那么就带入基本公式去计算。</p>
+<h3 id="7-讨论采样点数对DFT的影响（了解）"><a href="#7-讨论采样点数对DFT的影响（了解）" class="headerlink" title="7. 讨论采样点数对DFT的影响（了解）"></a>7. 讨论采样点数对DFT的影响（了解）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031090034.png"></p>
+<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="1-证明DFS的共轭性质"><a href="#1-证明DFS的共轭性质" class="headerlink" title="1. 证明DFS的共轭性质"></a>1. 证明DFS的共轭性质</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105846.png"></p>
+<h3 id="2-画幅值和相位谱"><a href="#2-画幅值和相位谱" class="headerlink" title="2. 画幅值和相位谱"></a>2. 画幅值和相位谱</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110146.png"></p>
+<h3 id="3-图解法求卷积"><a href="#3-图解法求卷积" class="headerlink" title="3. 图解法求卷积"></a>3. 图解法求卷积</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110216.png"><br> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110227.png"></p>
+<h3 id="4-零极点图、频率响应图、DFT图"><a href="#4-零极点图、频率响应图、DFT图" class="headerlink" title="4. 零极点图、频率响应图、DFT图"></a>4. 零极点图、频率响应图、DFT图</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110459.png"></p>
+<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><h3 id="1-数字滤波器的结构流图"><a href="#1-数字滤波器的结构流图" class="headerlink" title="1. 数字滤波器的结构流图"></a>1. 数字滤波器的结构流图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095424.png"><br>作者认为：并联形式中的常数项不是必须要提出来的，因此可以直接通过留数法直接求解</p>
+<h2 id="习题-1"><a href="#习题-1" class="headerlink" title="习题"></a>习题</h2><h3 id="1-级联型和并联型"><a href="#1-级联型和并联型" class="headerlink" title="1. 级联型和并联型"></a>1. 级联型和并联型</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095949.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100012.png"></p>
+<h3 id="2-节点法的应用"><a href="#2-节点法的应用" class="headerlink" title="2. 节点法的应用"></a>2. 节点法的应用</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100435.png"></p>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="例题-4"><a href="#例题-4" class="headerlink" title="例题"></a>例题</h2><h3 id="1-脉冲响应不变法求解数字滤波器的系统函数"><a href="#1-脉冲响应不变法求解数字滤波器的系统函数" class="headerlink" title="1. 脉冲响应不变法求解数字滤波器的系统函数"></a>1. 脉冲响应不变法求解数字滤波器的系统函数</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103506.png"></p>
+<h2 id="习题-2"><a href="#习题-2" class="headerlink" title="习题"></a>习题</h2><h3 id="1-脉冲响应不变法与双线性法"><a href="#1-脉冲响应不变法与双线性法" class="headerlink" title="1. 脉冲响应不变法与双线性法"></a>1. 脉冲响应不变法与双线性法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103858.png"></p>
+<h3 id="2-模拟频率与数字频率的对应"><a href="#2-模拟频率与数字频率的对应" class="headerlink" title="2. 模拟频率与数字频率的对应"></a>2. 模拟频率与数字频率的对应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103922.png"></p>
+<h3 id="3-用双线性法设计巴特沃斯低通滤波器"><a href="#3-用双线性法设计巴特沃斯低通滤波器" class="headerlink" title="3. 用双线性法设计巴特沃斯低通滤波器"></a>3. 用双线性法设计巴特沃斯低通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104031.png"></p>
+<h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><h2 id="例题-5"><a href="#例题-5" class="headerlink" title="例题"></a>例题</h2><h3 id="1-用矩形窗设计带通滤波器"><a href="#1-用矩形窗设计带通滤波器" class="headerlink" title="1. 用矩形窗设计带通滤波器"></a>1. 用矩形窗设计带通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104350.png"></p>
+<h3 id="2-线性相位正交变换"><a href="#2-线性相位正交变换" class="headerlink" title="2. 线性相位正交变换"></a>2. 线性相位正交变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104721.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104731.png"></p>
+]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>DSP复习精粹</title>
+    <url>/2022/10/29/DSP%E5%A4%8D%E4%B9%A0%E7%B2%BE%E7%B2%B9/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>前言</title>
+    <url>/2022/10/29/text/</url>
+    <content><![CDATA[<p>作者搭建本学习空间，旨在分享微电子科班学习心得体会以及大学的工作与生活。该空间主要分为学业（卷死张怡文）、竞赛（勾结王比剋）、工作（气死黄东旭）、生活（吃吐马怡然）四个大板块。其中，学业部分主要为课程的学习内容，以课程科目为标签，每个科目主要分为【习题精析】与【学习笔记】，请读者综合食用。</p>
+<blockquote>
+<p>注：本空间内部上传一切文章最终解释权归作者所有。</p>
+</blockquote>
+<ul>
+<li>学业板块中，作者计划继续推出【复习精粹】，提供更加精炼的重点总结供读者学习</li>
+<li>如果工作和生活两个板块内容过少则说明作者<strong>只会学习</strong></li>
+<li>10.30：增加公式适配</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>nothing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数C习题精析</title>
+    <url>/2022/10/29/%E6%95%B0C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+    <content><![CDATA[<p>本习题来源于程军老师的习题课以及作者本人的作业，将数字CMOS集成电路的习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
+<span id="more"></span>
+<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><ol>
+<li>摩尔定律相关知识<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190259.png"></li>
+<li>集成电路设计层次、设计风格<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191058.png"></li>
+<li>数字集成电路的成本<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190554.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190617.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190716.png"></li>
+<li>长沟道和短沟道的电流表达式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190824.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190908.png"> nmos同理</li>
+<li>阈值电压的求解<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029190929.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191005.png"></li>
+</ol>
+<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><ol>
+<li>基本参数的求解和噪声容限 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029200432.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191235.png"></li>
+<li>画版图<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191747.png"> 需要化成叉指形状，否则扣分！<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191801.png">做了四插指结构</li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029191953.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192035.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192116.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192227.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192242.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192323.png"> ![[Pasted image 20221029192344.png]]  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192443.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192458.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192543.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192707.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192627.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192656.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029192754.png"></li>
+</ol>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><ol>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193045.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193128.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193113.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193212.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193642.png"> 答案为66.67ps  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193416.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193444.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193535.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193738.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193853.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029193920.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194000.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194109.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194214.png">   </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029200241.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194738.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194813.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194857.png"></li>
+</ol>
+<h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><ol>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194942.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029194953.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195005.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195020.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195031.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195046.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195118.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195128.png"> </li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195141.png"></li>
+<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029195151.png"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+      <tags>
+        <tag>digital</tag>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数C学习笔记</title>
+    <url>/2022/10/29/%E6%95%B0C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+      <tags>
+        <tag>digital</tag>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>模C习题精析</title>
+    <url>/2022/10/29/%E6%A8%A1C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+      <tags>
+        <tag>analog</tag>
+        <tag>exercise</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自控习题精析</title>
+    <url>/2022/10/29/%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>模C复习精粹</title>
+    <url>/2022/10/30/%E6%A8%A1C%E5%A4%8D%E4%B9%A0%E7%B2%BE%E7%B2%B9/</url>
+    <content><![CDATA[<p>本文由【模C学习笔记】精简而来，主要用于复习指导。</p>
+<span id="more"></span>
+
+<h1 id="第五章-电流镜"><a href="#第五章-电流镜" class="headerlink" title="第五章 电流镜"></a>第五章 电流镜</h1><h2 id="基本电流镜"><a href="#基本电流镜" class="headerlink" title="基本电流镜"></a>基本电流镜</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030132707.png"></p>
+<h2 id="电流镜的应用"><a href="#电流镜的应用" class="headerlink" title="电流镜的应用"></a>电流镜的应用</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030132729.png"></p>
+<h2 id="共源共栅电流镜"><a href="#共源共栅电流镜" class="headerlink" title="共源共栅电流镜"></a>共源共栅电流镜</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030132803.png"></p>
+<h2 id="低压共源共栅电流镜"><a href="#低压共源共栅电流镜" class="headerlink" title="低压共源共栅电流镜"></a>低压共源共栅电流镜</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030132825.png"></p>
+<h2 id="五管运算跨导放大器"><a href="#五管运算跨导放大器" class="headerlink" title="五管运算跨导放大器"></a>五管运算跨导放大器</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030132904.png"></p>
+]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>模C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自控学习笔记</title>
+    <url>/2022/10/29/%E8%87%AA%E6%8E%A7%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>模C学习笔记</title>
+    <url>/2022/10/29/%E6%A8%A1C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>本笔记集成拉扎维教材与张鸿老师的课堂ppt，将模拟CMOS集成电路知识点进行层次化梳理与系统架构，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
+<span id="more"></span>
+
+
+<h1 id="第五章-电流镜与偏置技术"><a href="#第五章-电流镜与偏置技术" class="headerlink" title="第五章 电流镜与偏置技术"></a>第五章 电流镜与偏置技术</h1><p>[[CMOS_ch05_2021(1).pdf]]</p>
+<h2 id="一、基本的电流镜"><a href="#一、基本的电流镜" class="headerlink" title="一、基本的电流镜"></a>一、基本的电流镜</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029175043.png"></p>
+<ol>
+<li>How to obtain stable current source</li>
+</ol>
+<ul>
+<li>电阻分压<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029175339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029175446.png"></li>
+<li>复制标准电流：将$I_{ref}$转化为$V_G$,作用在M1,使M1产生电流$i_{out}&#x3D;I_{ref}$. 栅电压必须由$I_{ref}$产生，因此使用二极管链接，让$V_{GS}$自适应$I_{ref}$<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029175527.png"></li>
+</ul>
+<ol start="2">
+<li>基本电流镜<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029200910.png"></li>
+</ol>
+<ul>
+<li>电流镜的应用：我们需要尽量避免长的电流链<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029201025.png"> </li>
+<li>尺寸问题—— 电流只能通过W的改变：由于沟道长度受$L_D$影响太大；而且W也不是完全可以精确加倍的：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029201315.png">     </li>
+<li>同样说明一点，电流镜能够处理信号，可以放大小信号电路，但其代价是成比例的增加偏置电流<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029201418.png"></li>
+</ul>
+<h2 id="二、Cascode-current-mirrors"><a href="#二、Cascode-current-mirrors" class="headerlink" title="二、Cascode current mirrors"></a>二、Cascode current mirrors</h2><h3 id="基本电流镜存在的问题"><a href="#基本电流镜存在的问题" class="headerlink" title="基本电流镜存在的问题"></a>基本电流镜存在的问题</h3><ol>
+<li>Drawback of  the basic current mirror<br>如果做到精准匹配，忽略了沟道长度调制响应，如果考虑该效应<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029225133.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029202319.png"></li>
+</ol>
+<ul>
+<li><p>共源共栅结构的屏蔽作用，使得X点的电压变化在P点没什么影响，电流差别很小!<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029202848.png"></p>
+</li>
+<li><p>为了避免，采用共源共栅极电路</p>
+</li>
+</ul>
+<h3 id="改进方法一：共源共栅"><a href="#改进方法一：共源共栅" class="headerlink" title="改进方法一：共源共栅"></a>改进方法一：共源共栅</h3><ol start="2">
+<li>共源共栅极电流镜<br>抵抗电压波动的影响：左侧低阻抗，右侧高阻抗<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029202916.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029203028.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029203209.png"></li>
+</ol>
+<ul>
+<li>最低电压：电路有高的输出阻抗和精确的值，但是它却消耗了很大 的<br>电压余度 。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029225157.png"> </li>
+<li>为解决上述问题，分析共源共栅的大信号特性<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029203945.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029203957.png"></li>
+</ul>
+<h3 id="改进方法二：低压共源共栅极"><a href="#改进方法二：低压共源共栅极" class="headerlink" title="改进方法二：低压共源共栅极"></a>改进方法二：低压共源共栅极</h3><ol>
+<li>尝试：串联电阻造压降<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029204630.png"></li>
+</ol>
+<ul>
+<li>这个组合也可以看作一个二极管连接型器件<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029204730.png"></li>
+</ul>
+<ol start="2">
+<li>另一种实现方法<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029205021.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210014.png"></li>
+</ol>
+<ul>
+<li>能够让$V_b$自由设计<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210132.png"> </li>
+<li>$V_b$的产生电路<ul>
+<li>靠谱方法<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210325.png"></li>
+<li>三种不靠谱的方法 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210407.png"></li>
+</ul>
+</li>
+</ul>
+<h2 id="三、Active-current-mirrors"><a href="#三、Active-current-mirrors" class="headerlink" title="三、Active current mirrors"></a>三、Active current mirrors</h2><h3 id="3-0-概述"><a href="#3-0-概述" class="headerlink" title="3.0 概述"></a>3.0 概述</h3><p>电流镜也可以处理信号，像有源器件一样工作而不产生反向，这一节我们研究这种特性<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210442.png"></p>
+<ul>
+<li>五管“运算跨导放大器”OTA<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210526.png">注意他的输出是单端的，因此，此电路有时候用于把差动信号转换为单端输出信号。在研究OTA之前，先研究更简单的无源负载拓扑结构</li>
+</ul>
+<ol>
+<li>无源差动对</li>
+</ol>
+<p>首先，两种方式计算小信号增益（由于电路不对称，不能使用单边电路）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029210953.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029211018.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029225245.png"> </p>
+<ol start="2">
+<li>有源负载差动对<br>在5.23（a）中，M1的小信号漏电流被浪费了，如下图所示，我们希望在输出端用合适的极性来使用这个电流<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029211133.png"></li>
+</ol>
+<ul>
+<li>M3是如何提高增益的？<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029211155.png"></li>
+</ul>
+<h3 id="3-1-大信号分析"><a href="#3-1-大信号分析" class="headerlink" title="3.1 大信号分析"></a>3.1 大信号分析</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029212328.png"></p>
+<ul>
+<li>状态分析 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029212600.png"><ul>
+<li>如果左侧输入远小于右侧，M1、3、4均为关断状态，输出为0</li>
+<li>随着左侧输入增大，M1导通，M5的一部分电流流到M3，并且M4导通。输出电压开始依赖于右侧两个晶体管的差值</li>
+<li>当左侧和右侧的输入差的很小，M2、4都处于饱和，产生一个很高的增益</li>
+<li>当左侧输入比右侧输入大的多的时候，I2电流会减小，导致输出电压增大，最终驱使M4进入线性区</li>
+<li>如果左侧输入远大于右侧，M2关断，M4的电流为0，工作在深线性区，输出为VDD</li>
+</ul>
+</li>
+<li>缺点：共模电平对输出摆幅的限制 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029212742.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029212756.png"></li>
+<li>说明将差动输入转换成大摆幅的单端是输出时候，OTA是有用的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029215137.png"></li>
+</ul>
+<h3 id="3-2-小信号分析"><a href="#3-2-小信号分析" class="headerlink" title="3.2 小信号分析"></a>3.2 小信号分析</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029223941.png"></p>
+<ol>
+<li><p>近似分析<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029225037.png"></p>
+</li>
+<li><p>精确分析（小信号模型）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029225323.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224123.png"></p>
+</li>
+<li><p>余度问题<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224229.png"></p>
+</li>
+</ol>
+<h3 id="3-3-共模特性"><a href="#3-3-共模特性" class="headerlink" title="3.3 共模特性"></a>3.3 共模特性</h3><ol>
+<li><p>$A_{CM}$<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224246.png"></p>
+</li>
+<li><p>$A_{CM}$的计算<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224326.png"></p>
+</li>
+<li><p>CMRR共模抑制比<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224353.png"></p>
+</li>
+<li><p>失配的影响（有时间的话研究一下）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224409.png"></p>
+</li>
+</ol>
+<h3 id="3-4-五管OTA的其他特性"><a href="#3-4-五管OTA的其他特性" class="headerlink" title="3.4 五管OTA的其他特性"></a>3.4 五管OTA的其他特性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224525.png"></p>
+<h2 id="四、Bias-techniques"><a href="#四、Bias-techniques" class="headerlink" title="四、Bias techniques"></a>四、Bias techniques</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224617.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224603.png"></p>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一 概述"></a>一 概述</h2><h3 id="1-0-信号与系统知识补全"><a href="#1-0-信号与系统知识补全" class="headerlink" title="1.0 信号与系统知识补全"></a>1.0 信号与系统知识补全</h3><p>在傅里叶域中，我们可以直接研究频率响应（将实部削减为0）</p>
+<ul>
+<li><p>s是一个复数$$s&#x3D;\delta+j\omega$$ 单位均是rad&#x2F;s</p>
+</li>
+<li><p>稳定状态$$\delta&#x3D;0 ,s&#x3D;j \omega$$</p>
+</li>
+<li><p>RC网络<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031142803.png">$$\tau&#x3D;RC,\omega _p&#x3D;\frac{1}{RC}$$ 这样的电路称为：单极点电路。利用拉式变换可以进一步得到电路的频率响应，如果让$s&#x3D;j\omega$<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031143143.png"><br>随着$\omega$从低到高的变化，我们发现，频率响应的幅值逐渐在衰减。<br>一个信号经过一个线性时不变系统，相位会发生移动，即会有一个时移。我们增加一个信号的频率，时移可能变化的不大，但是幅度衰减的很厉害。</p>
+</li>
+<li><p>用三角形法来观察在这个电路：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031144817.png"></p>
+<ul>
+<li>实轴的长度与斜边长度的比值为幅值增益</li>
+<li>相移最多为90°</li>
+<li>在所有的频率点中选择最特殊的：等腰三角形。这时候幅度增益是$\sqrt{2}&#x2F;2&#x3D;-3dB,\Delta \phi&#x3D;-\pi&#x2F;4$，将这一点定义为截止频率</li>
+</ul>
+</li>
+<li><p>两个极点:为了简化分析，将低频点作为主极点<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031144932.png"></p>
+</li>
+<li><p>并联RC电路<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151253.png"></p>
+</li>
+</ul>
+<p>![[Pasted image 20221026093923.png]] </p>
+<h3 id="1-1-零点和极点"><a href="#1-1-零点和极点" class="headerlink" title="1.1 零点和极点"></a>1.1 零点和极点</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151427.png"><br>主要分为：极点在左边，极点在右边，零点在左侧，零点在右侧<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151729.png"></p>
+<ul>
+<li><p>每一个节点都贡献了一个极点，如放大器的级联电路：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151936.png">结点频率的求解方法为$$\omega_{p,j}&#x3D;\frac{1}{R_jC_j}$$</p>
+</li>
+<li><p>晶体管等效<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031152737.png"></p>
+</li>
+<li><p>共栅放大器的频率响应 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031153719.png"></p>
+</li>
+</ul>
+<h3 id="1-2-密勒效应"><a href="#1-2-密勒效应" class="headerlink" title="1.2 密勒效应"></a>1.2 密勒效应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031153922.png"><br>我们会遇到一种复杂的情况：$R3C3$跨接在两个节点中间，这让我们求解对地电阻电容时候遇到了困难。因此引入化简方法<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031154334.png"> </p>
+<p>$$A_v&#x3D;\frac{V_Y}{V_X},Z_1&#x3D;\frac{Z}{1-A_v},Z_2&#x3D;\frac{Z}{1-A_v^{-1}}$$<br>推导过程看看就可以：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031154624.png"></p>
+<ul>
+<li>密勒定理经典应用<br>如：电阻负载电路，GD之间有个电容Z，拆解该“与主通路并联的辅助通路”，用到了密勒定理。<br>举个栗子：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031155236.png"></li>
+</ul>
+]]></content>
+      <categories>
+        <category>卷死张怡文</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>analog</tag>
+      </tags>
+  </entry>
+</search>
