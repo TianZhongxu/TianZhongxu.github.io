@@ -20,18 +20,28 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="跟我一起搞学习">
+  <meta name="description" content="本笔记集成教材与程军老师的课堂ppt，将模数字CMOS集成电路知识点进行层次化梳理与系统架构，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数C学习笔记">
 <meta property="og:url" content="http://example.com/2022/10/29/%E6%95%B0C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="大铁棍子学习乐园">
-<meta property="og:description" content="跟我一起搞学习">
+<meta property="og:description" content="本笔记集成教材与程军老师的课堂ppt，将模数字CMOS集成电路知识点进行层次化梳理与系统架构，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031165456.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031165551.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031170428.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031171012.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031171655.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172137.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172422.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172705.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172759.png">
 <meta property="article:published_time" content="2022-10-29T10:43:47.000Z">
-<meta property="article:modified_time" content="2022-10-31T08:33:31.294Z">
+<meta property="article:modified_time" content="2022-10-31T09:28:18.469Z">
 <meta property="article:author" content="TianZhongxu">
 <meta property="article:tag" content="数C">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031165456.png">
 
 <link rel="canonical" href="http://example.com/2022/10/29/%E6%95%B0C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
@@ -229,7 +239,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-10-31 16:33:31" itemprop="dateModified" datetime="2022-10-31T16:33:31+08:00">2022-10-31</time>
+                <time title="修改时间：2022-10-31 17:28:18" itemprop="dateModified" datetime="2022-10-31T17:28:18+08:00">2022-10-31</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -254,7 +264,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>0</span>
+              <span>1.1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -273,7 +283,44 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <p>本笔记集成教材与程军老师的课堂ppt，将模数字CMOS集成电路知识点进行层次化梳理与系统架构，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
+<span id="more"></span>
+
+<h1 id="第九章-动态逻辑电路"><a href="#第九章-动态逻辑电路" class="headerlink" title="第九章 动态逻辑电路"></a>第九章 动态逻辑电路</h1><h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一 概述"></a>一 概述</h2><ul>
+<li>什么是静态逻辑门？<br>所有的逻辑电平都是稳定的静态工作点，所有的输出电压都是输入电压的改变经过一定的延时后确定的，只要电源电压的存在，输入信号不发生变化，输出电压会永远保持。输出电压不需要刷新，需要的晶体管数量多，延时大</li>
+<li>什么是动态逻辑门？<br>逻辑电平不是稳定的静态工作点，而是由节点上的寄生电容的电荷来暂时保持的。输出信号由输入信号变化和时钟信号的改变确定，需要定时更新或者刷新，因为电荷会丢失，造成电压改变， 信息丢失。<ul>
+<li>动态电路有什么优点？<ul>
+<li>能够实现带有储存功能的简单的时序电路</li>
+<li>整个系统使用同一个时钟信号让各个电路模块的工作同步</li>
+<li>实现复杂逻辑功能一般比静态电路的面积小</li>
+<li>由于寄生电容小，通常动态功耗比静态逻辑电路小</li>
+<li>速度快</li>
+</ul>
+</li>
+<li>动态电路有什么缺点？<ul>
+<li>抗干扰能力差，噪声容限很小</li>
+<li>难以设计，无法利用EDA工具实现设计的自动化</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="静态逻辑和动态逻辑的对比"><a href="#静态逻辑和动态逻辑的对比" class="headerlink" title="静态逻辑和动态逻辑的对比"></a>静态逻辑和动态逻辑的对比</h3><ul>
+<li><p>动态逻辑：当clk&#x3D;0时候，预充电一直保持高电平，当clk&#x3D;1时，求值。<br>  为了保持上拉网络一定能够拉高高电平，下拉网络需要同时加上一个NMOS<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031165456.png"></p>
+</li>
+<li><p>举个栗子：动态D锁存器如图所示，由两个反相器构成<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031165551.png"><br>该电路中没有交叉耦合的反相器对，也能够实现D触发器的功能。CK&#x3D;1时候电容存储输出电平，CK&#x3D;0的时候保持。<br>其中，Vx称为软节点，一方面，输出保持的时间取决于寄生电容上的电荷能够维持的时间（存在电荷的释放），另一方面，Vx点的电压是不可靠或者不稳定的。</p>
+<h2 id="二-传输晶体管电路的基本原理"><a href="#二-传输晶体管电路的基本原理" class="headerlink" title="二 传输晶体管电路的基本原理"></a>二 传输晶体管电路的基本原理</h2><h3 id="2-1-逻辑1的传输"><a href="#2-1-逻辑1的传输" class="headerlink" title="2.1 逻辑1的传输"></a>2.1 逻辑1的传输</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031170428.png"><br>晶体管是NMOS，GS端会有一个阈值电压的压降，但在级联电路中有所区分：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031171012.png"><br>对于一个传输管，前方电压一定大于后者，而且栅电压至少比后方电压高一个阈值电压，因此在源漏所接成一条通路的情况下，输出点的电压始终是$V_{DD}$减去一个阈值电压。后方的阈值电压比前面的大：有损传输；后方阈值电压比前面的小：无损传输。而源端接栅端的情况则是阈值电压的累减。</p>
+<h3 id="2-2-逻辑0的传输"><a href="#2-2-逻辑0的传输" class="headerlink" title="2.2 逻辑0的传输"></a>2.2 逻辑0的传输</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031171655.png"><br>教材和ppt中都给出了时间的推导结果!<br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031171743.png"></a></p>
+</li>
+</ul>
+<h3 id="2-3-电荷的贮存和泄放"><a href="#2-3-电荷的贮存和泄放" class="headerlink" title="2.3 电荷的贮存和泄放"></a>2.3 电荷的贮存和泄放</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172137.png"><br>假设始终有效期间，逻辑高电平已经传输到了软节点，反相器栅电流可以忽略。那么这部分$I_{leakage}$去了哪里呢？我们画一个MOS截面图来观察<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172422.png"></p>
+<ul>
+<li>长沟道器件中，主要是亚阈值电流和反偏PN结电流</li>
+<li>短沟道器件中，亚阈值电流明显大于反偏PN结电流、</li>
+<li>超深亚微米器件中，由于隧穿效应，栅极上的电流页不能够忽略了</li>
+</ul>
+<p>软节点的hold时间为：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172705.png"><br>等效电路如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031172759.png"></p>
+
     </div>
 
     
@@ -356,6 +403,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E5%8A%A8%E6%80%81%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF"><span class="nav-number">1.</span> <span class="nav-text">第九章 动态逻辑电路</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80-%E6%A6%82%E8%BF%B0"><span class="nav-number">1.1.</span> <span class="nav-text">一 概述</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9D%99%E6%80%81%E9%80%BB%E8%BE%91%E5%92%8C%E5%8A%A8%E6%80%81%E9%80%BB%E8%BE%91%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="nav-number">1.1.1.</span> <span class="nav-text">静态逻辑和动态逻辑的对比</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C-%E4%BC%A0%E8%BE%93%E6%99%B6%E4%BD%93%E7%AE%A1%E7%94%B5%E8%B7%AF%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86"><span class="nav-number">1.2.</span> <span class="nav-text">二 传输晶体管电路的基本原理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E9%80%BB%E8%BE%911%E7%9A%84%E4%BC%A0%E8%BE%93"><span class="nav-number">1.2.1.</span> <span class="nav-text">2.1 逻辑1的传输</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E9%80%BB%E8%BE%910%E7%9A%84%E4%BC%A0%E8%BE%93"><span class="nav-number">1.2.2.</span> <span class="nav-text">2.2 逻辑0的传输</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E7%94%B5%E8%8D%B7%E7%9A%84%E8%B4%AE%E5%AD%98%E5%92%8C%E6%B3%84%E6%94%BE"><span class="nav-number">1.2.3.</span> <span class="nav-text">2.3 电荷的贮存和泄放</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -426,13 +474,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">5k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">4 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
