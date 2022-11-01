@@ -219,6 +219,14 @@
 </li>
 <li>改进NMOS网络的下拉时间<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031215507.png"></li>
 </ul>
+<h3 id="6-3-NORA-CMOS逻辑（NP多米诺）"><a href="#6-3-NORA-CMOS逻辑（NP多米诺）" class="headerlink" title="6.3 NORA CMOS逻辑（NP多米诺）"></a>6.3 NORA CMOS逻辑（NP多米诺）</h3><p>nora翻译为中文叫做“无竞争冒险”<br>一半不用PMOS做求值逻辑，增加了反向时钟，逻辑速度太慢。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101081314.png"><br>第二级，CK&#x3D;0时候，预放电。这个期间，输入一定是1防止误导通。<br>与多米诺逻辑相比：</p>
+<ul>
+<li>优点在于：节省了反相器的两个晶体管；与多米诺逻辑兼容，加上反相器就可以级联了。另外也可以构造流水线结构</li>
+<li>缺点在于：篇MOS求值速度慢，需要大尺寸；每一级的输出节点对噪声更加敏感（没有反相器驱动）</li>
+</ul>
+<h4 id="NORA-CMOS-逻辑流水线"><a href="#NORA-CMOS-逻辑流水线" class="headerlink" title="NORA CMOS 逻辑流水线"></a>NORA CMOS 逻辑流水线</h4><p>加上Clocked CMOS($C^2MOS$)，这个结构相比于反相器加传输门更加节省面积（后者需要引出信号，打接触孔）<br>$\phi$相当于一个开关<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101083236.png"><br>在$\phi-section$电路中，$\phi&#x3D;0$时候，预充电，C2MOS保持；$\phi&#x3D;1$时，求值，C2MOS输出。其他同理。</p>
+<h4 id="Zipper-CMOS电路"><a href="#Zipper-CMOS电路" class="headerlink" title="Zipper CMOS电路"></a>Zipper CMOS电路</h4><p>电路结构与NORA完全相同，但是驱动预充电管的时钟信号不一样。预充电管在求值期间弱导通，消除了电荷分享效应和高阻节点的电荷释放。时钟电路过于复杂，没有大量使用。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101084122.png"></p>
+<h3 id="6-4-TSPC动态CMOS电路"><a href="#6-4-TSPC动态CMOS电路" class="headerlink" title="6.4 TSPC动态CMOS电路"></a>6.4 TSPC动态CMOS电路</h3><p>true single phase Clock<br>流水线结构的进一步改造：让电路只需要单相时钟（只要CK，不要CK非）可以实现流水线操作。不需要反向时钟，没有Clock Skew问题。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101085007.png"></p>
 ]]></content>
       <categories>
         <category>卷死张怡文</category>
