@@ -226,7 +226,10 @@
 </ul>
 <h4 id="NORA-CMOS-逻辑流水线"><a href="#NORA-CMOS-逻辑流水线" class="headerlink" title="NORA CMOS 逻辑流水线"></a>NORA CMOS 逻辑流水线</h4><p>加上Clocked CMOS($C^2MOS$)，这个结构相比于反相器加传输门更加节省面积（后者需要引出信号，打接触孔）<br>$\phi$相当于一个开关<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101083236.png"><br>在$\phi-section$电路中，$\phi&#x3D;0$时候，预充电，C2MOS保持；$\phi&#x3D;1$时，求值，C2MOS输出。其他同理。</p>
 <h4 id="Zipper-CMOS电路"><a href="#Zipper-CMOS电路" class="headerlink" title="Zipper CMOS电路"></a>Zipper CMOS电路</h4><p>电路结构与NORA完全相同，但是驱动预充电管的时钟信号不一样。预充电管在求值期间弱导通，消除了电荷分享效应和高阻节点的电荷释放。时钟电路过于复杂，没有大量使用。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101084122.png"></p>
-<h3 id="6-4-TSPC动态CMOS电路"><a href="#6-4-TSPC动态CMOS电路" class="headerlink" title="6.4 TSPC动态CMOS电路"></a>6.4 TSPC动态CMOS电路</h3><p>true single phase Clock<br>流水线结构的进一步改造：让电路只需要单相时钟（只要CK，不要CK非）可以实现流水线操作。不需要反向时钟，没有Clock Skew问题。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101085007.png"></p>
+<h3 id="6-4-TSPC动态CMOS电路"><a href="#6-4-TSPC动态CMOS电路" class="headerlink" title="6.4 TSPC动态CMOS电路"></a>6.4 TSPC动态CMOS电路</h3><p>true single phase Clock<br>流水线结构的进一步改造：让电路只需要单相时钟（只要CK，不要CK非）可以实现流水线操作。不需要反向时钟，没有Clock Skew问题。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221101085007.png"><br>这样一个结构，衍生出了现今速度最快的D触发器：</p>
+<h4 id="TSPC上升沿D触发器（高性能）"><a href="#TSPC上升沿D触发器（高性能）" class="headerlink" title="TSPC上升沿D触发器（高性能）"></a>TSPC上升沿D触发器（高性能）</h4><p>上升沿触发器共11个晶体管。<strong>工作速度快，但是噪声容限小！</strong>噪声容限就是MOS的阈值电压</p>
+<p>![[Pasted image 20221101091347.png]]<br>逻辑的保持很有讲究，当D是高电平，在PE逻辑后侧保持；D为低电平，在PE逻辑前侧保持。</p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>全互补静态CMOS逻辑电路是CMOS数字电路的主流，噪声容 限大，噪声容限对kn &#x2F;kp不敏感，无需节点预充电；无直流功 耗；可以实现版图设计自动化。晶体管数量大(2N个晶体管)， 大的扇入导致电路结构复杂；寄生参数大；速度慢；动态功耗 大；无需时钟和无同步机制；<br>伪nMOS静态逻辑适合于大扇入门，只需要N+1个晶体管就可 以实现N输入的逻辑；寄生参数小；比互补CMOS速度快，动 态功耗小。但是，其为有比逻辑，噪声容限对kn &#x2F;kp敏感；输出 低电平时有直流功耗；不适合实现版图自动化；无需时钟和无 同步机制；<br>CMOS多米诺逻辑适合于低功耗、高速应用。N输入逻辑需要 N+k个晶体管(k&#x3D;2或4)；无直流功耗，噪声容限对kn &#x2F;kp不敏 感；有时钟和同步机制；依赖于节点寄生电容保存信息；噪声 容限小；需要预充电时间；设计难度大，需要仔细仿真；版图 无法实现自动化。</p>
 ]]></content>
       <categories>
         <category>卷死张怡文</category>
