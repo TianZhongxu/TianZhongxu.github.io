@@ -345,7 +345,8 @@
 </ol>
 <h3 id="3-4-五管OTA的其他特性"><a href="#3-4-五管OTA的其他特性" class="headerlink" title="3.4 五管OTA的其他特性"></a>3.4 五管OTA的其他特性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224525.png"></p>
 <h2 id="四、Bias-techniques"><a href="#四、Bias-techniques" class="headerlink" title="四、Bias techniques"></a>四、Bias techniques</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224617.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224603.png"></p>
-<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一 概述"></a>一 概述</h2><h3 id="1-0-信号与系统知识补全"><a href="#1-0-信号与系统知识补全" class="headerlink" title="1.0 信号与系统知识补全"></a>1.0 信号与系统知识补全</h3><p>在傅里叶域中，我们可以直接研究频率响应（将实部削减为0）</p>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><p>[[CMOS_ch06_2021.pdf]]<br>[[模拟CMOS集成电路设计_第2版_西安交通大学出版社_2018年版.pdf]]<br>来个彩蛋。<br>![[Pasted image 20221102081405.png]]</p>
+<h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一 概述"></a>一 概述</h2><h3 id="1-0-自控知识补全"><a href="#1-0-自控知识补全" class="headerlink" title="1.0 自控知识补全"></a>1.0 自控知识补全</h3><p>在傅里叶域中，我们可以直接研究频率响应（将实部削减为0）</p>
 <ul>
 <li><p>s是一个复数$$s&#x3D;\delta+j\omega$$ 单位均是rad&#x2F;s</p>
 </li>
@@ -365,7 +366,8 @@
 <li><p>并联RC电路<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151253.png"></p>
 </li>
 </ul>
-<h3 id="1-1-零点和极点"><a href="#1-1-零点和极点" class="headerlink" title="1.1 零点和极点"></a>1.1 零点和极点</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151427.png"><br>主要分为：极点在左边，极点在右边，零点在左侧，零点在右侧<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151729.png"></p>
+<p>![[Pasted image 20221026093923.png]] </p>
+<h3 id="1-1-零点和极点"><a href="#1-1-零点和极点" class="headerlink" title="1.1 零点和极点"></a>1.1 零点和极点</h3><p>对于一阶系统：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151427.png"><br>主要分为：极点在左边，极点在右边，零点在左侧，零点在右侧<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151729.png"></p>
 <ul>
 <li><p>每一个节点都贡献了一个极点，如放大器的级联电路：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031151936.png">结点频率的求解方法为$$\omega_{p,j}&#x3D;\frac{1}{R_jC_j}$$</p>
 </li>
@@ -377,8 +379,25 @@
 <h3 id="1-2-密勒效应"><a href="#1-2-密勒效应" class="headerlink" title="1.2 密勒效应"></a>1.2 密勒效应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031153922.png"><br>我们会遇到一种复杂的情况：$R3C3$跨接在两个节点中间，这让我们求解对地电阻电容时候遇到了困难。因此引入化简方法<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031154334.png"> </p>
 <p>$$A_v&#x3D;\frac{V_Y}{V_X},Z_1&#x3D;\frac{Z}{1-A_v},Z_2&#x3D;\frac{Z}{1-A_v^{-1}}$$<br>推导过程看看就可以：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031154624.png"></p>
 <ul>
-<li>密勒定理经典应用<br>如：电阻负载电路，GD之间有个电容Z，拆解该“与主通路并联的辅助通路”，用到了密勒定理。<br>举个栗子：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031155236.png"></li>
+<li>密勒定理经典应用<br>如：电阻负载电路，GD之间有个电容Z，拆解该“与主通路并联的辅助通路”，用到了密勒定理。<br>举个栗子：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031155236.png"><br> 记住：输入电容被放大了A倍！对输出端的影响不大！<br> ![[Pasted image 20221102082501.png]]<ul>
+<li>因此可以实现有意思的作用：电容放大器。缺点在于：swing放大了A倍，放大器应当处理。<br> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102082605.png"><br><strong>那么，密勒等效带来了多少误差呢？</strong><br>继续用上面的例子，拆成两个电容后，传函中一定有两个极点。但是我们实际具体计算时候，发现应当有一个零点和一个极点。<br>极点的个数不是大问题，因为Vout上面或多或少还有电容，但是致命的是砍断了零点的那一条路。（零点是由一个节点到另一个节点的多通路产生的）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102083227.png"><br>但是我们发现前面那个电容产生的极点成功的落到了分母上，对极点的估计比较准确。</li>
 </ul>
+</li>
+</ul>
+<h2 id="二-共源级"><a href="#二-共源级" class="headerlink" title="二 共源级"></a>二 共源级</h2><ol>
+<li>密勒近似<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102084215.png"></li>
+</ol>
+<ul>
+<li>if Rs 小：<br>$$\omega_{p,in}&#x3D;\frac{1}{R_s[C_{GS}+(1+g_mR_D)C_{GD}]}$$<br>$$\omega_{p,out}&#x3D;\frac{1}{(C_{GD}+C_{DB})R_D}$$</li>
+<li>if Rs 大（不是第一级，相当于前面的输出阻抗）</li>
+</ul>
+<p>![[Pasted image 20221025232438.png]]<br>4. 直接分析![[Pasted image 20221025232454.png]]<br>5. 特殊情况![[Pasted image 20221025232527.png]] ![[Pasted image 20221025232532.png]]</p>
+<h2 id="三-源跟随器"><a href="#三-源跟随器" class="headerlink" title="三 源跟随器"></a>三 源跟随器</h2><p>![[Pasted image 20221025232553.png]] ![[Pasted image 20221025232603.png]]  ![[Pasted image 20221025232611.png]] ![[Pasted image 20221025232621.png]] ![[Pasted image 20221025232633.png]] </p>
+<h2 id="四-共栅级"><a href="#四-共栅级" class="headerlink" title="四 共栅级"></a>四 共栅级</h2><p>![[Pasted image 20221025232642.png]] ![[Pasted image 20221025232652.png]] </p>
+<h2 id="五-共源共栅极"><a href="#五-共源共栅极" class="headerlink" title="五 共源共栅极"></a>五 共源共栅极</h2><p>![[Pasted image 20221025232703.png]] </p>
+<h2 id="六-差动对"><a href="#六-差动对" class="headerlink" title="六 差动对"></a>六 差动对</h2><h3 id="6-1-无缘负载的差动对"><a href="#6-1-无缘负载的差动对" class="headerlink" title="6.1 无缘负载的差动对"></a>6.1 无缘负载的差动对</h3><p>![[Pasted image 20221025232723.png]]   ![[Pasted image 20221025232730.png]] ![[Pasted image 20221025232737.png]]  </p>
+<h3 id="6-2有源负载的差动对"><a href="#6-2有源负载的差动对" class="headerlink" title="6.2有源负载的差动对"></a>6.2有源负载的差动对</h3><p>![[Pasted image 20221025232827.png]] ![[Pasted image 20221025232834.png]] </p>
+<h2 id="七-增益-带宽的折衷"><a href="#七-增益-带宽的折衷" class="headerlink" title="七 增益-带宽的折衷"></a>七 增益-带宽的折衷</h2><p>![[Pasted image 20221025232847.png]]</p>
 ]]></content>
       <categories>
         <category>卷死张怡文</category>
