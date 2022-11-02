@@ -345,7 +345,7 @@
 </ol>
 <h3 id="3-4-五管OTA的其他特性"><a href="#3-4-五管OTA的其他特性" class="headerlink" title="3.4 五管OTA的其他特性"></a>3.4 五管OTA的其他特性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224525.png"></p>
 <h2 id="四、Bias-techniques"><a href="#四、Bias-techniques" class="headerlink" title="四、Bias techniques"></a>四、Bias techniques</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224617.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224603.png"></p>
-<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><p>[[CMOS_ch06_2021.pdf]]<br>[[模拟CMOS集成电路设计_第2版_西安交通大学出版社_2018年版.pdf]]<br>来个彩蛋。<br>![[Pasted image 20221102081405.png]]</p>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><p>[[CMOS_ch06_2021.pdf]]<br>[[模拟CMOS集成电路设计_第2版_西安交通大学出版社_2018年版.pdf]]<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102085708.png"><br>来个彩蛋。<br>![[Pasted image 20221102081405.png]]</p>
 <h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一 概述"></a>一 概述</h2><h3 id="1-0-自控知识补全"><a href="#1-0-自控知识补全" class="headerlink" title="1.0 自控知识补全"></a>1.0 自控知识补全</h3><p>在傅里叶域中，我们可以直接研究频率响应（将实部削减为0）</p>
 <ul>
 <li><p>s是一个复数$$s&#x3D;\delta+j\omega$$ 单位均是rad&#x2F;s</p>
@@ -548,6 +548,11 @@
   <entry>
     <title></title>
     <url>/2022/11/02/Pasted%20image%2020221026093923.png/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/11/02/Pasted%20image%2020221102081405.png/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
