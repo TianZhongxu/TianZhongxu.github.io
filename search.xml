@@ -345,7 +345,7 @@
 </ol>
 <h3 id="3-4-五管OTA的其他特性"><a href="#3-4-五管OTA的其他特性" class="headerlink" title="3.4 五管OTA的其他特性"></a>3.4 五管OTA的其他特性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224525.png"></p>
 <h2 id="四、Bias-techniques"><a href="#四、Bias-techniques" class="headerlink" title="四、Bias techniques"></a>四、Bias techniques</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224617.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221029224603.png"></p>
-<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><p>[[CMOS_ch06_2021.pdf]]<br>[[模拟CMOS集成电路设计_第2版_西安交通大学出版社_2018年版.pdf]]<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102085708.png"><br>来个彩蛋。<br>![[Pasted image 20221102081405.png]]</p>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><p>来个彩蛋。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102085708.png"></p>
 <h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一 概述"></a>一 概述</h2><h3 id="1-0-自控知识补全"><a href="#1-0-自控知识补全" class="headerlink" title="1.0 自控知识补全"></a>1.0 自控知识补全</h3><p>在傅里叶域中，我们可以直接研究频率响应（将实部削减为0）</p>
 <ul>
 <li><p>s是一个复数$$s&#x3D;\delta+j\omega$$ 单位均是rad&#x2F;s</p>
@@ -389,15 +389,30 @@
 </ol>
 <ul>
 <li>if Rs 小：<br>$$\omega_{p,in}&#x3D;\frac{1}{R_s[C_{GS}+(1+g_mR_D)C_{GD}]}$$<br>$$\omega_{p,out}&#x3D;\frac{1}{(C_{GD}+C_{DB})R_D}$$</li>
-<li>if Rs 大（不是第一级，相当于前面的输出阻抗）</li>
+<li>if Rs 大（不是第一级，相当于前面的输出阻抗）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102090802.png"><br>由于Rs大，D上的电压变化会在栅极产生一个$\Delta V$，产生了一个漏电流，这时候：$\Delta V_1&#x3D;\Delta V \frac{C_{GD}+C_{GS}}{C_{GD}}$$$R_X&#x3D;\frac{C_{GD}+C_{GS}}{C_{GD}}\frac{1}{g_m}$$<br>这时候极点的表达式需要重新写，得到<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102090738.png"></li>
 </ul>
-<p>![[Pasted image 20221025232438.png]]<br>4. 直接分析![[Pasted image 20221025232454.png]]<br>5. 特殊情况![[Pasted image 20221025232527.png]] ![[Pasted image 20221025232532.png]]</p>
-<h2 id="三-源跟随器"><a href="#三-源跟随器" class="headerlink" title="三 源跟随器"></a>三 源跟随器</h2><p>![[Pasted image 20221025232553.png]] ![[Pasted image 20221025232603.png]]  ![[Pasted image 20221025232611.png]] ![[Pasted image 20221025232621.png]] ![[Pasted image 20221025232633.png]] </p>
-<h2 id="四-共栅级"><a href="#四-共栅级" class="headerlink" title="四 共栅级"></a>四 共栅级</h2><p>![[Pasted image 20221025232642.png]] ![[Pasted image 20221025232652.png]] </p>
-<h2 id="五-共源共栅极"><a href="#五-共源共栅极" class="headerlink" title="五 共源共栅极"></a>五 共源共栅极</h2><p>![[Pasted image 20221025232703.png]] </p>
-<h2 id="六-差动对"><a href="#六-差动对" class="headerlink" title="六 差动对"></a>六 差动对</h2><h3 id="6-1-无缘负载的差动对"><a href="#6-1-无缘负载的差动对" class="headerlink" title="6.1 无缘负载的差动对"></a>6.1 无缘负载的差动对</h3><p>![[Pasted image 20221025232723.png]]   ![[Pasted image 20221025232730.png]] ![[Pasted image 20221025232737.png]]  </p>
-<h3 id="6-2有源负载的差动对"><a href="#6-2有源负载的差动对" class="headerlink" title="6.2有源负载的差动对"></a>6.2有源负载的差动对</h3><p>![[Pasted image 20221025232827.png]] ![[Pasted image 20221025232834.png]] </p>
-<h2 id="七-增益-带宽的折衷"><a href="#七-增益-带宽的折衷" class="headerlink" title="七 增益-带宽的折衷"></a>七 增益-带宽的折衷</h2><p>![[Pasted image 20221025232847.png]]</p>
+<ol start="2">
+<li>用小信号直接分析<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102091515.png"><br>这里的计算很头铁：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102091733.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102091935.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102091849.png"><br>有一个右半平面的零点：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102092316.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102092402.png">很明显，$\omega_{p1}$对应着输入节点对应的极点：电阻很大很大，电容还加倍</li>
+</ol>
+<ul>
+<li>零点从何而来？两部分电流相互抵消（自学）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102092629.png"></li>
+<li>共源级的输入阻抗求法（自学，知道即可）<ul>
+<li>低频：电阻无穷大</li>
+<li>高频：容性成分变大，有了实部<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102092901.png"></li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>CLASS AB<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102093334.png"></li>
+</ol>
+<blockquote>
+<p>源随器<br>拉扎维对本部分的讲解比较繁杂。这部分了解即可，考试不考。<br>共栅级<br>概述中讲过</p>
+</blockquote>
+<h2 id="五-共源共栅极"><a href="#五-共源共栅极" class="headerlink" title="五 共源共栅极"></a>五 共源共栅极</h2><p>这部分比较重要，零点求解中，共源级有一个零点。没有A到Y的直接通路，因此零点没有那么严重。它会出现在非常高的频率处，因此可以不考虑。<br>可以快速写出三个极点<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094323.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094333.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094500.png"><br>通常，中间节点的$\omega$更大</p>
+<h2 id="六-差动对"><a href="#六-差动对" class="headerlink" title="六 差动对"></a>六 差动对</h2><h3 id="6-1-无缘负载的差动对"><a href="#6-1-无缘负载的差动对" class="headerlink" title="6.1 无缘负载的差动对"></a>6.1 无缘负载的差动对</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094517.png">   </p>
+<p>对共模的分析比较麻烦，增大$r_{o3}$是解决方案，但是这是有代价的。我们发现：除了面积增加了，其贡献寄生电容$C_p$产生了一个极点，这导致了高频的共模抑制比会下降。（理解即可）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094802.png"><br>导致了折衷<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094840.png"></p>
+<h3 id="6-2有源负载的差动对"><a href="#6-2有源负载的差动对" class="headerlink" title="6.2有源负载的差动对"></a>6.2有源负载的差动对</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094906.png"></p>
+<h2 id="七-增益-带宽的折衷"><a href="#七-增益-带宽的折衷" class="headerlink" title="七 增益-带宽的折衷"></a>七 增益-带宽的折衷</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221102094916.png"></p>
 ]]></content>
       <categories>
         <category>卷死张怡文</category>
@@ -544,15 +559,5 @@
       <tags>
         <tag>自控</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/11/02/Pasted%20image%2020221026093923.png/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/11/02/Pasted%20image%2020221102081405.png/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
