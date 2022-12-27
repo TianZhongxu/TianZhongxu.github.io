@@ -38,8 +38,5 @@
 <li>Verilog模块可以分为两种类型：一种是为了让模块最终能生成电路结构，另一种是为了测试所设计电路的逻辑功能是否正确。</li>
 </ul>
 ]]></content>
-      <tags>
-        <tag>Verilog</tag>
-      </tags>
   </entry>
 </search>
