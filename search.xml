@@ -5,7 +5,6 @@
     <url>/2022/12/12/Verilog/</url>
     <content><![CDATA[<p>本文记录寒假器件自学verilog的笔记。</p>
 <span id="more"></span>
-<p>[[第2章(2).pdf]]</p>
 <h1 id="第二章-Verilog语法的基本概念"><a href="#第二章-Verilog语法的基本概念" class="headerlink" title="第二章 Verilog语法的基本概念"></a>第二章 Verilog语法的基本概念</h1><h2 id="2-1-概述"><a href="#2-1-概述" class="headerlink" title="2.1 概述"></a>2.1 概述</h2><p>VerilogHDL描述的电路设计为该电路的Verilog HDL模型，也称为模块。VerilogHDL即使一种行为描述语言也是一种结构描述语言。可以将功能行为模块通过工具自动的转换为门级互联的结构模块。<br>它可以是实际电路不同级别的抽象</p>
 <ul>
 <li>系统级</li>
@@ -31,6 +30,16 @@
 <li>RS出发器的测试<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="comment">//首先需要有rs_flipflop的Verilog描述</span></span><br><span class="line">timescale <span class="number">10</span>ns/<span class="number">1</span>ns</span><br><span class="line"><span class="keyword">module</span> rs_filpflop(q,qbar,r,s);</span><br><span class="line"><span class="keyword">output</span> q,qbar;</span><br><span class="line"><span class="keyword">input</span> r,s;</span><br><span class="line"><span class="keyword">nand</span> #<span class="number">1</span> (q,r,qbar);</span><br><span class="line"><span class="keyword">nand</span> #<span class="number">1</span> (qbar,s,q);</span><br><span class="line"><span class="keyword">endmodule</span></span><br><span class="line"><span class="comment">//然后验证</span></span><br><span class="line"><span class="keyword">module</span> text_rs_flipflop；</span><br><span class="line"><span class="keyword">reg</span> ts,tr;</span><br><span class="line"><span class="keyword">wire</span> tq,tqb;</span><br><span class="line">rs_flipflop u_rsff(<span class="variable">.q</span>(tq),<span class="variable">.s</span>(ts),<span class="variable">.r</span>(tr),<span class="variable">.qbar</span>(tqb));<span class="comment">//被测模块实例引用</span></span><br><span class="line"><span class="keyword">initial</span></span><br><span class="line"><span class="keyword">begin</span><span class="comment">//第一个initial语句给出激励</span></span><br><span class="line">	tr=<span class="number">0</span>;</span><br><span class="line">	ts=<span class="number">0</span>;</span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">1</span></span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">0</span>;</span><br><span class="line">	tr=<span class="number">1</span></span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">1</span>;</span><br><span class="line">	tr=<span class="number">0</span>;</span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">0</span>；</span><br><span class="line">	#<span class="number">5</span> tr=<span class="number">1</span>；</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="keyword">initial</span></span><br><span class="line">	<span class="built_in">$monitor</span>(<span class="string">&quot;at time %t,&quot;</span>,<span class="built_in">$time</span>,<span class="string">&quot;tr=%b,tq=%b,tqb=%b&quot;</span>,tr,ts,tq,tqb);</span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
 输出的波形如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227162729.png"></li>
 </ul>
+<h2 id="2-4-小结"><a href="#2-4-小结" class="headerlink" title="2.4 小结"></a>2.4 小结</h2><p>通过众多例子可以看到：</p>
+<ul>
+<li>所有模块的内容都位于module和endmodule两个语句中间</li>
+<li>模块是可以进行层次嵌套的</li>
+<li>如果每个模块都是可以综合的，则通过综合工具可以把 它们的功能描述全都转换为最基本的逻辑单元描述，最 后可以用一个上层模块通过实例引用把这些模块连接起 来，把它们整合成一个很大的逻辑系统。</li>
+<li>Verilog模块可以分为两种类型：一种是为了让模块最终能生成电路结构，另一种是为了测试所设计电路的逻辑功能是否正确。</li>
+</ul>
 ]]></content>
+      <tags>
+        <tag>Verilog</tag>
+      </tags>
   </entry>
 </search>
