@@ -37,7 +37,48 @@
 <li>如果每个模块都是可以综合的，则通过综合工具可以把 它们的功能描述全都转换为最基本的逻辑单元描述，最 后可以用一个上层模块通过实例引用把这些模块连接起 来，把它们整合成一个很大的逻辑系统。</li>
 <li>Verilog模块可以分为两种类型：一种是为了让模块最终能生成电路结构，另一种是为了测试所设计电路的逻辑功能是否正确。</li>
 </ul>
-]]></content>
+<h1 id="第三章-模块的结构、数据类型、变量和基本运算符号"><a href="#第三章-模块的结构、数据类型、变量和基本运算符号" class="headerlink" title="第三章 模块的结构、数据类型、变量和基本运算符号"></a>第三章 模块的结构、数据类型、变量和基本运算符号</h1><p>[[第3章(2).pdf]]</p>
+<h2 id="3-1-模块的结构"><a href="#3-1-模块的结构" class="headerlink" title="3.1 模块的结构"></a>3.1 模块的结构</h2><p>模块由两部分组成，一部分是接口，另一部分是描述逻辑功能，即定义输入时如何影响输出的。</p>
+<ul>
+<li>Verilog描述的基本单位：用于描述电路的功能、结构以及其他module的通信端口，能够表示：物理块，如IC或ASIC单元；逻辑块，如一个CPU设计的ALU部分；整个系统</li>
+<li>描述方式<ul>
+<li>数据流方式——连续幅值语句</li>
+<li>行为方式——过程语句</li>
+<li>结构方式——其他module和门级原语</li>
+<li>混合方式——行为+结构+数据流等</li>
+</ul>
+</li>
+<li>模块的构成：端口信息，输入输出说明，逻辑描述<br>  语法格式：说明部分+语句部分</li>
+</ul>
+<ol>
+<li>模块端口的定义<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">module</span> 模块名（口<span class="number">1</span>，口<span class="number">2</span>，……）</span><br></pre></td></tr></table></figure></li>
+<li>模块的内容：IO说明、内部信号声明和功能定义</li>
+</ol>
+<ul>
+<li>IO说明的格式<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">input</span> [<span class="number">1</span>:<span class="number">0</span>] 端口名<span class="number">1</span>；</span><br><span class="line"><span class="keyword">inout</span> [<span class="number">2</span>:<span class="number">0</span>] 端口名<span class="number">2</span>；</span><br><span class="line"><span class="comment">//也可以写在端口声明语句里面，格式：</span></span><br><span class="line"><span class="keyword">module</span> module_name （<span class="keyword">input</span> port1,<span class="keyword">output</span> port2）;</span><br></pre></td></tr></table></figure></li>
+<li>内部信号说明：wire reg 类型的变量声明<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">reg</span> [<span class="number">1</span>:<span class="number">0</span>] R1,R2;</span><br><span class="line"><span class="keyword">wire</span>[<span class="number">1</span>:<span class="number">0</span>] w1,w2;</span><br></pre></td></tr></table></figure></li>
+<li>功能定义：assign声明语句，用实例软件，用过程语句如always<ul>
+<li>assign声明：assign，后面再加一个表达式即可</li>
+<li>用示例元件：键入元件名字和项链的引脚，#后面为输出延迟。先写输出后写输入</li>
+<li>always块：异步清零的D触发器<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">assign</span> a=b&amp;c</span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> u1(q,a,b)</span><br></pre></td></tr></table></figure>
+<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">always</span> @(<span class="keyword">posedge</span> clk <span class="keyword">or</span> <span class="keyword">posedge</span> clr);</span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line">	<span class="keyword">if</span>(clr)</span><br><span class="line">		q&lt;=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>（en）</span><br><span class="line">		q&lt;=d;</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>原则：<ul>
+<li>所有过程块、连续赋值语句、实例引用都是并行的</li>
+<li>他们表示的是一种通过变量名相互链接的关系</li>
+<li>同一模块中者三者出现的先后秩序没有关系</li>
+<li>只有连续赋值语句assign和实例引用语句可以独立于过程块而存在于模块的功能定义部分</li>
+</ul>
+</li>
+</ol>
+<h2 id="3-2-数据类型及其常数和变量"><a href="#3-2-数据类型及其常数和变量" class="headerlink" title="3.2 数据类型及其常数和变量"></a>3.2 数据类型及其常数和变量</h2><h3 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h3><p>区分大小写，必须以字母开头，转义标识符要以”&quot;开头，以空格结尾<br>模块、端口和实例的名字都是标识符<br>好的命名原则：使用有意义的名字，不要用$字符，结尾不用下划线。要用大小写混合的名字</p>
+<h2 id="3-3-运算符及表达式"><a href="#3-3-运算符及表达式" class="headerlink" title="3.3 运算符及表达式"></a>3.3 运算符及表达式</h2>]]></content>
+      <tags>
+        <tag>Verilog</tag>
+      </tags>
   </entry>
   <entry>
     <title>DPS习题精析</title>
