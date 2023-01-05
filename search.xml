@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>DPS习题精析</title>
+    <url>/2022/10/29/DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+    <content><![CDATA[<p>本习题来源于课程习题以及作者本人的作业，将数字信号处理习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
+<ul>
+<li>第七章的作业题尚未整理</li>
+<li>所有作业题需要重新巩固<span id="more"></span></li>
+</ul>
+<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-判断线性系统"><a href="#1-判断线性系统" class="headerlink" title="1. 判断线性系统"></a>1. 判断线性系统</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225357.png"></p>
+<h3 id="2-判断时不变性"><a href="#2-判断时不变性" class="headerlink" title="2. 判断时不变性"></a>2. 判断时不变性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225429.png"></p>
+<h3 id="3-因果系统的判断"><a href="#3-因果系统的判断" class="headerlink" title="3. 因果系统的判断"></a>3. 因果系统的判断</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225503.png"></p>
+<h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><h3 id="1-双边序列的z变换以及有限长序列的处理"><a href="#1-双边序列的z变换以及有限长序列的处理" class="headerlink" title="1. 双边序列的z变换以及有限长序列的处理"></a>1. 双边序列的z变换以及有限长序列的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030230128.png">这道题中，z的正幂项的计算需要留心!其次还要注意在a的值讨论过程中一定要讨论全面。</p>
+<h3 id="2-有限序列的z变换"><a href="#2-有限序列的z变换" class="headerlink" title="2. 有限序列的z变换"></a>2. 有限序列的z变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030231009.png"><br>这三道题很有代表性，对于有限长序列0和无穷点ROC选择时候遵循如下技巧：0左右数值的有无对应着收敛范围0和无穷处点可取和不可取；第三题中，收敛域的判断很有讲究：要从求和式中直接判断！</p>
+<h3 id="3-z反变换——部分分式法"><a href="#3-z反变换——部分分式法" class="headerlink" title="3. z反变换——部分分式法"></a>3. z反变换——部分分式法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232038.png"><br>第一道题中，我们观察发现分子上为$z^2$而分母中只有两个z的多项式，因此需要对分子进行降低阶数处理，当然也可以直接约分为“时间常数式”，如右侧然后进行计算。</p>
+<h3 id="4-z变换与卷积"><a href="#4-z变换与卷积" class="headerlink" title="4. z变换与卷积"></a>4. z变换与卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232743.png"><br>此题在求解过程中用到了一个移位性质，即时域$n-1$,z域$z^{-1}$</p>
+<h3 id="5-系统函数：z变换与频率响应、求解幅度和相位"><a href="#5-系统函数：z变换与频率响应、求解幅度和相位" class="headerlink" title="5. 系统函数：z变换与频率响应、求解幅度和相位"></a>5. 系统函数：z变换与频率响应、求解幅度和相位</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030233041.png"></p>
+<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><h3 id="1-求解z变换、收敛域和零极点图"><a href="#1-求解z变换、收敛域和零极点图" class="headerlink" title="1. 求解z变换、收敛域和零极点图"></a>1. 求解z变换、收敛域和零极点图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104858.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104912.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104935.png"></p>
+<h3 id="2-直接卷积和z变换卷积"><a href="#2-直接卷积和z变换卷积" class="headerlink" title="2. 直接卷积和z变换卷积"></a>2. 直接卷积和z变换卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105030.png"></p>
+<h3 id="3-IDFS"><a href="#3-IDFS" class="headerlink" title="3. IDFS"></a>3. IDFS</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105717.png"></p>
+<h1 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h1><h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><h3 id="1-公式默写"><a href="#1-公式默写" class="headerlink" title="1. 公式默写"></a>1. 公式默写</h3><p>学习本章前，必须对傅里叶变换、傅里叶级数、离散序列的傅里叶变换公式熟练记忆，默写如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031080522.png"></p>
+<h3 id="2-DFS——周期性冲激串和周期序列"><a href="#2-DFS——周期性冲激串和周期序列" class="headerlink" title="2. DFS——周期性冲激串和周期序列"></a>2. DFS——周期性冲激串和周期序列</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081133.png"><br>左侧题目应当作为结论记忆，对于右侧例题，有固定解法如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081240.png"></p>
+<h3 id="3-DFT"><a href="#3-DFT" class="headerlink" title="3. DFT"></a>3. DFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082620.png"><br>右侧例题的正交特性是关键，复正弦序列的正交特性如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082737.png"></p>
+<h3 id="4-DFS和DFT的对应关系"><a href="#4-DFS和DFT的对应关系" class="headerlink" title="4. DFS和DFT的对应关系"></a>4. DFS和DFT的对应关系</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083623.png"></p>
+<h3 id="5-DFT的圆周移位性质和圆周卷积"><a href="#5-DFT的圆周移位性质和圆周卷积" class="headerlink" title="5. DFT的圆周移位性质和圆周卷积"></a>5. DFT的圆周移位性质和圆周卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083604.png"><br>注意，考试中，卷积运算需要用图解法求解</p>
+<h3 id="6-肉眼观察法求解IDFT"><a href="#6-肉眼观察法求解IDFT" class="headerlink" title="6. 肉眼观察法求解IDFT"></a>6. 肉眼观察法求解IDFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031085355.png"><br>其中前后两项对偶，如果不能直接看出来，那么就带入基本公式去计算。</p>
+<h3 id="7-讨论采样点数对DFT的影响（了解）"><a href="#7-讨论采样点数对DFT的影响（了解）" class="headerlink" title="7. 讨论采样点数对DFT的影响（了解）"></a>7. 讨论采样点数对DFT的影响（了解）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031090034.png"></p>
+<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="1-证明DFS的共轭性质"><a href="#1-证明DFS的共轭性质" class="headerlink" title="1. 证明DFS的共轭性质"></a>1. 证明DFS的共轭性质</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105846.png"></p>
+<h3 id="2-画幅值和相位谱"><a href="#2-画幅值和相位谱" class="headerlink" title="2. 画幅值和相位谱"></a>2. 画幅值和相位谱</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110146.png"></p>
+<h3 id="3-图解法求卷积"><a href="#3-图解法求卷积" class="headerlink" title="3. 图解法求卷积"></a>3. 图解法求卷积</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110216.png"><br> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110227.png"></p>
+<h3 id="4-零极点图、频率响应图、DFT图"><a href="#4-零极点图、频率响应图、DFT图" class="headerlink" title="4. 零极点图、频率响应图、DFT图"></a>4. 零极点图、频率响应图、DFT图</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110459.png"></p>
+<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><h3 id="1-数字滤波器的结构流图"><a href="#1-数字滤波器的结构流图" class="headerlink" title="1. 数字滤波器的结构流图"></a>1. 数字滤波器的结构流图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095424.png"><br>作者认为：并联形式中的常数项不是必须要提出来的，因此可以直接通过留数法直接求解</p>
+<h2 id="习题-1"><a href="#习题-1" class="headerlink" title="习题"></a>习题</h2><h3 id="1-级联型和并联型"><a href="#1-级联型和并联型" class="headerlink" title="1. 级联型和并联型"></a>1. 级联型和并联型</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095949.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100012.png"></p>
+<h3 id="2-节点法的应用"><a href="#2-节点法的应用" class="headerlink" title="2. 节点法的应用"></a>2. 节点法的应用</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100435.png"></p>
+<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="例题-4"><a href="#例题-4" class="headerlink" title="例题"></a>例题</h2><h3 id="1-脉冲响应不变法求解数字滤波器的系统函数"><a href="#1-脉冲响应不变法求解数字滤波器的系统函数" class="headerlink" title="1. 脉冲响应不变法求解数字滤波器的系统函数"></a>1. 脉冲响应不变法求解数字滤波器的系统函数</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103506.png"></p>
+<h2 id="习题-2"><a href="#习题-2" class="headerlink" title="习题"></a>习题</h2><h3 id="1-脉冲响应不变法与双线性法"><a href="#1-脉冲响应不变法与双线性法" class="headerlink" title="1. 脉冲响应不变法与双线性法"></a>1. 脉冲响应不变法与双线性法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103858.png"></p>
+<h3 id="2-模拟频率与数字频率的对应"><a href="#2-模拟频率与数字频率的对应" class="headerlink" title="2. 模拟频率与数字频率的对应"></a>2. 模拟频率与数字频率的对应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103922.png"></p>
+<h3 id="3-用双线性法设计巴特沃斯低通滤波器"><a href="#3-用双线性法设计巴特沃斯低通滤波器" class="headerlink" title="3. 用双线性法设计巴特沃斯低通滤波器"></a>3. 用双线性法设计巴特沃斯低通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104031.png"></p>
+<h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><h2 id="例题-5"><a href="#例题-5" class="headerlink" title="例题"></a>例题</h2><h3 id="1-用矩形窗设计带通滤波器"><a href="#1-用矩形窗设计带通滤波器" class="headerlink" title="1. 用矩形窗设计带通滤波器"></a>1. 用矩形窗设计带通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104350.png"></p>
+<h3 id="2-线性相位正交变换"><a href="#2-线性相位正交变换" class="headerlink" title="2. 线性相位正交变换"></a>2. 线性相位正交变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104721.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104731.png"></p>
+]]></content>
+      <tags>
+        <tag>大三上</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Verilog</title>
     <url>/2022/12/12/Verilog/</url>
     <content><![CDATA[<p>本文记录寒假器件自学verilog的笔记。</p>
@@ -143,54 +187,5 @@
       <tags>
         <tag>大三下</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>DPS习题精析</title>
-    <url>/2022/10/29/DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<p>本习题来源于课程习题以及作者本人的作业，将数字信号处理习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
-<ul>
-<li>第七章的作业题尚未整理</li>
-<li>所有作业题需要重新巩固<span id="more"></span></li>
-</ul>
-<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-判断线性系统"><a href="#1-判断线性系统" class="headerlink" title="1. 判断线性系统"></a>1. 判断线性系统</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225357.png"></p>
-<h3 id="2-判断时不变性"><a href="#2-判断时不变性" class="headerlink" title="2. 判断时不变性"></a>2. 判断时不变性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225429.png"></p>
-<h3 id="3-因果系统的判断"><a href="#3-因果系统的判断" class="headerlink" title="3. 因果系统的判断"></a>3. 因果系统的判断</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225503.png"></p>
-<h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><h3 id="1-双边序列的z变换以及有限长序列的处理"><a href="#1-双边序列的z变换以及有限长序列的处理" class="headerlink" title="1. 双边序列的z变换以及有限长序列的处理"></a>1. 双边序列的z变换以及有限长序列的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030230128.png">这道题中，z的正幂项的计算需要留心!其次还要注意在a的值讨论过程中一定要讨论全面。</p>
-<h3 id="2-有限序列的z变换"><a href="#2-有限序列的z变换" class="headerlink" title="2. 有限序列的z变换"></a>2. 有限序列的z变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030231009.png"><br>这三道题很有代表性，对于有限长序列0和无穷点ROC选择时候遵循如下技巧：0左右数值的有无对应着收敛范围0和无穷处点可取和不可取；第三题中，收敛域的判断很有讲究：要从求和式中直接判断！</p>
-<h3 id="3-z反变换——部分分式法"><a href="#3-z反变换——部分分式法" class="headerlink" title="3. z反变换——部分分式法"></a>3. z反变换——部分分式法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232038.png"><br>第一道题中，我们观察发现分子上为$z^2$而分母中只有两个z的多项式，因此需要对分子进行降低阶数处理，当然也可以直接约分为“时间常数式”，如右侧然后进行计算。</p>
-<h3 id="4-z变换与卷积"><a href="#4-z变换与卷积" class="headerlink" title="4. z变换与卷积"></a>4. z变换与卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232743.png"><br>此题在求解过程中用到了一个移位性质，即时域$n-1$,z域$z^{-1}$</p>
-<h3 id="5-系统函数：z变换与频率响应、求解幅度和相位"><a href="#5-系统函数：z变换与频率响应、求解幅度和相位" class="headerlink" title="5. 系统函数：z变换与频率响应、求解幅度和相位"></a>5. 系统函数：z变换与频率响应、求解幅度和相位</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030233041.png"></p>
-<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><h3 id="1-求解z变换、收敛域和零极点图"><a href="#1-求解z变换、收敛域和零极点图" class="headerlink" title="1. 求解z变换、收敛域和零极点图"></a>1. 求解z变换、收敛域和零极点图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104858.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104912.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104935.png"></p>
-<h3 id="2-直接卷积和z变换卷积"><a href="#2-直接卷积和z变换卷积" class="headerlink" title="2. 直接卷积和z变换卷积"></a>2. 直接卷积和z变换卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105030.png"></p>
-<h3 id="3-IDFS"><a href="#3-IDFS" class="headerlink" title="3. IDFS"></a>3. IDFS</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105717.png"></p>
-<h1 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h1><h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><h3 id="1-公式默写"><a href="#1-公式默写" class="headerlink" title="1. 公式默写"></a>1. 公式默写</h3><p>学习本章前，必须对傅里叶变换、傅里叶级数、离散序列的傅里叶变换公式熟练记忆，默写如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031080522.png"></p>
-<h3 id="2-DFS——周期性冲激串和周期序列"><a href="#2-DFS——周期性冲激串和周期序列" class="headerlink" title="2. DFS——周期性冲激串和周期序列"></a>2. DFS——周期性冲激串和周期序列</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081133.png"><br>左侧题目应当作为结论记忆，对于右侧例题，有固定解法如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081240.png"></p>
-<h3 id="3-DFT"><a href="#3-DFT" class="headerlink" title="3. DFT"></a>3. DFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082620.png"><br>右侧例题的正交特性是关键，复正弦序列的正交特性如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082737.png"></p>
-<h3 id="4-DFS和DFT的对应关系"><a href="#4-DFS和DFT的对应关系" class="headerlink" title="4. DFS和DFT的对应关系"></a>4. DFS和DFT的对应关系</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083623.png"></p>
-<h3 id="5-DFT的圆周移位性质和圆周卷积"><a href="#5-DFT的圆周移位性质和圆周卷积" class="headerlink" title="5. DFT的圆周移位性质和圆周卷积"></a>5. DFT的圆周移位性质和圆周卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083604.png"><br>注意，考试中，卷积运算需要用图解法求解</p>
-<h3 id="6-肉眼观察法求解IDFT"><a href="#6-肉眼观察法求解IDFT" class="headerlink" title="6. 肉眼观察法求解IDFT"></a>6. 肉眼观察法求解IDFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031085355.png"><br>其中前后两项对偶，如果不能直接看出来，那么就带入基本公式去计算。</p>
-<h3 id="7-讨论采样点数对DFT的影响（了解）"><a href="#7-讨论采样点数对DFT的影响（了解）" class="headerlink" title="7. 讨论采样点数对DFT的影响（了解）"></a>7. 讨论采样点数对DFT的影响（了解）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031090034.png"></p>
-<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="1-证明DFS的共轭性质"><a href="#1-证明DFS的共轭性质" class="headerlink" title="1. 证明DFS的共轭性质"></a>1. 证明DFS的共轭性质</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105846.png"></p>
-<h3 id="2-画幅值和相位谱"><a href="#2-画幅值和相位谱" class="headerlink" title="2. 画幅值和相位谱"></a>2. 画幅值和相位谱</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110146.png"></p>
-<h3 id="3-图解法求卷积"><a href="#3-图解法求卷积" class="headerlink" title="3. 图解法求卷积"></a>3. 图解法求卷积</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110216.png"><br> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110227.png"></p>
-<h3 id="4-零极点图、频率响应图、DFT图"><a href="#4-零极点图、频率响应图、DFT图" class="headerlink" title="4. 零极点图、频率响应图、DFT图"></a>4. 零极点图、频率响应图、DFT图</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110459.png"></p>
-<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><h3 id="1-数字滤波器的结构流图"><a href="#1-数字滤波器的结构流图" class="headerlink" title="1. 数字滤波器的结构流图"></a>1. 数字滤波器的结构流图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095424.png"><br>作者认为：并联形式中的常数项不是必须要提出来的，因此可以直接通过留数法直接求解</p>
-<h2 id="习题-1"><a href="#习题-1" class="headerlink" title="习题"></a>习题</h2><h3 id="1-级联型和并联型"><a href="#1-级联型和并联型" class="headerlink" title="1. 级联型和并联型"></a>1. 级联型和并联型</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095949.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100012.png"></p>
-<h3 id="2-节点法的应用"><a href="#2-节点法的应用" class="headerlink" title="2. 节点法的应用"></a>2. 节点法的应用</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100435.png"></p>
-<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="例题-4"><a href="#例题-4" class="headerlink" title="例题"></a>例题</h2><h3 id="1-脉冲响应不变法求解数字滤波器的系统函数"><a href="#1-脉冲响应不变法求解数字滤波器的系统函数" class="headerlink" title="1. 脉冲响应不变法求解数字滤波器的系统函数"></a>1. 脉冲响应不变法求解数字滤波器的系统函数</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103506.png"></p>
-<h2 id="习题-2"><a href="#习题-2" class="headerlink" title="习题"></a>习题</h2><h3 id="1-脉冲响应不变法与双线性法"><a href="#1-脉冲响应不变法与双线性法" class="headerlink" title="1. 脉冲响应不变法与双线性法"></a>1. 脉冲响应不变法与双线性法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103858.png"></p>
-<h3 id="2-模拟频率与数字频率的对应"><a href="#2-模拟频率与数字频率的对应" class="headerlink" title="2. 模拟频率与数字频率的对应"></a>2. 模拟频率与数字频率的对应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103922.png"></p>
-<h3 id="3-用双线性法设计巴特沃斯低通滤波器"><a href="#3-用双线性法设计巴特沃斯低通滤波器" class="headerlink" title="3. 用双线性法设计巴特沃斯低通滤波器"></a>3. 用双线性法设计巴特沃斯低通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104031.png"></p>
-<h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><h2 id="例题-5"><a href="#例题-5" class="headerlink" title="例题"></a>例题</h2><h3 id="1-用矩形窗设计带通滤波器"><a href="#1-用矩形窗设计带通滤波器" class="headerlink" title="1. 用矩形窗设计带通滤波器"></a>1. 用矩形窗设计带通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104350.png"></p>
-<h3 id="2-线性相位正交变换"><a href="#2-线性相位正交变换" class="headerlink" title="2. 线性相位正交变换"></a>2. 线性相位正交变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104721.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104731.png"></p>
-]]></content>
-      <tags>
-        <tag>大三上</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自控习题精析</title>
-    <url>/2023/01/02/%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
