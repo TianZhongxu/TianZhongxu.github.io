@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>自控习题精析</title>
+    <url>/2023/01/05/%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+    <content><![CDATA[<p>本文记录自控的例题以典型作业题。</p>
+<h1 id="第一章-自动控制的一般概念"><a href="#第一章-自动控制的一般概念" class="headerlink" title="第一章 自动控制的一般概念"></a>第一章 自动控制的一般概念</h1><ol>
+<li>分析控制系统的工作原理并画出原理方块图<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221123.png"></li>
+<li>文字游戏<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221331.png"></li>
+<li>概念题：开环和闭环控制系统的优缺点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221154.png"></li>
+</ol>
+<h1 id="第二章-自动控制系统的数学模型"><a href="#第二章-自动控制系统的数学模型" class="headerlink" title="第二章 自动控制系统的数学模型"></a>第二章 自动控制系统的数学模型</h1><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><ol>
+<li>动力学分析<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221552.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221601.png"></li>
+<li>转动惯量<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221700.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221708.png"></li>
+<li>电路系统建模<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092756.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092745.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100235.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100244.png"></li>
+<li>复杂系统的建模<ol>
+<li>转速控制系统<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093106.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093114.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093122.png"></li>
+<li>机械系统<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100205.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100144.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100128.png"></li>
+</ol>
+</li>
+<li>惯性环节、震荡环节、微分环节<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093326.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093458.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093558.png"></li>
+<li>方块图<ol>
+<li>普通<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105163940.png"></li>
+<li>简单化简![[Pasted image 20230105164126.png]]</li>
+<li>补一法 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105164106.png"></li>
+</ol>
+</li>
+<li>扰动误差函数的处理<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093936.png"></li>
+<li>信号流图的绘制<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094125.png"></li>
+<li>梅逊增益公式<ol>
+<li>规范格式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094625.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094646.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094656.png"></li>
+<li>复杂题目<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095329.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095410.png"></li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>大三上</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>DPS习题精析</title>
     <url>/2022/10/29/DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
     <content><![CDATA[<p>本习题来源于课程习题以及作者本人的作业，将数字信号处理习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
@@ -186,44 +224,6 @@
 <h2 id="3-3-运算符及表达式"><a href="#3-3-运算符及表达式" class="headerlink" title="3.3 运算符及表达式"></a>3.3 运算符及表达式</h2>]]></content>
       <tags>
         <tag>大三下</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自控习题精析</title>
-    <url>/2023/01/05/%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<p>本文记录自控的例题以典型作业题。</p>
-<h1 id="第一章-自动控制的一般概念"><a href="#第一章-自动控制的一般概念" class="headerlink" title="第一章 自动控制的一般概念"></a>第一章 自动控制的一般概念</h1><ol>
-<li>分析控制系统的工作原理并画出原理方块图<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221123.png"></li>
-<li>文字游戏<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221331.png"></li>
-<li>概念题：开环和闭环控制系统的优缺点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221154.png"></li>
-</ol>
-<h1 id="第二章-自动控制系统的数学模型"><a href="#第二章-自动控制系统的数学模型" class="headerlink" title="第二章 自动控制系统的数学模型"></a>第二章 自动控制系统的数学模型</h1><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><ol>
-<li>动力学分析<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221552.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221601.png"></li>
-<li>转动惯量<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221700.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221708.png"></li>
-<li>电路系统建模<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092756.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092745.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100235.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100244.png"></li>
-<li>复杂系统的建模<ol>
-<li>转速控制系统<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093106.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093114.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093122.png"></li>
-<li>机械系统<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100205.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100144.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100128.png"></li>
-</ol>
-</li>
-<li>惯性环节、震荡环节、微分环节<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093326.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093458.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093558.png"></li>
-<li>方块图<ol>
-<li>普通<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105163940.png"></li>
-<li>简单化简![[Pasted image 20230105164126.png]]</li>
-<li>补一法 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105164106.png"></li>
-</ol>
-</li>
-<li>扰动误差函数的处理<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093936.png"></li>
-<li>信号流图的绘制<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094125.png"></li>
-<li>梅逊增益公式<ol>
-<li>规范格式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094625.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094646.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094656.png"></li>
-<li>复杂题目<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095329.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095410.png"></li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>大三上</tag>
       </tags>
   </entry>
 </search>
