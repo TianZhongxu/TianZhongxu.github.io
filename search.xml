@@ -364,7 +364,7 @@
   </entry>
   <entry>
     <title>【课程补充】嵌入式系统概述</title>
-    <url>/2023/01/10/3bb-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/</url>
+    <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<h1 id="嵌入书系统概述"><a href="#嵌入书系统概述" class="headerlink" title="嵌入书系统概述"></a>嵌入书系统概述</h1><h2 id="嵌入式系统概念"><a href="#嵌入式系统概念" class="headerlink" title="嵌入式系统概念"></a>嵌入式系统概念</h2><p>计算机系统有两种：个人计算机（通用计算机）和服务器（机房、云：计算能力非常强大，通过网络7*24h服务，CPU有更强的能力）<br>还有一种系统：嵌入式系统。<br>以下都可以是一个嵌入式系统：一个无线的电动牙刷（PWM芯片）；手环通过蓝牙与手机链接，电池（USB充电）、GPS、计步（陀螺仪）；心脏起搏器；打印机（与计算机的串口通信USB）；扫地机器人；饮料零售机乃至摄像机、无人机、汽车中的防抱死、EPS\BMS等等……<br>嵌入式系统内的芯片和计算机会有很大的差异：i5，i7说的是计算机CPU，但嵌入式系统的CPU能力更弱，能耗低（计算机为15V，大部分嵌入式系统是电池供电），可靠性要求极高（不可以打补丁，系统升级）<br>嵌入式系统两个特点：1 嵌入在其它系统中  2 系统可以执行一定的功能 </p>
 <ul>
 <li>处理器的差异<br>服务器、个人计算机：微处理器IC，内部只有一个CPU，需要外接memory（ROM），外接IO端口<br>嵌入式系统：微控制器Microprocessor，除了CPU，集成了RAM、ROM、Timer、IO、串口控制 </li>
@@ -429,8 +429,23 @@
       </tags>
   </entry>
   <entry>
+    <title>【课程补充】振荡器</title>
+    <url>/2023/01/10/a3-%E6%8C%AF%E8%8D%A1%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="振荡器"><a href="#振荡器" class="headerlink" title="振荡器"></a>振荡器</h1><h2 id="一-环形振荡器"><a href="#一-环形振荡器" class="headerlink" title="一 环形振荡器"></a>一 环形振荡器</h2><p>首先要明确下图是不可以振荡的<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204401.png"><br>这是由于振荡的条件是在低频中频段的相移为-180°<br>因此，多加一个极点提供相移就有多一些振荡的可能，使用三级反相器，只有每级60°相移时发生振荡，在该频率下的增益为1，因此有结论：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204755.png"><br>三级反相器的反馈，产生的振荡周期为$6T_D$</p>
+<h3 id="振幅限制"><a href="#振幅限制" class="headerlink" title="振幅限制"></a>振幅限制</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110205851.png"><br>对于大多数应用：3到4级环形反相器可以提供最优的性能</p>
+<h3 id="电阻的替换"><a href="#电阻的替换" class="headerlink" title="电阻的替换"></a>电阻的替换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110211116.png"><br>图C的负载还有一个有趣的特性：M3栅源电容由源随器驱动，所以负载相关的时间常数小于二极管接法的时间常数。而且源随器一定的输出阻抗可能对负载产生电感特性</p>
+<h2 id="二-单端口振荡器"><a href="#二-单端口振荡器" class="headerlink" title="二 单端口振荡器"></a>二 单端口振荡器</h2><p>如果单端电路有一负电阻与振荡回路并联，电路就会永远振荡，这种电路被称为单端口振荡器。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110212621.png"></p>
+]]></content>
+      <categories>
+        <category>大三下</category>
+      </categories>
+      <tags>
+        <tag>模C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【课程补充】嵌入式系统微架构</title>
-    <url>/2023/01/10/3bb-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/</url>
+    <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/</url>
     <content><![CDATA[<h2 id="Arm概述"><a href="#Arm概述" class="headerlink" title="Arm概述"></a>Arm概述</h2><p>ARM:advanced RISC Machine</p>
 ]]></content>
       <categories>
