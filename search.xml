@@ -216,6 +216,37 @@
       </tags>
   </entry>
   <entry>
+    <title>【课程补充】振荡器</title>
+    <url>/2023/01/10/a3-%E6%A8%A1C%E6%8C%AF%E8%8D%A1%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="振荡器"><a href="#振荡器" class="headerlink" title="振荡器"></a>振荡器</h1><h2 id="一-环形振荡器"><a href="#一-环形振荡器" class="headerlink" title="一 环形振荡器"></a>一 环形振荡器</h2><p>首先要明确下图是不可以振荡的<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204401.png"><br>这是由于振荡的条件是在低频中频段的相移为-180°<br>因此，多加一个极点提供相移就有多一些振荡的可能，使用三级反相器，只有每级60°相移时发生振荡，在该频率下的增益为1，因此有结论：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204755.png"><br>三级反相器的反馈，产生的振荡周期为$6T_D$</p>
+<h3 id="振幅限制"><a href="#振幅限制" class="headerlink" title="振幅限制"></a>振幅限制</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110205851.png"><br>对于大多数应用：3到4级环形反相器可以提供最优的性能</p>
+<h3 id="电阻的替换"><a href="#电阻的替换" class="headerlink" title="电阻的替换"></a>电阻的替换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110211116.png"><br>图C的负载还有一个有趣的特性：M3栅源电容由源随器驱动，所以负载相关的时间常数小于二极管接法的时间常数。而且源随器一定的输出阻抗可能对负载产生电感特性</p>
+<h2 id="二-单端口振荡器"><a href="#二-单端口振荡器" class="headerlink" title="二 单端口振荡器"></a>二 单端口振荡器</h2><p>如果单端电路有一负电阻与振荡回路并联，电路就会永远振荡，这种电路被称为单端口振荡器。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110212621.png"></p>
+<h3 id="负电阻"><a href="#负电阻" class="headerlink" title="负电阻"></a>负电阻</h3><p>负电阻的构成思路：给源随器加正反馈（源随器给源随器反馈）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110213915.png"><br>电阻是增量，如果施加的电压增大，流进的电流减小，这就是负电阻。</p>
+<h3 id="负跨导振荡器"><a href="#负跨导振荡器" class="headerlink" title="负跨导振荡器"></a>负跨导振荡器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103640.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103750.png"></p>
+<h3 id="另一种负电阻"><a href="#另一种负电阻" class="headerlink" title="另一种负电阻"></a>另一种负电阻</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111104325.png"></p>
+<h2 id="压控振荡器VCO"><a href="#压控振荡器VCO" class="headerlink" title="压控振荡器VCO"></a>压控振荡器VCO</h2><p>定义：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111110105.png"><br>压控振荡器的重要性能参数：</p>
+<ul>
+<li>中心频率：高到几百GHz</li>
+<li>调节范围：$$K_{VCO}&gt;\frac{\omega_2-\omega_1}{V_2-V_1}$$</li>
+<li>调节线性度</li>
+<li>功耗</li>
+<li>电源与共模抑制</li>
+<li>输出信号纯度</li>
+</ul>
+<h3 id="环形振荡器的调节"><a href="#环形振荡器的调节" class="headerlink" title="环形振荡器的调节"></a>环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p>
+<h3 id="正反馈引起的延时变化"><a href="#正反馈引起的延时变化" class="headerlink" title="正反馈引起的延时变化"></a>正反馈引起的延时变化</h3><h3 id="插值法改变延时"><a href="#插值法改变延时" class="headerlink" title="插值法改变延时"></a>插值法改变延时</h3><p><em>（这里还没看懂）</em></p>
+<h2 id="VCO的数学模型"><a href="#VCO的数学模型" class="headerlink" title="VCO的数学模型"></a>VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>
+]]></content>
+      <categories>
+        <category>大三上</category>
+      </categories>
+      <tags>
+        <tag>模C</tag>
+        <tag>大创</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【知识集合】Verilog</title>
     <url>/2022/12/12/3b-Verilog/</url>
     <content><![CDATA[<p>本文记录寒假器件自学verilog的笔记。</p>
@@ -363,34 +394,19 @@
       </tags>
   </entry>
   <entry>
-    <title>【课程补充】振荡器</title>
-    <url>/2023/01/10/a3-%E6%A8%A1C%E6%8C%AF%E8%8D%A1%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="振荡器"><a href="#振荡器" class="headerlink" title="振荡器"></a>振荡器</h1><h2 id="一-环形振荡器"><a href="#一-环形振荡器" class="headerlink" title="一 环形振荡器"></a>一 环形振荡器</h2><p>首先要明确下图是不可以振荡的<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204401.png"><br>这是由于振荡的条件是在低频中频段的相移为-180°<br>因此，多加一个极点提供相移就有多一些振荡的可能，使用三级反相器，只有每级60°相移时发生振荡，在该频率下的增益为1，因此有结论：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204755.png"><br>三级反相器的反馈，产生的振荡周期为$6T_D$</p>
-<h3 id="振幅限制"><a href="#振幅限制" class="headerlink" title="振幅限制"></a>振幅限制</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110205851.png"><br>对于大多数应用：3到4级环形反相器可以提供最优的性能</p>
-<h3 id="电阻的替换"><a href="#电阻的替换" class="headerlink" title="电阻的替换"></a>电阻的替换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110211116.png"><br>图C的负载还有一个有趣的特性：M3栅源电容由源随器驱动，所以负载相关的时间常数小于二极管接法的时间常数。而且源随器一定的输出阻抗可能对负载产生电感特性</p>
-<h2 id="二-单端口振荡器"><a href="#二-单端口振荡器" class="headerlink" title="二 单端口振荡器"></a>二 单端口振荡器</h2><p>如果单端电路有一负电阻与振荡回路并联，电路就会永远振荡，这种电路被称为单端口振荡器。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110212621.png"></p>
-<h3 id="负电阻"><a href="#负电阻" class="headerlink" title="负电阻"></a>负电阻</h3><p>负电阻的构成思路：给源随器加正反馈（源随器给源随器反馈）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110213915.png"><br>电阻是增量，如果施加的电压增大，流进的电流减小，这就是负电阻。</p>
-<h3 id="负跨导振荡器"><a href="#负跨导振荡器" class="headerlink" title="负跨导振荡器"></a>负跨导振荡器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103640.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103750.png"></p>
-<h3 id="另一种负电阻"><a href="#另一种负电阻" class="headerlink" title="另一种负电阻"></a>另一种负电阻</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111104325.png"></p>
-<h2 id="压控振荡器VCO"><a href="#压控振荡器VCO" class="headerlink" title="压控振荡器VCO"></a>压控振荡器VCO</h2><p>定义：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111110105.png"><br>压控振荡器的重要性能参数：</p>
-<ul>
-<li>中心频率：高到几百GHz</li>
-<li>调节范围：$$K_{VCO}&gt;\frac{\omega_2-\omega_1}{V_2-V_1}$$</li>
-<li>调节线性度</li>
-<li>功耗</li>
-<li>电源与共模抑制</li>
-<li>输出信号纯度</li>
-</ul>
-<h3 id="环形振荡器的调节"><a href="#环形振荡器的调节" class="headerlink" title="环形振荡器的调节"></a>环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p>
-<h3 id="正反馈引起的延时变化"><a href="#正反馈引起的延时变化" class="headerlink" title="正反馈引起的延时变化"></a>正反馈引起的延时变化</h3><h3 id="插值法改变延时"><a href="#插值法改变延时" class="headerlink" title="插值法改变延时"></a>插值法改变延时</h3><p><em>（这里还没看懂）</em></p>
-<h2 id="VCO的数学模型"><a href="#VCO的数学模型" class="headerlink" title="VCO的数学模型"></a>VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>
+    <title>【课程补充】嵌入式系统微架构</title>
+    <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="Arm概述"><a href="#Arm概述" class="headerlink" title="Arm概述"></a>Arm概述</h2><p>ARM:advanced RISC Machine<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171737.png"><br>IP有三种形式：软核（代码-VHDL），固核（网表），硬核（工艺验证、版图等）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171750.png"><br>arm芯片的各个系列：高性能、实时、单片机M（节能）、机器学习、安全领域<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172258.png"><br>功能的升级可以从版本号中看到（指令集的提升）：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171806.png"></p>
+<h2 id="ARM处理器运行模式"><a href="#ARM处理器运行模式" class="headerlink" title="ARM处理器运行模式"></a>ARM处理器运行模式</h2><h3 id="数据的存储：大端和小段"><a href="#数据的存储：大端和小段" class="headerlink" title="数据的存储：大端和小段"></a>数据的存储：大端和小段</h3><p>数据在内存中的摆放：32bits<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172619.png"></p>
+<h3 id="arm的版本"><a href="#arm的版本" class="headerlink" title="arm的版本"></a>arm的版本</h3><p>v2规定了atomic：原子操作，不能被其他拆开<br>v5开始支持DSP<br>v7开始支持TrustZone安全性提高，处理器分A、M、R<br>v8增加了A64位指令集（A32属于thumb指令集）</p>
+<h3 id="ARM的体系结构"><a href="#ARM的体系结构" class="headerlink" title="ARM的体系结构"></a>ARM的体系结构</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110180638.png"><br>ARM指令集：32bit<br>Thumb指令集：16bit</p>
+<h3 id="处理器的运行模式"><a href="#处理器的运行模式" class="headerlink" title="处理器的运行模式"></a>处理器的运行模式</h3><p>针对任务的轻重缓急有不同的硬件资源对应，分为非特权模式（User）和特权模式（other）</p>
 ]]></content>
       <categories>
-        <category>大三上</category>
+        <category>大三下</category>
       </categories>
       <tags>
-        <tag>模C</tag>
-        <tag>大创</tag>
+        <tag>嵌入式</tag>
       </tags>
   </entry>
   <entry>
@@ -451,22 +467,6 @@
 </ul>
 <p>Linux开发结构：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171013.png"></p>
 <p>本机的工具链：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171052.png"></p>
-]]></content>
-      <categories>
-        <category>大三下</category>
-      </categories>
-      <tags>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【课程补充】嵌入式系统微架构</title>
-    <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/</url>
-    <content><![CDATA[<h2 id="Arm概述"><a href="#Arm概述" class="headerlink" title="Arm概述"></a>Arm概述</h2><p>ARM:advanced RISC Machine<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171737.png"><br>IP有三种形式：软核（代码-VHDL），固核（网表），硬核（工艺验证、版图等）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171750.png"><br>arm芯片的各个系列：高性能、实时、单片机M（节能）、机器学习、安全领域<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172258.png"><br>功能的升级可以从版本号中看到（指令集的提升）：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171806.png"></p>
-<h2 id="ARM处理器运行模式"><a href="#ARM处理器运行模式" class="headerlink" title="ARM处理器运行模式"></a>ARM处理器运行模式</h2><h3 id="数据的存储：大端和小段"><a href="#数据的存储：大端和小段" class="headerlink" title="数据的存储：大端和小段"></a>数据的存储：大端和小段</h3><p>数据在内存中的摆放：32bits<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172619.png"></p>
-<h3 id="arm的版本"><a href="#arm的版本" class="headerlink" title="arm的版本"></a>arm的版本</h3><p>v2规定了atomic：原子操作，不能被其他拆开<br>v5开始支持DSP<br>v7开始支持TrustZone安全性提高，处理器分A、M、R<br>v8增加了A64位指令集（A32属于thumb指令集）</p>
-<h3 id="ARM的体系结构"><a href="#ARM的体系结构" class="headerlink" title="ARM的体系结构"></a>ARM的体系结构</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110180638.png"><br>ARM指令集：32bit<br>Thumb指令集：16bit</p>
-<h3 id="处理器的运行模式"><a href="#处理器的运行模式" class="headerlink" title="处理器的运行模式"></a>处理器的运行模式</h3><p>针对任务的轻重缓急有不同的硬件资源对应，分为非特权模式（User）和特权模式（other）</p>
 ]]></content>
       <categories>
         <category>大三下</category>
