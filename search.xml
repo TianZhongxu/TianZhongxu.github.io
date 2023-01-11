@@ -381,9 +381,9 @@
 <li>电源与共模抑制</li>
 <li>输出信号纯度</li>
 </ul>
-<h3 id="环形振荡器的调节"><a href="#环形振荡器的调节" class="headerlink" title="环形振荡器的调节"></a>环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p>
+<h3 id="四-环形振荡器的调节"><a href="#四-环形振荡器的调节" class="headerlink" title="四 环形振荡器的调节"></a>四 环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p>
 <h3 id="正反馈引起的延时变化"><a href="#正反馈引起的延时变化" class="headerlink" title="正反馈引起的延时变化"></a>正反馈引起的延时变化</h3><h3 id="插值法改变延时"><a href="#插值法改变延时" class="headerlink" title="插值法改变延时"></a>插值法改变延时</h3><p><em>（这里还没看懂）</em></p>
-<h2 id="VCO的数学模型"><a href="#VCO的数学模型" class="headerlink" title="VCO的数学模型"></a>VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>
+<h2 id="五-VCO的数学模型"><a href="#五-VCO的数学模型" class="headerlink" title="五 VCO的数学模型"></a>五 VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>
 ]]></content>
       <categories>
         <category>大三上</category>
