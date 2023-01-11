@@ -242,6 +242,21 @@
 <h3 id="振幅限制"><a href="#振幅限制" class="headerlink" title="振幅限制"></a>振幅限制</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110205851.png"><br>对于大多数应用：3到4级环形反相器可以提供最优的性能</p>
 <h3 id="电阻的替换"><a href="#电阻的替换" class="headerlink" title="电阻的替换"></a>电阻的替换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110211116.png"><br>图C的负载还有一个有趣的特性：M3栅源电容由源随器驱动，所以负载相关的时间常数小于二极管接法的时间常数。而且源随器一定的输出阻抗可能对负载产生电感特性</p>
 <h2 id="二-单端口振荡器"><a href="#二-单端口振荡器" class="headerlink" title="二 单端口振荡器"></a>二 单端口振荡器</h2><p>如果单端电路有一负电阻与振荡回路并联，电路就会永远振荡，这种电路被称为单端口振荡器。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110212621.png"></p>
+<h3 id="负电阻"><a href="#负电阻" class="headerlink" title="负电阻"></a>负电阻</h3><p>负电阻的构成思路：给源随器加正反馈（源随器给源随器反馈）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110213915.png"><br>电阻是增量，如果施加的电压增大，流进的电流减小，这就是负电阻。</p>
+<h3 id="负跨导振荡器"><a href="#负跨导振荡器" class="headerlink" title="负跨导振荡器"></a>负跨导振荡器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103640.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103750.png"></p>
+<h3 id="另一种负电阻"><a href="#另一种负电阻" class="headerlink" title="另一种负电阻"></a>另一种负电阻</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111104325.png"></p>
+<h2 id="压控振荡器VCO"><a href="#压控振荡器VCO" class="headerlink" title="压控振荡器VCO"></a>压控振荡器VCO</h2><p>定义：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111110105.png"><br>压控振荡器的重要性能参数：</p>
+<ul>
+<li>中心频率：高到几百GHz</li>
+<li>调节范围：$$K_{VCO}&gt;\frac{\omega_2-\omega_1}{V_2-V_1}$$</li>
+<li>调节线性度</li>
+<li>功耗</li>
+<li>电源与共模抑制</li>
+<li>输出信号纯度</li>
+</ul>
+<h3 id="环形振荡器的调节"><a href="#环形振荡器的调节" class="headerlink" title="环形振荡器的调节"></a>环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p>
+<h3 id="正反馈引起的延时变化"><a href="#正反馈引起的延时变化" class="headerlink" title="正反馈引起的延时变化"></a>正反馈引起的延时变化</h3><h3 id="插值法改变延时"><a href="#插值法改变延时" class="headerlink" title="插值法改变延时"></a>插值法改变延时</h3><p><em>（这里还没看懂）</em></p>
+<h2 id="VCO的数学模型"><a href="#VCO的数学模型" class="headerlink" title="VCO的数学模型"></a>VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>
 ]]></content>
       <categories>
         <category>大三下</category>
