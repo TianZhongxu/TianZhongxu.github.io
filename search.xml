@@ -446,7 +446,7 @@
 <h2 id="ARM处理器运行模式"><a href="#ARM处理器运行模式" class="headerlink" title="ARM处理器运行模式"></a>ARM处理器运行模式</h2><h3 id="数据的存储：大端和小段"><a href="#数据的存储：大端和小段" class="headerlink" title="数据的存储：大端和小段"></a>数据的存储：大端和小段</h3><p>数据在内存中的摆放：32bits<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172619.png"></p>
 <h3 id="arm的版本"><a href="#arm的版本" class="headerlink" title="arm的版本"></a>arm的版本</h3><p>v2规定了atomic：原子操作，不能被其他拆开<br>v5开始支持DSP<br>v7开始支持TrustZone安全性提高，处理器分A、M、R<br>v8增加了A64位指令集（A32属于thumb指令集）</p>
 <h3 id="ARM的体系结构"><a href="#ARM的体系结构" class="headerlink" title="ARM的体系结构"></a>ARM的体系结构</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110180638.png"><br>ARM指令集：32bit<br>Thumb指令集：16bit</p>
-<h3 id="处理器的运行模式"><a href="#处理器的运行模式" class="headerlink" title="处理器的运行模式"></a>处理器的运行模式</h3><p>针对任务的轻重缓急有不同的硬件资源对应，分为非特权模式（User）和特权模式（other）</p>
+<h3 id="处理器的运行模式"><a href="#处理器的运行模式" class="headerlink" title="处理器的运行模式"></a>处理器的运行模式</h3><p>针对任务的轻重缓急有不同的硬件资源对应，分为非特权模式（User）和特权模式（other）<br>特权模式：分为系统模式和异常模式（中断和转移）</p>
 ]]></content>
       <categories>
         <category>大三下</category>
@@ -519,6 +519,42 @@
       </categories>
       <tags>
         <tag>嵌入式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知识摘要】数C知识摘要</title>
+    <url>/2023/01/16/3a-%E6%95%B0C%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>大三上</category>
+      </categories>
+      <tags>
+        <tag>未考</tag>
+        <tag>数C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知识摘要】自控知识摘要</title>
+    <url>/2023/01/16/3a-%E8%87%AA%E6%8E%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>大三上</category>
+      </categories>
+      <tags>
+        <tag>未考</tag>
+        <tag>自控</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【知识摘要】模C知识摘要</title>
+    <url>/2023/01/16/3a-%E6%A8%A1C%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AE%80%E8%A6%81/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>大三上</category>
+      </categories>
+      <tags>
+        <tag>模C</tag>
+        <tag>未考</tag>
       </tags>
   </entry>
 </search>
