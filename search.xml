@@ -548,7 +548,18 @@
   <entry>
     <title>【知识摘要】模C知识摘要</title>
     <url>/2023/01/16/3a-%E6%A8%A1C%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AE%80%E8%A6%81/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="第一章-模拟设计简介"><a href="#第一章-模拟设计简介" class="headerlink" title="第一章 模拟设计简介"></a>第一章 模拟设计简介</h1><h2 id="一-IC历史"><a href="#一-IC历史" class="headerlink" title="一 IC历史"></a>一 IC历史</h2><p>第一块IC是TI公司的振荡器<br>现代IC：12英寸（30cm） 切为0.75mm的晶圆，将裸芯chip封装为芯片</p>
+<h2 id="二-基础概念"><a href="#二-基础概念" class="headerlink" title="二 基础概念"></a>二 基础概念</h2><h3 id="生产步骤：设计和制造分离"><a href="#生产步骤：设计和制造分离" class="headerlink" title="生产步骤：设计和制造分离"></a>生产步骤：设计和制造分离</h3><ul>
+<li>IDM集成电路制造商</li>
+<li>fabless 设计公司</li>
+<li>foundries 工厂</li>
+</ul>
+<h3 id="设计方法学"><a href="#设计方法学" class="headerlink" title="设计方法学"></a>设计方法学</h3><ul>
+<li>more Moore 沿着摩尔定律继续走下去：沿着5nm继续减小特征尺寸，成本高</li>
+<li>More than moore 不追求小尺寸，在chip上集成更多功能，小厂商更喜欢</li>
+</ul>
+<h3 id="模拟模块"><a href="#模拟模块" class="headerlink" title="模拟模块"></a>模拟模块</h3><p>电源管理、射频、频电路、端口、时钟信号产生</p>
+]]></content>
       <categories>
         <category>大三上</category>
       </categories>
