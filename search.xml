@@ -103,7 +103,7 @@
 <li>饱和区：随着$V_{OD}$平方变化，不随$V_{DS}$变化（$V_{DS}$达到$V_{OD}$以后）</li>
 </ul>
 <h2 id="三-小信号模型"><a href="#三-小信号模型" class="headerlink" title="三 小信号模型"></a>三 小信号模型</h2><p>小信号足够小：将推到过程中小信号幅值平方（非线性项）忽略<br>小信号模型中，VDD和GND均为交流地<br>跨导的表示：尺寸 电压 电流 两两独立</p>
-<h2 id="四-二级效应"><a href="#四-二级效应" class="headerlink" title="四 二级效应"></a>四 二级效应</h2><p>体效应：源随器输入输出差随着输出增大变大，$g_{mb}&#x3D;\eta g_m$<br>沟道长度调制效应：饱和区电流线性增大到$(1+\lambda V_{DS})$倍（通过L和$V_{DS}$来影响电流），斜率是$\frac{1}{\lambda}$，$\lambda$正比于$\frac{1}{L}$，等效电阻$r_0&#x3D;\frac{1}{\lambda I_{DS}}$。<br>亚阈值导通：S：电流下降一个数量级电压的变化，越小越好<br>寄生电容：交叠电容$C_{ov}$和结电容$C_{j}$ and $C_{jsw}$</p>
+<h2 id="四-二级效应"><a href="#四-二级效应" class="headerlink" title="四 二级效应"></a>四 二级效应</h2><p>体效应：源随器输入输出差随着输出增大变大，$g_{mb}&#x3D;\eta g_m$，注意是电流对$V_{BS}$的偏导数<br>沟道长度调制效应：饱和区电流线性增大到$(1+\lambda V_{DS})$倍（通过L和$V_{DS}$来影响电流），斜率是$\frac{1}{\lambda}$，$\lambda$正比于$\frac{1}{L}$，等效电阻$r_0&#x3D;\frac{1}{\lambda I_{DS}}$。<br>亚阈值导通：S：电流下降一个数量级电压的变化，越小越好<br>寄生电容：交叠电容$C_{ov}$和结电容$C_{j}$ and $C_{jsw}$</p>
 <ul>
 <li>结电容：$C_{SB}&#x3D;$底部＋侧面</li>
 <li>栅电容：饱和区$C_{GS}$分$C_{ox}$的三分之二，线性区$C_{GS}$和$C_{GD}$各分一半<br>可以忽略的：$C_{GB}$，$C_{SB}$,$C_{DB}$</li>
@@ -124,7 +124,7 @@
 <li>G不接交流地：</li>
 </ol>
 <ul>
-<li>二极管GD相连：如果$V_{GS}$发生了变化，则等效$\frac{1}{g_m}$的电阻,同时注意观察是否具有体效应，如果有，等效$\frac{1}{g_m+g_{mb}}$</li>
+<li>二极管GD相连：如果$V_{GS}$发生了变化，则等效$\frac{1}{g_m}$的电阻,同时注意观察是否具有体效应，如果有，等效$\frac{1}{g_m+g_{mb}}$<br> 结论：二极管D和S看进去的电阻：$r_{o}||\frac{1}{g_m(1+\eta)}$</li>
 </ul>
 </blockquote>
 <ul>
@@ -132,7 +132,7 @@
 <li>模拟八边形</li>
 </ul>
 <h2 id="二-共源放大器"><a href="#二-共源放大器" class="headerlink" title="二 共源放大器"></a>二 共源放大器</h2><h3 id="电阻负载"><a href="#电阻负载" class="headerlink" title="电阻负载"></a>电阻负载</h3><ol>
-<li>大信号：列等式即可，非线性$g_m$——最大VDD，最小约为0</li>
+<li>大信号：列等式即可，非线性$g_m$——最大VDD，最小$V_{in}-V_{TH1}$</li>
 <li>小信号：求导法&#x2F;小信号模型<br>$$G_m&#x3D;g_m,r_{out}&#x3D;R_D$$<br>$g_m$随着$V_{in}$的变化：饱和区跨导线性增大，进入线性区后减小</li>
 <li>输入电阻：无穷大</li>
 </ol>
@@ -151,7 +151,26 @@
 <ul>
 <li>电流源和二极管并联接法：扩大增益，缩小了小信号范围</li>
 </ul>
-<h3 id="电流源负载"><a href="#电流源负载" class="headerlink" title="电流源负载"></a>电流源负载</h3>]]></content>
+<h3 id="电流源负载"><a href="#电流源负载" class="headerlink" title="电流源负载"></a>电流源负载</h3><p>问题：一山不容二虎<br>对比电阻：高增益but高噪声低速</p>
+<ol>
+<li>大信号范围：最低$V_{OD1}$，最高$V_{DD}-V_{OD2}$。but输出电压不能精准控制</li>
+<li>小信号：<br>$$G_m&#x3D;g_m,r_{out}&#x3D;r_{o1}||r_{o2}$$</li>
+</ol>
+<ul>
+<li>注意：电流增大，增益减小。这是由$r_o$减小所导致的<br>电流源负载的偏置可以以VDD为基点，电流不受电源波动的影响</li>
+</ul>
+<h3 id="CLASS-AB"><a href="#CLASS-AB" class="headerlink" title="CLASS AB"></a>CLASS AB</h3><p>电流复用<br>$$G_m&#x3D;g_{m1}+g_{m2},r_{out}&#x3D;r_{o1}||r_{o2}$$</p>
+<ul>
+<li>缺点：有效工作点区域小，会将$V_{DD}$的变化放大到$V_{out}$<br>$$\frac{v_{out}}{v_{dd}}:G_m&#x3D;g_{m2}+\frac{1}{r_{o2}},r_{out}&#x3D;r_{o1}||r_{o2}$$<br>可以通过偏置技术、浮栅手段缓解VDD的影响</li>
+</ul>
+<h3 id="万用分析法"><a href="#万用分析法" class="headerlink" title="万用分析法"></a>万用分析法</h3><p>传输电流一定，两端压降小的上拉或者下拉能力强（主要处在非线性元件上）</p>
+<ul>
+<li>电阻：上拉能力不变</li>
+<li>二极管：上拉能力增强，削弱了下拉能力，增益小</li>
+<li>电流源：上拉能力弱，下拉能力增强，增益大</li>
+<li>ClassAB：上拉能力随$V_{in}$减弱，下拉能力增强，增益大</li>
+</ul>
+<h3 id="源极负反馈"><a href="#源极负反馈" class="headerlink" title="源极负反馈"></a>源极负反馈</h3>]]></content>
       <categories>
         <category>大三上</category>
       </categories>
