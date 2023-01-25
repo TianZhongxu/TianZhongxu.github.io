@@ -124,20 +124,28 @@
 <li>G不接交流地：</li>
 </ol>
 <ul>
-<li>二极管GD相连：如果$V_{GS}$发生了变化，则等效$\frac{1}{g_m}$的电阻</li>
+<li>二极管GD相连：如果$V_{GS}$发生了变化，则等效$\frac{1}{g_m}$的电阻,同时注意观察是否具有体效应，如果有，等效$\frac{1}{g_m+g_{mb}}$</li>
 </ul>
 </blockquote>
 <ul>
 <li>我们关心的性能指标</li>
 <li>模拟八边形</li>
 </ul>
-<h2 id="二-共源放大器"><a href="#二-共源放大器" class="headerlink" title="二 共源放大器"></a>二 共源放大器</h2><ol>
-<li>电阻负载<br>大信号：列等式即可，非线性$g_m$<br>小信号：求导法&#x2F;小信号模型<br>$$G_m&#x3D;g_m,r_{out}&#x3D;R_D$$<br>$g_m$随着$V_{in}$的变化：饱和区跨导线性增大，进入线性区后减小<br>输入电阻：无穷大</li>
-<li>二极管负载：GD相连<br>大信号：接近线性<br>小信号1：$$A_v&#x3D;\sqrt{\frac{(W&#x2F;L)<em>1}{(W&#x2F;L)<em>2}}\frac{1}{1+\eta}$$<br>小信号2：$$G_m&#x3D;g</em>{m1},r</em>{out}&#x3D;\frac{1}{g_m}$$</li>
+<h2 id="二-共源放大器"><a href="#二-共源放大器" class="headerlink" title="二 共源放大器"></a>二 共源放大器</h2><h3 id="电阻负载"><a href="#电阻负载" class="headerlink" title="电阻负载"></a>电阻负载</h3><p>大信号：列等式即可，非线性$g_m$——最大VDD，最小约为0<br>小信号：求导法&#x2F;小信号模型<br>$$G_m&#x3D;g_m,r_{out}&#x3D;R_D$$<br>$g_m$随着$V_{in}$的变化：饱和区跨导线性增大，进入线性区后减小<br>输入电阻：无穷大</p>
+<h3 id="二极管负载：GD相连"><a href="#二极管负载：GD相连" class="headerlink" title="二极管负载：GD相连"></a>二极管负载：GD相连</h3><ol>
+<li>大信号：接近线性，最大$V_{DD}-V_{TH2}$最小约为0</li>
+<li>小信号1：<br>$$ A_v&#x3D;\sqrt{\frac{(W&#x2F;L)_1}{(W&#x2F;L)_2}}\frac{1}{1+\eta} $$</li>
+<li>小信号2：<br>$$G_m&#x3D;g_{m1},r_{out}&#x3D;\frac{1}{g_m}$$</li>
 </ol>
 <ul>
-<li>NMOS二极管：S是输出端，是变化的，因此考虑体效应$r_{out}&#x3D;frac{1}{g_m+g_{mb}}$,注意输出电阻从S端看进去时候也能看到$r_0$</li>
+<li>NMOS二极管：S是输出端，是变化的，因此考虑体效应$r_{out}&#x3D;\frac{1}{g_m+g_{mb}}$,注意输出电阻从S端看进去时候也能看到$r_0$</li>
 <li>PMOS二极管：S是VDD（交流地），不用考虑体效应</li>
+</ul>
+<ol start="4">
+<li>快速结论：<br>$$A_v&#x3D;\frac{V_{GS2}-V_{TH2}}{V_{GS1}-V_{TH1}}$$</li>
+</ol>
+<ul>
+<li>电流源和二极管并联接法：扩大增益，缩小了小信号范围</li>
 </ul>
 ]]></content>
       <categories>
