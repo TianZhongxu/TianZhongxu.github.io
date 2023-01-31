@@ -358,7 +358,32 @@
 <li>有源电流镜的频率特性<br>两个极点+一个左半面零点<br>快慢路径相加而来</li>
 </ul>
 <h2 id="四-增益与带宽折衷"><a href="#四-增益与带宽折衷" class="headerlink" title="四 增益与带宽折衷"></a>四 增益与带宽折衷</h2><p>GBW单位是$rad&#x2F;s$，其大小等于带宽$\omega_u$<br>$$\omega_u&#x3D;\frac{g_{m1}}{C_L}$$<br>若输出极点是主导极点，则采用共源共栅结构无法提升增益带宽积，因为此时GBW与$r_{out}$无关</p>
-<h1 id="第七章-噪声"><a href="#第七章-噪声" class="headerlink" title="第七章 噪声"></a>第七章 噪声</h1><h2 id="一-噪声的统计特性"><a href="#一-噪声的统计特性" class="headerlink" title="一 噪声的统计特性"></a>一 噪声的统计特性</h2><h2 id="二-噪声类型"><a href="#二-噪声类型" class="headerlink" title="二 噪声类型"></a>二 噪声类型</h2><h2 id="三-电路的噪声表达"><a href="#三-电路的噪声表达" class="headerlink" title="三 电路的噪声表达"></a>三 电路的噪声表达</h2>]]></content>
+<h1 id="第七章-噪声"><a href="#第七章-噪声" class="headerlink" title="第七章 噪声"></a>第七章 噪声</h1><h2 id="一-噪声的统计特性"><a href="#一-噪声的统计特性" class="headerlink" title="一 噪声的统计特性"></a>一 噪声的统计特性</h2><ol>
+<li>噪声谱：功率谱PSD,$S_x(f)$(单位$V^2&#x2F;Hz$)和电压谱VSD<br>注意区分平均功率$P_{av}$<br>白噪声：特定频段幅值为常数<br>单边谱是双边谱折叠而来<br>功率谱表示预计波形在时域中变化有多快</li>
+<li>时域：$P_{av}$</li>
+<li>统计方法：标准差代表了噪声的功率</li>
+</ol>
+<ul>
+<li>两个信号相乘后再周期内求相关是否为0判断两信号的相关性</li>
+<li>信噪比SNR是信号与噪声功率比的积分</li>
+</ul>
+<h2 id="二-噪声类型"><a href="#二-噪声类型" class="headerlink" title="二 噪声类型"></a>二 噪声类型</h2><p>热噪声：电阻+MOS  闪烁噪声</p>
+<ol>
+<li>电阻噪声：自带白噪声$4kTR$（串联电压），k&#x3D;1.38e-23<br>  RC网络的总输出噪声功率：$$P_{n,out}&#x3D;\frac{kT}{C}$$<br>  可见若想获得低噪声系统，必须减小带宽$\omega_u&#x3D;\frac{g_m}{C_L}$</li>
+<li>MOSFET噪声：并联联一个$4kT \gamma g_m$，相当于串联了$4kT\gamma g_m r_{0}^2$<br>输出噪声和输入有关系，减小$g_m$才能减小噪声，且噪声和$r_o$没有关系<br>栅电阻噪声$4kTR_G&#x2F;3$，减小闪电组的方法：加接触孔、折叠</li>
+<li>闪烁噪声：晶体管的悬挂键俘获了载流子，再栅上<br>$$V_n^2&#x3D;\frac{K}{C_{ox}WL}\frac{1}{f}$$<br>PMOS的制造不需要栅，能用P就不用N，能用BJT就不用MOS，只有增加尺寸才能降低闪烁噪声</li>
+</ol>
+<ul>
+<li>联立MOS的热沟道噪声和闪烁噪声可以求出拐角频率<br>$$f_C&#x3D;\frac{K}{C_{ox}WL}\frac{g_m}{4kT\gamma}$$<br>如果选定了L，则拐角频率相对不变。</li>
+</ul>
+<h2 id="三-电路的噪声表达"><a href="#三-电路的噪声表达" class="headerlink" title="三 电路的噪声表达"></a>三 电路的噪声表达</h2><p>输出参考噪声和输入参考噪声。<br>&#x3D;&#x3D;误区（没看懂）&#x3D;&#x3D;</p>
+<ol>
+<li>共源级<br>老师黑板上写的第二项好像没有平方？</li>
+<li>共栅级：输入参考噪声和输入没关系吗？都是默认再栅级看进去？</li>
+<li>共源共栅极（重要）：M2的噪声对输入没有贡献</li>
+<li>差动对的噪声（重要）：闪烁噪声和热噪声都double即可</li>
+</ol>
+]]></content>
       <categories>
         <category>大三上</category>
       </categories>
