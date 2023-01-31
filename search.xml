@@ -1,791 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>【高效刷题】数C习题精析</title>
-    <url>/2023/01/09/3a-%E6%95%B0C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="第一章-大纲"><a href="#第一章-大纲" class="headerlink" title="第一章 大纲"></a>第一章 大纲</h1><h2 id="0-测试题"><a href="#0-测试题" class="headerlink" title="0 测试题"></a>0 测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114355.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114414.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114426.png"></p>
-<h1 id="第五章-CMOS反相器静态特性"><a href="#第五章-CMOS反相器静态特性" class="headerlink" title="第五章 CMOS反相器静态特性"></a>第五章 CMOS反相器静态特性</h1><h2 id="0-测试题-1"><a href="#0-测试题-1" class="headerlink" title="0 测试题"></a>0 测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114820.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114833.png"></p>
-<h1 id="第六章-MOS反相器的开关特性和互联线影响"><a href="#第六章-MOS反相器的开关特性和互联线影响" class="headerlink" title="第六章 MOS反相器的开关特性和互联线影响"></a>第六章 MOS反相器的开关特性和互联线影响</h1><h2 id="0-测试题-2"><a href="#0-测试题-2" class="headerlink" title="0 测试题"></a>0 测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114924.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115048.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115059.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115111.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115122.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115138.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115149.png"></p>
-<h1 id="第七章-组合MOS逻辑电路"><a href="#第七章-组合MOS逻辑电路" class="headerlink" title="第七章 组合MOS逻辑电路"></a>第七章 组合MOS逻辑电路</h1><h2 id="测试题"><a href="#测试题" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115332.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115343.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115358.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115408.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115418.png"></p>
-<h1 id="第八章-时序逻辑电路"><a href="#第八章-时序逻辑电路" class="headerlink" title="第八章 时序逻辑电路"></a>第八章 时序逻辑电路</h1><h2 id="测试题-1"><a href="#测试题-1" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115550.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115557.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115607.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115617.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115628.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115638.png"></p>
-<h1 id="第九章-动态逻辑门"><a href="#第九章-动态逻辑门" class="headerlink" title="第九章 动态逻辑门"></a>第九章 动态逻辑门</h1><h2 id="测试题-2"><a href="#测试题-2" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115823.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115831.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115847.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115902.png"></p>
-<h1 id="第十章-半导体存储器"><a href="#第十章-半导体存储器" class="headerlink" title="第十章 半导体存储器"></a>第十章 半导体存储器</h1><h2 id="测试题-3"><a href="#测试题-3" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165255.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165307.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165326.png"></p>
-<h1 id="第十三章-VISIL设计"><a href="#第十三章-VISIL设计" class="headerlink" title="第十三章 VISIL设计"></a>第十三章 VISIL设计</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165413.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165423.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165444.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165454.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165504.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165512.png"></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>【知识摘要】自控知识摘要</title>
+      <link href="/2023/01/16/3a-%E8%87%AA%E6%8E%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/"/>
+      <url>/2023/01/16/3a-%E8%87%AA%E6%8E%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>数C</tag>
-        <tag>未考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【高效刷题】DPS习题精析</title>
-    <url>/2022/10/29/3a-DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<p>本习题来源于课程习题以及作者本人的作业，将数字信号处理习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p>
-<ul>
-<li>第七章的作业题尚未整理</li>
-<li>所有作业题需要重新巩固<span id="more"></span></li>
-</ul>
-<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-判断线性系统"><a href="#1-判断线性系统" class="headerlink" title="1. 判断线性系统"></a>1. 判断线性系统</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225357.png"></p>
-<h3 id="2-判断时不变性"><a href="#2-判断时不变性" class="headerlink" title="2. 判断时不变性"></a>2. 判断时不变性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225429.png"></p>
-<h3 id="3-因果系统的判断"><a href="#3-因果系统的判断" class="headerlink" title="3. 因果系统的判断"></a>3. 因果系统的判断</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225503.png"></p>
-<h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><h3 id="1-双边序列的z变换以及有限长序列的处理"><a href="#1-双边序列的z变换以及有限长序列的处理" class="headerlink" title="1. 双边序列的z变换以及有限长序列的处理"></a>1. 双边序列的z变换以及有限长序列的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030230128.png">这道题中，z的正幂项的计算需要留心!其次还要注意在a的值讨论过程中一定要讨论全面。</p>
-<h3 id="2-有限序列的z变换"><a href="#2-有限序列的z变换" class="headerlink" title="2. 有限序列的z变换"></a>2. 有限序列的z变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030231009.png"><br>这三道题很有代表性，对于有限长序列0和无穷点ROC选择时候遵循如下技巧：0左右数值的有无对应着收敛范围0和无穷处点可取和不可取；第三题中，收敛域的判断很有讲究：要从求和式中直接判断！</p>
-<h3 id="3-z反变换——部分分式法"><a href="#3-z反变换——部分分式法" class="headerlink" title="3. z反变换——部分分式法"></a>3. z反变换——部分分式法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232038.png"><br>第一道题中，我们观察发现分子上为$z^2$而分母中只有两个z的多项式，因此需要对分子进行降低阶数处理，当然也可以直接约分为“时间常数式”，如右侧然后进行计算。</p>
-<h3 id="4-z变换与卷积"><a href="#4-z变换与卷积" class="headerlink" title="4. z变换与卷积"></a>4. z变换与卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232743.png"><br>此题在求解过程中用到了一个移位性质，即时域$n-1$,z域$z^{-1}$</p>
-<h3 id="5-系统函数：z变换与频率响应、求解幅度和相位"><a href="#5-系统函数：z变换与频率响应、求解幅度和相位" class="headerlink" title="5. 系统函数：z变换与频率响应、求解幅度和相位"></a>5. 系统函数：z变换与频率响应、求解幅度和相位</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030233041.png"></p>
-<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><h3 id="1-求解z变换、收敛域和零极点图"><a href="#1-求解z变换、收敛域和零极点图" class="headerlink" title="1. 求解z变换、收敛域和零极点图"></a>1. 求解z变换、收敛域和零极点图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104858.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104912.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104935.png"></p>
-<h3 id="2-直接卷积和z变换卷积"><a href="#2-直接卷积和z变换卷积" class="headerlink" title="2. 直接卷积和z变换卷积"></a>2. 直接卷积和z变换卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105030.png"></p>
-<h3 id="3-IDFS"><a href="#3-IDFS" class="headerlink" title="3. IDFS"></a>3. IDFS</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105717.png"></p>
-<h1 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h1><h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><h3 id="1-公式默写"><a href="#1-公式默写" class="headerlink" title="1. 公式默写"></a>1. 公式默写</h3><p>学习本章前，必须对傅里叶变换、傅里叶级数、离散序列的傅里叶变换公式熟练记忆，默写如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031080522.png"></p>
-<h3 id="2-DFS——周期性冲激串和周期序列"><a href="#2-DFS——周期性冲激串和周期序列" class="headerlink" title="2. DFS——周期性冲激串和周期序列"></a>2. DFS——周期性冲激串和周期序列</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081133.png"><br>左侧题目应当作为结论记忆，对于右侧例题，有固定解法如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081240.png"></p>
-<h3 id="3-DFT"><a href="#3-DFT" class="headerlink" title="3. DFT"></a>3. DFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082620.png"><br>右侧例题的正交特性是关键，复正弦序列的正交特性如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082737.png"></p>
-<h3 id="4-DFS和DFT的对应关系"><a href="#4-DFS和DFT的对应关系" class="headerlink" title="4. DFS和DFT的对应关系"></a>4. DFS和DFT的对应关系</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083623.png"></p>
-<h3 id="5-DFT的圆周移位性质和圆周卷积"><a href="#5-DFT的圆周移位性质和圆周卷积" class="headerlink" title="5. DFT的圆周移位性质和圆周卷积"></a>5. DFT的圆周移位性质和圆周卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083604.png"><br>注意，考试中，卷积运算需要用图解法求解</p>
-<h3 id="6-肉眼观察法求解IDFT"><a href="#6-肉眼观察法求解IDFT" class="headerlink" title="6. 肉眼观察法求解IDFT"></a>6. 肉眼观察法求解IDFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031085355.png"><br>其中前后两项对偶，如果不能直接看出来，那么就带入基本公式去计算。</p>
-<h3 id="7-讨论采样点数对DFT的影响（了解）"><a href="#7-讨论采样点数对DFT的影响（了解）" class="headerlink" title="7. 讨论采样点数对DFT的影响（了解）"></a>7. 讨论采样点数对DFT的影响（了解）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031090034.png"></p>
-<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="1-证明DFS的共轭性质"><a href="#1-证明DFS的共轭性质" class="headerlink" title="1. 证明DFS的共轭性质"></a>1. 证明DFS的共轭性质</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105846.png"></p>
-<h3 id="2-画幅值和相位谱"><a href="#2-画幅值和相位谱" class="headerlink" title="2. 画幅值和相位谱"></a>2. 画幅值和相位谱</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110146.png"></p>
-<h3 id="3-图解法求卷积"><a href="#3-图解法求卷积" class="headerlink" title="3. 图解法求卷积"></a>3. 图解法求卷积</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110216.png"><br> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110227.png"></p>
-<h3 id="4-零极点图、频率响应图、DFT图"><a href="#4-零极点图、频率响应图、DFT图" class="headerlink" title="4. 零极点图、频率响应图、DFT图"></a>4. 零极点图、频率响应图、DFT图</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110459.png"></p>
-<h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><h3 id="1-数字滤波器的结构流图"><a href="#1-数字滤波器的结构流图" class="headerlink" title="1. 数字滤波器的结构流图"></a>1. 数字滤波器的结构流图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095424.png"><br>作者认为：并联形式中的常数项不是必须要提出来的，因此可以直接通过留数法直接求解</p>
-<h2 id="习题-1"><a href="#习题-1" class="headerlink" title="习题"></a>习题</h2><h3 id="1-级联型和并联型"><a href="#1-级联型和并联型" class="headerlink" title="1. 级联型和并联型"></a>1. 级联型和并联型</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095949.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100012.png"></p>
-<h3 id="2-节点法的应用"><a href="#2-节点法的应用" class="headerlink" title="2. 节点法的应用"></a>2. 节点法的应用</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100435.png"></p>
-<h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="例题-4"><a href="#例题-4" class="headerlink" title="例题"></a>例题</h2><h3 id="1-脉冲响应不变法求解数字滤波器的系统函数"><a href="#1-脉冲响应不变法求解数字滤波器的系统函数" class="headerlink" title="1. 脉冲响应不变法求解数字滤波器的系统函数"></a>1. 脉冲响应不变法求解数字滤波器的系统函数</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103506.png"></p>
-<h2 id="习题-2"><a href="#习题-2" class="headerlink" title="习题"></a>习题</h2><h3 id="1-脉冲响应不变法与双线性法"><a href="#1-脉冲响应不变法与双线性法" class="headerlink" title="1. 脉冲响应不变法与双线性法"></a>1. 脉冲响应不变法与双线性法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103858.png"></p>
-<h3 id="2-模拟频率与数字频率的对应"><a href="#2-模拟频率与数字频率的对应" class="headerlink" title="2. 模拟频率与数字频率的对应"></a>2. 模拟频率与数字频率的对应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103922.png"></p>
-<h3 id="3-用双线性法设计巴特沃斯低通滤波器"><a href="#3-用双线性法设计巴特沃斯低通滤波器" class="headerlink" title="3. 用双线性法设计巴特沃斯低通滤波器"></a>3. 用双线性法设计巴特沃斯低通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104031.png"></p>
-<h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><h2 id="例题-5"><a href="#例题-5" class="headerlink" title="例题"></a>例题</h2><h3 id="1-用矩形窗设计带通滤波器"><a href="#1-用矩形窗设计带通滤波器" class="headerlink" title="1. 用矩形窗设计带通滤波器"></a>1. 用矩形窗设计带通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104350.png"></p>
-<h3 id="2-线性相位正交变换"><a href="#2-线性相位正交变换" class="headerlink" title="2. 线性相位正交变换"></a>2. 线性相位正交变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104721.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104731.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 未考 </tag>
+            
+            <tag> 自控 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【知识摘要】数C知识摘要</title>
+      <link href="/2023/01/16/3a-%E6%95%B0C%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/"/>
+      <url>/2023/01/16/3a-%E6%95%B0C%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>DSP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知识摘要】数C知识摘要</title>
-    <url>/2023/01/16/3a-%E6%95%B0C%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
-    <content><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数C </tag>
+            
+            <tag> 未考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【知识摘要】模C知识摘要</title>
+      <link href="/2023/01/16/3a-%E6%A8%A1C%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AE%80%E8%A6%81/"/>
+      <url>/2023/01/16/3a-%E6%A8%A1C%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AE%80%E8%A6%81/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%A8%A1%E6%8B%9F%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B">第一章 模拟设计简介</a><ul><li><a href="#%E4%B8%80-ic%E5%8E%86%E5%8F%B2">一 IC历史</a></li><li><a href="#%E4%BA%8C-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5">二 基础概念</a><ul><li><a href="#%E7%94%9F%E4%BA%A7%E6%AD%A5%E9%AA%A4%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%88%B6%E9%80%A0%E5%88%86%E7%A6%BB">生产步骤：设计和制造分离</a></li><li><a href="#%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E5%AD%A6">设计方法学</a></li><li><a href="#%E6%A8%A1%E6%8B%9F%E6%A8%A1%E5%9D%97">模拟模块</a></li></ul></li></ul></li><li><a href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-mos%E5%99%A8%E4%BB%B6">第二章 MOS器件</a><ul><li><a href="#%E4%BA%8C-mos%E7%9A%84iv%E7%89%B9%E6%80%A7">二 MOS的IV特性</a></li><li><a href="#%E4%B8%89-%E5%B0%8F%E4%BF%A1%E5%8F%B7%E6%A8%A1%E5%9E%8B">三 小信号模型</a></li><li><a href="#%E5%9B%9B-%E4%BA%8C%E7%BA%A7%E6%95%88%E5%BA%94">四 二级效应</a></li></ul></li><li><a href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%8D%95%E7%BA%A7%E6%94%BE%E5%A4%A7%E5%99%A8">第三章 单级放大器</a><ul><li><a href="#%E4%BA%8C-%E5%85%B1%E6%BA%90%E6%94%BE%E5%A4%A7%E5%99%A8">二 共源放大器</a><ul><li><a href="#%E7%94%B5%E9%98%BB%E8%B4%9F%E8%BD%BD">电阻负载</a></li><li><a href="#%E4%BA%8C%E6%9E%81%E7%AE%A1%E8%B4%9F%E8%BD%BDgd%E7%9B%B8%E8%BF%9E">二极管负载：GD相连</a></li><li><a href="#%E7%94%B5%E6%B5%81%E6%BA%90%E8%B4%9F%E8%BD%BD">电流源负载</a></li><li><a href="#class-ab">CLASS AB</a></li><li><a href="#%E4%B8%87%E7%94%A8%E5%88%86%E6%9E%90%E6%B3%95">万用分析法</a></li><li><a href="#%E6%BA%90%E6%9E%81%E8%B4%9F%E5%8F%8D%E9%A6%88">源极负反馈</a></li></ul></li><li><a href="#%E4%B8%89-%E6%BA%90%E9%9A%8F%E5%99%A8">三 源随器</a></li><li><a href="#%E5%9B%9B-%E5%85%B1%E6%A0%85%E7%BA%A7">四 共栅级</a></li><li><a href="#%E4%BA%94-%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8">五 共源共栅放大器</a></li></ul></li><li><a href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E5%B7%AE%E5%8A%A8%E6%94%BE%E5%A4%A7%E5%99%A8">第四章 差动放大器</a><ul><li><a href="#%E4%B8%80-%E5%B7%AE%E5%8A%A8%E7%94%B5%E8%B7%AF">一 差动电路</a></li><li><a href="#%E4%BA%8C-%E5%85%B1%E6%A8%A1%E5%93%8D%E5%BA%94">二 共模响应</a></li></ul></li><li><a href="#%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%94%B5%E6%B5%81%E9%95%9C%E5%92%8C%E5%81%8F%E7%BD%AE%E6%8A%80%E6%9C%AF">第五章 电流镜和偏置技术</a><ul><li><a href="#%E4%B8%80-%E4%B8%A4%E7%A7%8D%E6%94%B9%E8%BF%9B%E6%96%B9%E6%B3%95">一 两种改进方法</a></li><li><a href="#%E4%BA%8C-%E6%9C%89%E6%BA%90%E7%94%B5%E6%B5%81%E9%95%9C">二 有源电流镜</a></li></ul></li><li><a href="#%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%94%BE%E5%A4%A7%E5%99%A8%E7%9A%84%E9%A2%91%E7%8E%87%E7%89%B9%E6%80%A7">第六章 放大器的频率特性</a><ul><li><a href="#%E4%B8%80-%E5%85%B1%E6%BA%90%E7%BA%A7%E7%9A%84%E9%A2%91%E7%8E%87%E7%89%B9%E6%80%A7">一 共源级的频率特性</a></li><li><a href="#%E4%BA%8C-%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E7%9A%84%E9%A2%91%E7%8E%87%E7%89%B9%E6%80%A7">二 共源共栅的频率特性</a></li><li><a href="#%E4%B8%89-%E5%B7%AE%E5%8A%A8%E5%AF%B9%E7%9A%84%E9%A2%91%E7%8E%87%E7%89%B9%E6%80%A7">三 差动对的频率特性</a></li></ul></li></ul><blockquote><p>本文配合课堂笔记食用。</p></blockquote><h1 id="第一章-模拟设计简介"><a href="#第一章-模拟设计简介" class="headerlink" title="第一章 模拟设计简介"></a>第一章 模拟设计简介</h1><h2 id="一-IC历史"><a href="#一-IC历史" class="headerlink" title="一 IC历史"></a>一 IC历史</h2><p>第一块IC是TI公司的振荡器<br>现代IC：12英寸（30cm） 切为0.75mm的晶圆，将裸芯chip封装为芯片</p><h2 id="二-基础概念"><a href="#二-基础概念" class="headerlink" title="二 基础概念"></a>二 基础概念</h2><h3 id="生产步骤：设计和制造分离"><a href="#生产步骤：设计和制造分离" class="headerlink" title="生产步骤：设计和制造分离"></a>生产步骤：设计和制造分离</h3><ul><li>IDM集成电路制造商</li><li>fabless 设计公司</li><li>foundries 工厂</li></ul><h3 id="设计方法学"><a href="#设计方法学" class="headerlink" title="设计方法学"></a>设计方法学</h3><ul><li>more Moore 沿着摩尔定律继续走下去：沿着5nm继续减小特征尺寸，成本高</li><li>More than moore 不追求小尺寸，在chip上集成更多功能，小厂商更喜欢</li></ul><h3 id="模拟模块"><a href="#模拟模块" class="headerlink" title="模拟模块"></a>模拟模块</h3><p>电源管理、射频、频电路、端口、时钟信号产生</p><h1 id="第二章-MOS器件"><a href="#第二章-MOS器件" class="headerlink" title="第二章 MOS器件"></a>第二章 MOS器件</h1><p>了解双阱工艺、深N阱工艺</p><h2 id="二-MOS的IV特性"><a href="#二-MOS的IV特性" class="headerlink" title="二 MOS的IV特性"></a>二 MOS的IV特性</h2><p>Vth：耗尽层和反型层的临界<br>会计算阈值电压：受到温度和掺杂浓度的影响。（与掺杂浓度正相关）<br>电流：随着W线性变化 </p><ul><li>线性区：随着$V_{GS}$线性变化</li><li>饱和区：随着$V_{OD}$平方变化，不随$V_{DS}$变化（$V_{DS}$达到$V_{OD}$以后）</li></ul><h2 id="三-小信号模型"><a href="#三-小信号模型" class="headerlink" title="三 小信号模型"></a>三 小信号模型</h2><p>小信号足够小：将推到过程中小信号幅值平方（非线性项）忽略<br>小信号模型中，VDD和GND均为交流地<br>跨导的表示：尺寸 电压 电流 两两独立</p><h2 id="四-二级效应"><a href="#四-二级效应" class="headerlink" title="四 二级效应"></a>四 二级效应</h2><p>体效应：源随器输入输出差随着输出增大变大，$g_{mb}&#x3D;\eta g_m$，注意是电流对$V_{BS}$的偏导数<br>沟道长度调制效应：饱和区电流线性增大到$(1+\lambda V_{DS})$倍（通过L和$V_{DS}$来影响电流），斜率是$\frac{1}{\lambda}$，$\lambda$正比于$\frac{1}{L}$，等效电阻$r_0&#x3D;\frac{1}{\lambda I_{DS}}$。<br>亚阈值导通：S：电流下降一个数量级电压的变化，越小越好<br>寄生电容：交叠电容$C_{ov}$和结电容$C_{j}$ and $C_{jsw}$</p><ul><li>结电容：$C_{SB}&#x3D;$底部＋侧面</li><li>栅电容：饱和区$C_{GS}$分$C_{ox}$的三分之二，线性区$C_{GS}$和$C_{GD}$各分一半<br>可以忽略的：$C_{GB}$，$C_{SB}$,$C_{DB}$</li></ul><h1 id="第三章-单级放大器"><a href="#第三章-单级放大器" class="headerlink" title="第三章 单级放大器"></a>第三章 单级放大器</h1><blockquote><p>通用方法：$A_v&#x3D;G_m r_{out}$<br>$G_m$:输入$\Delta V$，输出短路到gnd，观察输出支路电流<br>$r_{out}$:输出节点倒灌$\Delta V$,输入为交流gnd，观察输出支路的$\Delta I$<br>$r_{in}$:输入节点灌$\Delta V$,输出节点开路（假装没有这个节点），观察输入支路的$\Delta I$</p></blockquote><blockquote><p>&#x3D;&#x3D;晶体管的快速处理技巧&#x3D;&#x3D;（重要!）：</p><ol><li>G接交流地：</li></ol><ul><li>从D看进去是$r_0+\frac{R’}{(1+g_m) r_0}$</li><li>从S看进去是$R’*{(1+g_m)r_0}$</li></ul><ol start="2"><li>G不接交流地：</li></ol><ul><li>二极管GD相连：如果$V_{GS}$发生了变化，则等效$\frac{1}{g_m}$的电阻,同时注意观察是否具有体效应，如果有，等效$\frac{1}{g_m+g_{mb}}$<br> 结论：二极管D和S看进去的电阻：$r_{o}||\frac{1}{g_m(1+\eta)}$</li></ul></blockquote><ul><li>我们关心的性能指标</li><li>模拟八边形</li></ul><h2 id="二-共源放大器"><a href="#二-共源放大器" class="headerlink" title="二 共源放大器"></a>二 共源放大器</h2><h3 id="电阻负载"><a href="#电阻负载" class="headerlink" title="电阻负载"></a>电阻负载</h3><ol><li>大信号：列等式即可，非线性$g_m$——最大VDD，最小$V_{in}-V_{TH1}$</li><li>小信号：求导法&#x2F;小信号模型<br>$$G_m&#x3D;g_m,r_{out}&#x3D;R_D$$<br>$g_m$随着$V_{in}$的变化：饱和区跨导线性增大，进入线性区后减小</li><li>输入电阻：无穷大</li></ol><h3 id="二极管负载：GD相连"><a href="#二极管负载：GD相连" class="headerlink" title="二极管负载：GD相连"></a>二极管负载：GD相连</h3><ol><li>大信号：接近线性，最大$V_{DD}-V_{TH2}$最小约为0</li><li>小信号1：<br>$$ A_v&#x3D;\sqrt{\frac{(W&#x2F;L)_1}{(W&#x2F;L)_2}}\frac{1}{1+\eta} $$</li><li>小信号2:(输入阻抗无穷大)<br>$$G_m&#x3D;g_{m1},r_{out}&#x3D;\frac{1}{g_m}$$</li></ol><ul><li>NMOS二极管：S是输出端，是变化的，因此考虑体效应$r_{out}&#x3D;\frac{1}{g_m+g_{mb}}$,注意输出电阻从S端看进去时候也能看到$r_0$</li><li>PMOS二极管：S是VDD（交流地），不用考虑体效应</li></ul><ol start="4"><li>快速结论：<br>$$A_v&#x3D;\frac{V_{GS2}-V_{TH2}}{V_{GS1}-V_{TH1}}$$</li></ol><ul><li>电流源和二极管并联接法：扩大增益，缩小了小信号范围</li></ul><h3 id="电流源负载"><a href="#电流源负载" class="headerlink" title="电流源负载"></a>电流源负载</h3><p>问题：一山不容二虎<br>对比电阻：高增益but高噪声低速</p><ol><li>大信号范围：最低$V_{OD1}$，最高$V_{DD}-V_{OD2}$。but输出电压不能精准控制</li><li>小信号：<br>$$G_m&#x3D;g_m,r_{out}&#x3D;r_{o1}||r_{o2}$$</li></ol><ul><li>注意：电流增大，增益减小。这是由$r_o$减小所导致的<br>电流源负载的偏置可以以VDD为基点，电流不受电源波动的影响</li></ul><h3 id="CLASS-AB"><a href="#CLASS-AB" class="headerlink" title="CLASS AB"></a>CLASS AB</h3><p>电流复用<br>$$G_m&#x3D;g_{m1}+g_{m2},r_{out}&#x3D;r_{o1}||r_{o2}$$</p><ul><li>缺点：有效工作点区域小，会将$V_{DD}$的变化放大到$V_{out}$<br>$$\frac{v_{out}}{v_{dd}}:G_m&#x3D;g_{m2}+\frac{1}{r_{o2}},r_{out}&#x3D;r_{o1}||r_{o2}$$<br>可以通过偏置技术、浮栅手段缓解VDD的影响</li></ul><h3 id="万用分析法"><a href="#万用分析法" class="headerlink" title="万用分析法"></a>万用分析法</h3><p>传输电流一定，两端压降小的上拉或者下拉能力强（主要处在非线性元件上）</p><ul><li>电阻：上拉能力不变</li><li>二极管：上拉能力增强，削弱了下拉能力，增益小</li><li>电流源：上拉能力弱，下拉能力增强，增益大</li><li>ClassAB：上拉能力随$V_{in}$减弱，下拉能力增强，增益大</li></ul><h3 id="源极负反馈"><a href="#源极负反馈" class="headerlink" title="源极负反馈"></a>源极负反馈</h3><blockquote><p>秘诀(理解负反馈)：<br>$V_{GS}$：与G正相关，与S反相关。因此求$G_m$相当于前馈通路上是$g_m$,反馈通路上是$R_s$</p></blockquote><p>反馈效果小的时候，$G_m&#x3D;g_m$<br>$V_{in}$大的时候，$G_m&#x3D;\frac{1}{R_s}$完成线性化<br>$$G_m&#x3D;\frac{g_m}{1+g_m R_s}，r_{out}&#x3D;R$$</p><ul><li>把G_m写详细后可以发现：$G_m&#x3D;\frac{g_m r_o}{r_{out 结构}}$</li><li>反馈结构输出电阻:用上技巧可以快速写出，化简后结果为<br>$$r_{out结构}&#x3D;(g_m+g_{mb}) r_o R_S$$</li><li>与电流源相比，本征增益没有变化（理想电流源作用，使得反馈节点成为了交流地）</li></ul><h2 id="三-源随器"><a href="#三-源随器" class="headerlink" title="三 源随器"></a>三 源随器</h2><blockquote><p>简单记忆：源随器要分压</p></blockquote><ol><li>小信号分析(电阻反馈)：<br>$$G_m&#x3D;\frac{g_m}{1+(g_m+g_{mb})R_s},r_{out}&#x3D;R$$<br>在考虑体效应时候$A_v&lt;1$</li></ol><ul><li>注：$A_v$本质：先将体效应等效为电阻，再将受控源进行戴维宁等效</li><li>输出电阻(其实省略了$r_0$)：<br>$$r_{out}&#x3D;\frac{1}{g_m+g_{mb}}$$</li><li>小信号分析：理想跟随——用电流源代替电阻</li></ul><ol start="2"><li>优缺点<br>优点：输入阻抗大 输出阻抗小<br>缺点：电压余度减小，非线性（体效应，$r_o$的变化）</li></ol><h2 id="四-共栅级"><a href="#四-共栅级" class="headerlink" title="四 共栅级"></a>四 共栅级</h2><ul><li>输入电阻小，适用于电流型放大器</li><li>小信号增益为正数<br>两种共栅级放大器结构：直接耦合型和电流耦合型</li></ul><ol><li>输入电阻：（用技巧）<br>$$r_{in}&#x3D;\frac{R_D+r_o}{1+(g_m+g_{mb})r_0}$$<ul><li>负载电阻小的时候，可认为$r_{in}&#x3D;\frac{1}{g_m+g_{mb}}$</li><li>理想电流源代替负载电阻，输入电阻无穷大</li></ul></li><li>输出电阻：同负反馈</li><li>等效跨导：<br>电压源看到的电阻取倒数<br>$$G_m&#x3D;[R_s+\frac{r_o}{1+(g_m+g_{mb})r_o}]^{-1}$$</li></ol><ul><li>一般可认为电压源内阻很小，$G_m&#x3D;g_m+g_{mb}$</li></ul><h2 id="五-共源共栅放大器"><a href="#五-共源共栅放大器" class="headerlink" title="五 共源共栅放大器"></a>五 共源共栅放大器</h2><p>（这一章本人的笔记写的不好，主要参考老汉的笔记）</p><ol><li>输出电阻（同负反馈）<br>$$r_{out}&#x3D;g_m r_{o1} r_{o2}$$</li></ol><ul><li>想获得大增益不能使用电阻负载，应当使用电流源负载，此时跨导为$g_{m1}$</li><li>使用共源共栅结构作为负载，缺点在于消耗了$4V_{OD}$的电压裕度</li></ul><ol start="2"><li>跨导的精确求解（&#x3D;&#x3D;分流法&#x3D;&#x3D;）<br>$$G_m&#x3D;g_{m1} \frac{r_{o1}}{r_o1+\frac{r_{o2}}{(g_{m2}+g_{mb2})r_{o2}+1}}$$</li></ol><ul><li>本征增益扩大$(g_{m2}+g_{mb2})r_{o2}+1$倍</li></ul><ol start="3"><li><p>屏蔽作用<br>共源共栅极电流失配更小，拥有更高的耐压能力（对于击穿电压小的工艺通常增大VDD来提高信噪比）</p></li><li><p>折叠式共源共栅<br>扩大输入范围，输出电阻更小，约为$g_{m2}r_{o2}(r_{o1}||r_{o3})$</p></li></ol><h1 id="第四章-差动放大器"><a href="#第四章-差动放大器" class="headerlink" title="第四章 差动放大器"></a>第四章 差动放大器</h1><p>差动电路的优势：抑制电源噪声和共模噪声，增大输出摆幅<br>差动电路的劣势：面积和功耗翻倍，各自的独立噪声部分变大</p><ul><li>伪差动：两个单端放大器叠加，放大特性不受共模位置变化影响</li><li>真差动：当输入差动小信号电流不能均分</li></ul><h2 id="一-差动电路"><a href="#一-差动电路" class="headerlink" title="一 差动电路"></a>一 差动电路</h2><ol><li>大信号：看斜率，在两端大信号输入相同时最大<br>共模特性：随着$V_{in,CM}&#x3D;V_{in,1}&#x3D;V_{in,2}$电流源M3先线性后饱和，随后M1，M2进入线性。</li></ol><ul><li>共模输入输出范围：<br>$$V_{GS1}+V_{GS3}-V_{TH3}&lt;V_{in，CM}&lt;min [{V_{DD}-R_{D} \frac{I_{ss}}{2} +V_{TH }},V_{DD}]$$<br>$$max[V_{in,CM}-V_{TH},V_{DD}-I_{SS}R_D]&lt;V_{out}&lt;V_{DD}$$</li><li>差模输入范围：<br>$$| V_{in,diff} | &#x3D; \sqrt{2} V_{OD} &#x3D;\sqrt{2} \sqrt{\frac{2(I_{SS}&#x2F;2)}{\mu C_{ox}W&#x2F;L}}$$<br>增大输入摆幅两种方法:减小尺寸和增大电流源<ul><li>增大尺寸：输入范围减小 增益增大 线性度恶化</li><li>电流源电流增大：输入范围增大 增益增大 线性度改善</li></ul></li></ul><ol start="2"><li>小信号分析</li></ol><ul><li>叠加原理<br>$$G_m&#x3D;\frac{1}{\frac{1}{g_{m1}}+\frac{1}{g_{m2}}}，r_{out}&#x3D;\frac{1}{g_{m2}}，A_v&#x3D;-g_m R_D$$<br>小信号增益与差动小信号的施加方式无关</li><li>半边等效<br>电阻的虚地在阻值的中央<br>源极负反馈：提高线性度、增大差动输入范围（牺牲增益）</li></ul><h2 id="二-共模响应"><a href="#二-共模响应" class="headerlink" title="二 共模响应"></a>二 共模响应</h2><p>尾电流源非理想、电路失配</p><ol><li>非理想电流源有内阻<br>相当于源极负反馈，差动合一<br>影响：共模输入干扰了偏置点，共模输出不是恒值，输出范围减小<br>要减小共模增益，需要增大电流源内阻（增大L）</li><li>电路失配：负载电阻失配和晶体管失配<br>负载电阻失配：共模输入产生差模输出变化<br>$$\Delta V_{diff}&#x3D;\frac{g_m}{1+2g_mR_{SS}} \Delta R$$<br>晶体管失配：<br>$$A_{CM-DM}&#x3D;\frac{(g_{m1}-g_{m2})R_D}{1+(g_{m1}+g_{m2})R_{SS}}$$<br>共模抑制比：<br>$$CMRR&#x3D;\frac{g_m}{\Delta g_m} (1+2g_mR_{SS})$$<br>除了$g_{mb}$失配，$R_{SS}$无限大可以抵消所有失配</li></ol><h1 id="第五章-电流镜和偏置技术"><a href="#第五章-电流镜和偏置技术" class="headerlink" title="第五章 电流镜和偏置技术"></a>第五章 电流镜和偏置技术</h1><p>基本电流镜的缺陷在于沟道长度调制效应使得复制不准确<br>实际上的问题：L不能精准倍增，阈值电压受L的影响，栅宽边缘无法精确确定</p><h2 id="一-两种改进方法"><a href="#一-两种改进方法" class="headerlink" title="一 两种改进方法"></a>一 两种改进方法</h2><ol><li>共源共栅：迫使右侧(v)等于左侧(c)<br>抵抗电压波动的影响：输出节点电压变化的时候，由于共源共栅结构高阻，电流变化不大，由于屏蔽作用，中间节点维持不变。<br>但是浪费了电压余度。</li></ol><ul><li>大信号特性：右上方先进入线性区（屏蔽作用）</li></ul><ol start="2"><li>低电压共源共栅：迫使c做出改变<br>让左侧电元件的压降为一个阈值电压<br>$V_b$的产生技术称为偏置技术：串电阻压降为$V_{OD}$，或单独引出$\frac{1}{4}$尺寸的电流镜。</li></ol><h2 id="二-有源电流镜"><a href="#二-有源电流镜" class="headerlink" title="二 有源电流镜"></a>二 有源电流镜</h2><ol><li>大信号分析<br>输出范围0-VDD:</li></ol><ul><li>输出0时：M134截止其余线性</li><li>输出VDD时：M2截止 M4深线性</li></ul><ol start="2"><li>小信号分析</li></ol><ul><li>近似分析<br>$$G_m&#x3D;g_{m1,2},r_{out}&#x3D;r_{o1}||r_{o3}$$</li><li>精确分析<br>相当于在近似解上乘一个略小于1的修正项<br>$$A_v&#x3D;g_{m1}(r_{o1}||r_{o4})\frac{2g_{m4}r_{o4}+1}{2(g_{m4}r_{o4}+1)}$$</li></ul><ol start="3"><li>共模特性<br>$$A_{CM}&#x3D;-\frac{g_{m1,2}&#x2F;g_{m3,4}}{1+2g_{m1,2}R_{SS}}$$<br>$$CMRR&#x3D;\frac{A_{DM}}{A_{CM}}$$</li></ol><ul><li>对比全差动：共模变化都会影响输出。但全差动电路的对称性保证了差模的稳定（共模抑制能力、电源抑制能力更强）</li></ul><ol start="4"><li>偏置技术（不掌握？）</li></ol><h1 id="第六章-放大器的频率特性"><a href="#第六章-放大器的频率特性" class="headerlink" title="第六章 放大器的频率特性"></a>第六章 放大器的频率特性</h1><p>密勒定理<br>$$Z_1&#x3D;\frac{Z}{1-(-A)},Z_2&#x3D;\frac{Z}{1-(-A)^{-1}}$$<br>对于一个电容：<br>$$C_{in}&#x3D;(1+A)C_F,C_{out}&#x3D;(1+A^{-1})C_F$$<br>缺点：可能会消除零点、增加极点、无法求解输出阻抗</p><h2 id="一-共源级的频率特性"><a href="#一-共源级的频率特性" class="headerlink" title="一 共源级的频率特性"></a>一 共源级的频率特性</h2><ul><li>近似求解：忽略了一个零点<br>电压源电阻小：密勒定理两个极点<br>电压源电阻大：$\omega_{in}$不变 $$R_{out}&#x3D;R_D||\frac{C_{GD}+C_{GS}}{C_{GD}}\frac{1}{g_{m1}}$$</li><li>精确求解：零点<br>$$v_1C_{GD}s_z&#x3D;g_mv_1$$</li><li>输入阻抗：先忽略$C_{GS}$算出等效阻抗再并联上该电容。</li></ul><h2 id="二-共源共栅的频率特性"><a href="#二-共源共栅的频率特性" class="headerlink" title="二 共源共栅的频率特性"></a>二 共源共栅的频率特性</h2><p>零点不重要，有三个极点。前两个节点之间的增益约为1<br>中间节点的$\omega$更大</p><h2 id="三-差动对的频率特性"><a href="#三-差动对的频率特性" class="headerlink" title="三 差动对的频率特性"></a>三 差动对的频率特性</h2>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>数C</tag>
-        <tag>未考</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知识摘要】模C知识摘要</title>
-    <url>/2023/01/16/3a-%E6%A8%A1C%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AE%80%E8%A6%81/</url>
-    <content><![CDATA[<ul>
-<li><a href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%A8%A1%E6%8B%9F%E8%AE%BE%E8%AE%A1%E7%AE%80%E4%BB%8B">第一章 模拟设计简介</a><ul>
-<li><a href="#%E4%B8%80-ic%E5%8E%86%E5%8F%B2">一 IC历史</a></li>
-<li><a href="#%E4%BA%8C-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5">二 基础概念</a><ul>
-<li><a href="#%E7%94%9F%E4%BA%A7%E6%AD%A5%E9%AA%A4%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%88%B6%E9%80%A0%E5%88%86%E7%A6%BB">生产步骤：设计和制造分离</a></li>
-<li><a href="#%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E5%AD%A6">设计方法学</a></li>
-<li><a href="#%E6%A8%A1%E6%8B%9F%E6%A8%A1%E5%9D%97">模拟模块</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-mos%E5%99%A8%E4%BB%B6">第二章 MOS器件</a><ul>
-<li><a href="#%E4%BA%8C-mos%E7%9A%84iv%E7%89%B9%E6%80%A7">二 MOS的IV特性</a></li>
-<li><a href="#%E4%B8%89-%E5%B0%8F%E4%BF%A1%E5%8F%B7%E6%A8%A1%E5%9E%8B">三 小信号模型</a></li>
-<li><a href="#%E5%9B%9B-%E4%BA%8C%E7%BA%A7%E6%95%88%E5%BA%94">四 二级效应</a></li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%8D%95%E7%BA%A7%E6%94%BE%E5%A4%A7%E5%99%A8">第三章 单级放大器</a><ul>
-<li><a href="#%E4%BA%8C-%E5%85%B1%E6%BA%90%E6%94%BE%E5%A4%A7%E5%99%A8">二 共源放大器</a><ul>
-<li><a href="#%E7%94%B5%E9%98%BB%E8%B4%9F%E8%BD%BD">电阻负载</a></li>
-<li><a href="#%E4%BA%8C%E6%9E%81%E7%AE%A1%E8%B4%9F%E8%BD%BDgd%E7%9B%B8%E8%BF%9E">二极管负载：GD相连</a></li>
-<li><a href="#%E7%94%B5%E6%B5%81%E6%BA%90%E8%B4%9F%E8%BD%BD">电流源负载</a></li>
-<li><a href="#class-ab">CLASS AB</a></li>
-<li><a href="#%E4%B8%87%E7%94%A8%E5%88%86%E6%9E%90%E6%B3%95">万用分析法</a></li>
-<li><a href="#%E6%BA%90%E6%9E%81%E8%B4%9F%E5%8F%8D%E9%A6%88">源极负反馈</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%89-%E6%BA%90%E9%9A%8F%E5%99%A8">三 源随器</a></li>
-<li><a href="#%E5%9B%9B-%E5%85%B1%E6%A0%85%E7%BA%A7">四 共栅级</a></li>
-<li><a href="#%E4%BA%94-%E5%85%B1%E6%BA%90%E5%85%B1%E6%A0%85%E6%94%BE%E5%A4%A7%E5%99%A8">五 共源共栅放大器</a></li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E5%B7%AE%E5%8A%A8%E6%94%BE%E5%A4%A7%E5%99%A8">第四章 差动放大器</a><ul>
-<li><a href="#%E4%B8%80-%E5%B7%AE%E5%8A%A8%E7%94%B5%E8%B7%AF">一 差动电路</a></li>
-<li><a href="#%E4%BA%8C-%E5%85%B1%E6%A8%A1%E5%93%8D%E5%BA%94">二 共模响应</a></li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%94%B5%E6%B5%81%E9%95%9C%E5%92%8C%E5%81%8F%E7%BD%AE%E6%8A%80%E6%9C%AF">第五章 电流镜和偏置技术</a><ul>
-<li><a href="#%E4%B8%80-%E4%B8%A4%E7%A7%8D%E6%94%B9%E8%BF%9B%E6%96%B9%E6%B3%95">一 两种改进方法</a></li>
-<li><a href="#%E4%BA%8C-%E6%9C%89%E6%BA%90%E7%94%B5%E6%B5%81%E9%95%9C">二 有源电流镜</a></li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>本文配合课堂笔记食用。</p>
-</blockquote>
-<h1 id="第一章-模拟设计简介"><a href="#第一章-模拟设计简介" class="headerlink" title="第一章 模拟设计简介"></a>第一章 模拟设计简介</h1><h2 id="一-IC历史"><a href="#一-IC历史" class="headerlink" title="一 IC历史"></a>一 IC历史</h2><p>第一块IC是TI公司的振荡器<br>现代IC：12英寸（30cm） 切为0.75mm的晶圆，将裸芯chip封装为芯片</p>
-<h2 id="二-基础概念"><a href="#二-基础概念" class="headerlink" title="二 基础概念"></a>二 基础概念</h2><h3 id="生产步骤：设计和制造分离"><a href="#生产步骤：设计和制造分离" class="headerlink" title="生产步骤：设计和制造分离"></a>生产步骤：设计和制造分离</h3><ul>
-<li>IDM集成电路制造商</li>
-<li>fabless 设计公司</li>
-<li>foundries 工厂</li>
-</ul>
-<h3 id="设计方法学"><a href="#设计方法学" class="headerlink" title="设计方法学"></a>设计方法学</h3><ul>
-<li>more Moore 沿着摩尔定律继续走下去：沿着5nm继续减小特征尺寸，成本高</li>
-<li>More than moore 不追求小尺寸，在chip上集成更多功能，小厂商更喜欢</li>
-</ul>
-<h3 id="模拟模块"><a href="#模拟模块" class="headerlink" title="模拟模块"></a>模拟模块</h3><p>电源管理、射频、频电路、端口、时钟信号产生</p>
-<h1 id="第二章-MOS器件"><a href="#第二章-MOS器件" class="headerlink" title="第二章 MOS器件"></a>第二章 MOS器件</h1><p>了解双阱工艺、深N阱工艺</p>
-<h2 id="二-MOS的IV特性"><a href="#二-MOS的IV特性" class="headerlink" title="二 MOS的IV特性"></a>二 MOS的IV特性</h2><p>Vth：耗尽层和反型层的临界<br>会计算阈值电压：受到温度和掺杂浓度的影响。（与掺杂浓度正相关）<br>电流：随着W线性变化 </p>
-<ul>
-<li>线性区：随着$V_{GS}$线性变化</li>
-<li>饱和区：随着$V_{OD}$平方变化，不随$V_{DS}$变化（$V_{DS}$达到$V_{OD}$以后）</li>
-</ul>
-<h2 id="三-小信号模型"><a href="#三-小信号模型" class="headerlink" title="三 小信号模型"></a>三 小信号模型</h2><p>小信号足够小：将推到过程中小信号幅值平方（非线性项）忽略<br>小信号模型中，VDD和GND均为交流地<br>跨导的表示：尺寸 电压 电流 两两独立</p>
-<h2 id="四-二级效应"><a href="#四-二级效应" class="headerlink" title="四 二级效应"></a>四 二级效应</h2><p>体效应：源随器输入输出差随着输出增大变大，$g_{mb}&#x3D;\eta g_m$，注意是电流对$V_{BS}$的偏导数<br>沟道长度调制效应：饱和区电流线性增大到$(1+\lambda V_{DS})$倍（通过L和$V_{DS}$来影响电流），斜率是$\frac{1}{\lambda}$，$\lambda$正比于$\frac{1}{L}$，等效电阻$r_0&#x3D;\frac{1}{\lambda I_{DS}}$。<br>亚阈值导通：S：电流下降一个数量级电压的变化，越小越好<br>寄生电容：交叠电容$C_{ov}$和结电容$C_{j}$ and $C_{jsw}$</p>
-<ul>
-<li>结电容：$C_{SB}&#x3D;$底部＋侧面</li>
-<li>栅电容：饱和区$C_{GS}$分$C_{ox}$的三分之二，线性区$C_{GS}$和$C_{GD}$各分一半<br>可以忽略的：$C_{GB}$，$C_{SB}$,$C_{DB}$</li>
-</ul>
-<h1 id="第三章-单级放大器"><a href="#第三章-单级放大器" class="headerlink" title="第三章 单级放大器"></a>第三章 单级放大器</h1><blockquote>
-<p>通用方法：$A_v&#x3D;G_m r_{out}$<br>$G_m$:输入$\Delta V$，输出短路到gnd，观察输出支路电流<br>$r_{out}$:输出节点倒灌$\Delta V$,输入为交流gnd，观察输出支路的$\Delta I$<br>$r_{in}$:输入节点灌$\Delta V$,输出节点开路（假装没有这个节点），观察输入支路的$\Delta I$</p>
-</blockquote>
-<blockquote>
-<p>&#x3D;&#x3D;晶体管的快速处理技巧&#x3D;&#x3D;（重要!）：</p>
-<ol>
-<li>G接交流地：</li>
-</ol>
-<ul>
-<li>从D看进去是$r_0+\frac{R’}{(1+g_m) r_0}$</li>
-<li>从S看进去是$R’*{(1+g_m)r_0}$</li>
-</ul>
-<ol start="2">
-<li>G不接交流地：</li>
-</ol>
-<ul>
-<li>二极管GD相连：如果$V_{GS}$发生了变化，则等效$\frac{1}{g_m}$的电阻,同时注意观察是否具有体效应，如果有，等效$\frac{1}{g_m+g_{mb}}$<br> 结论：二极管D和S看进去的电阻：$r_{o}||\frac{1}{g_m(1+\eta)}$</li>
-</ul>
-</blockquote>
-<ul>
-<li>我们关心的性能指标</li>
-<li>模拟八边形</li>
-</ul>
-<h2 id="二-共源放大器"><a href="#二-共源放大器" class="headerlink" title="二 共源放大器"></a>二 共源放大器</h2><h3 id="电阻负载"><a href="#电阻负载" class="headerlink" title="电阻负载"></a>电阻负载</h3><ol>
-<li>大信号：列等式即可，非线性$g_m$——最大VDD，最小$V_{in}-V_{TH1}$</li>
-<li>小信号：求导法&#x2F;小信号模型<br>$$G_m&#x3D;g_m,r_{out}&#x3D;R_D$$<br>$g_m$随着$V_{in}$的变化：饱和区跨导线性增大，进入线性区后减小</li>
-<li>输入电阻：无穷大</li>
-</ol>
-<h3 id="二极管负载：GD相连"><a href="#二极管负载：GD相连" class="headerlink" title="二极管负载：GD相连"></a>二极管负载：GD相连</h3><ol>
-<li>大信号：接近线性，最大$V_{DD}-V_{TH2}$最小约为0</li>
-<li>小信号1：<br>$$ A_v&#x3D;\sqrt{\frac{(W&#x2F;L)_1}{(W&#x2F;L)_2}}\frac{1}{1+\eta} $$</li>
-<li>小信号2:(输入阻抗无穷大)<br>$$G_m&#x3D;g_{m1},r_{out}&#x3D;\frac{1}{g_m}$$</li>
-</ol>
-<ul>
-<li>NMOS二极管：S是输出端，是变化的，因此考虑体效应$r_{out}&#x3D;\frac{1}{g_m+g_{mb}}$,注意输出电阻从S端看进去时候也能看到$r_0$</li>
-<li>PMOS二极管：S是VDD（交流地），不用考虑体效应</li>
-</ul>
-<ol start="4">
-<li>快速结论：<br>$$A_v&#x3D;\frac{V_{GS2}-V_{TH2}}{V_{GS1}-V_{TH1}}$$</li>
-</ol>
-<ul>
-<li>电流源和二极管并联接法：扩大增益，缩小了小信号范围</li>
-</ul>
-<h3 id="电流源负载"><a href="#电流源负载" class="headerlink" title="电流源负载"></a>电流源负载</h3><p>问题：一山不容二虎<br>对比电阻：高增益but高噪声低速</p>
-<ol>
-<li>大信号范围：最低$V_{OD1}$，最高$V_{DD}-V_{OD2}$。but输出电压不能精准控制</li>
-<li>小信号：<br>$$G_m&#x3D;g_m,r_{out}&#x3D;r_{o1}||r_{o2}$$</li>
-</ol>
-<ul>
-<li>注意：电流增大，增益减小。这是由$r_o$减小所导致的<br>电流源负载的偏置可以以VDD为基点，电流不受电源波动的影响</li>
-</ul>
-<h3 id="CLASS-AB"><a href="#CLASS-AB" class="headerlink" title="CLASS AB"></a>CLASS AB</h3><p>电流复用<br>$$G_m&#x3D;g_{m1}+g_{m2},r_{out}&#x3D;r_{o1}||r_{o2}$$</p>
-<ul>
-<li>缺点：有效工作点区域小，会将$V_{DD}$的变化放大到$V_{out}$<br>$$\frac{v_{out}}{v_{dd}}:G_m&#x3D;g_{m2}+\frac{1}{r_{o2}},r_{out}&#x3D;r_{o1}||r_{o2}$$<br>可以通过偏置技术、浮栅手段缓解VDD的影响</li>
-</ul>
-<h3 id="万用分析法"><a href="#万用分析法" class="headerlink" title="万用分析法"></a>万用分析法</h3><p>传输电流一定，两端压降小的上拉或者下拉能力强（主要处在非线性元件上）</p>
-<ul>
-<li>电阻：上拉能力不变</li>
-<li>二极管：上拉能力增强，削弱了下拉能力，增益小</li>
-<li>电流源：上拉能力弱，下拉能力增强，增益大</li>
-<li>ClassAB：上拉能力随$V_{in}$减弱，下拉能力增强，增益大</li>
-</ul>
-<h3 id="源极负反馈"><a href="#源极负反馈" class="headerlink" title="源极负反馈"></a>源极负反馈</h3><blockquote>
-<p>秘诀(理解负反馈)：<br>$V_{GS}$：与G正相关，与S反相关。因此求$G_m$相当于前馈通路上是$g_m$,反馈通路上是$R_s$</p>
-</blockquote>
-<p>反馈效果小的时候，$G_m&#x3D;g_m$<br>$V_{in}$大的时候，$G_m&#x3D;\frac{1}{R_s}$完成线性化<br>$$G_m&#x3D;\frac{g_m}{1+g_m R_s}，r_{out}&#x3D;R$$</p>
-<ul>
-<li>把G_m写详细后可以发现：$G_m&#x3D;\frac{g_m r_o}{r_{out 结构}}$</li>
-<li>反馈结构输出电阻:用上技巧可以快速写出，化简后结果为<br>$$r_{out结构}&#x3D;(g_m+g_{mb}) r_o R_S$$</li>
-<li>与电流源相比，本征增益没有变化（理想电流源作用，使得反馈节点成为了交流地）</li>
-</ul>
-<h2 id="三-源随器"><a href="#三-源随器" class="headerlink" title="三 源随器"></a>三 源随器</h2><blockquote>
-<p>简单记忆：源随器要分压</p>
-</blockquote>
-<ol>
-<li>小信号分析(电阻反馈)：<br>$$G_m&#x3D;\frac{g_m}{1+(g_m+g_{mb})R_s},r_{out}&#x3D;R$$<br>在考虑体效应时候$A_v&lt;1$</li>
-</ol>
-<ul>
-<li>注：$A_v$本质：先将体效应等效为电阻，再将受控源进行戴维宁等效</li>
-<li>输出电阻(其实省略了$r_0$)：<br>$$r_{out}&#x3D;\frac{1}{g_m+g_{mb}}$$</li>
-<li>小信号分析：理想跟随——用电流源代替电阻</li>
-</ul>
-<ol start="2">
-<li>优缺点<br>优点：输入阻抗大 输出阻抗小<br>缺点：电压余度减小，非线性（体效应，$r_o$的变化）</li>
-</ol>
-<h2 id="四-共栅级"><a href="#四-共栅级" class="headerlink" title="四 共栅级"></a>四 共栅级</h2><ul>
-<li>输入电阻小，适用于电流型放大器</li>
-<li>小信号增益为正数<br>两种共栅级放大器结构：直接耦合型和电流耦合型</li>
-</ul>
-<ol>
-<li>输入电阻：（用技巧）<br>$$r_{in}&#x3D;\frac{R_D+r_o}{1+(g_m+g_{mb})r_0}$$<ul>
-<li>负载电阻小的时候，可认为$r_{in}&#x3D;\frac{1}{g_m+g_{mb}}$</li>
-<li>理想电流源代替负载电阻，输入电阻无穷大</li>
-</ul>
-</li>
-<li>输出电阻：同负反馈</li>
-<li>等效跨导：<br>电压源看到的电阻取倒数<br>$$G_m&#x3D;[R_s+\frac{r_o}{1+(g_m+g_{mb})r_o}]^{-1}$$</li>
-</ol>
-<ul>
-<li>一般可认为电压源内阻很小，$G_m&#x3D;g_m+g_{mb}$</li>
-</ul>
-<h2 id="五-共源共栅放大器"><a href="#五-共源共栅放大器" class="headerlink" title="五 共源共栅放大器"></a>五 共源共栅放大器</h2><p>（这一章本人的笔记写的不好，主要参考老汉的笔记）</p>
-<ol>
-<li>输出电阻（同负反馈）<br>$$r_{out}&#x3D;g_m r_{o1} r_{o2}$$</li>
-</ol>
-<ul>
-<li>想获得大增益不能使用电阻负载，应当使用电流源负载，此时跨导为$g_{m1}$</li>
-<li>使用共源共栅结构作为负载，缺点在于消耗了$4V_{OD}$的电压裕度</li>
-</ul>
-<ol start="2">
-<li>跨导的精确求解（&#x3D;&#x3D;分流法&#x3D;&#x3D;）<br>$$G_m&#x3D;g_{m1} \frac{r_{o1}}{r_o1+\frac{r_{o2}}{(g_{m2}+g_{mb2})r_{o2}+1}}$$</li>
-</ol>
-<ul>
-<li>本征增益扩大$(g_{m2}+g_{mb2})r_{o2}+1$倍</li>
-</ul>
-<ol start="3">
-<li><p>屏蔽作用<br>共源共栅极电流失配更小，拥有更高的耐压能力（对于击穿电压小的工艺通常增大VDD来提高信噪比）</p>
-</li>
-<li><p>折叠式共源共栅<br>扩大输入范围，输出电阻更小，约为$g_{m2}r_{o2}(r_{o1}||r_{o3})$</p>
-</li>
-</ol>
-<h1 id="第四章-差动放大器"><a href="#第四章-差动放大器" class="headerlink" title="第四章 差动放大器"></a>第四章 差动放大器</h1><p>差动电路的优势：抑制电源噪声和共模噪声，增大输出摆幅<br>差动电路的劣势：面积和功耗翻倍，各自的独立噪声部分变大</p>
-<ul>
-<li>伪差动：两个单端放大器叠加，放大特性不受共模位置变化影响</li>
-<li>真差动：当输入差动小信号电流不能均分</li>
-</ul>
-<h2 id="一-差动电路"><a href="#一-差动电路" class="headerlink" title="一 差动电路"></a>一 差动电路</h2><ol>
-<li>大信号：看斜率，在两端大信号输入相同时最大<br>共模特性：随着$V_{in,CM}&#x3D;V_{in,1}&#x3D;V_{in,2}$电流源M3先线性后饱和，随后M1，M2进入线性。</li>
-</ol>
-<ul>
-<li>共模输入输出范围：<br>$$V_{GS1}+V_{GS3}-V_{TH3}&lt;V_{in，CM}&lt;min [{V_{DD}-R_{D} \frac{I_{ss}}{2} +V_{TH }},V_{DD}]$$<br>$$max[V_{in,CM}-V_{TH},V_{DD}-I_{SS}R_D]&lt;V_{out}&lt;V_{DD}$$</li>
-<li>差模输入范围：<br>$$| V_{in,diff} | &#x3D; \sqrt{2} V_{OD} &#x3D;\sqrt{2} \sqrt{\frac{2(I_{SS}&#x2F;2)}{\mu C_{ox}W&#x2F;L}}$$<br>增大输入摆幅两种方法:减小尺寸和增大电流源<ul>
-<li>增大尺寸：输入范围减小 增益增大 线性度恶化</li>
-<li>电流源电流增大：输入范围增大 增益增大 线性度改善</li>
-</ul>
-</li>
-</ul>
-<ol start="2">
-<li>小信号分析</li>
-</ol>
-<ul>
-<li>叠加原理<br>$$G_m&#x3D;\frac{1}{\frac{1}{g_{m1}}+\frac{1}{g_{m2}}}，r_{out}&#x3D;\frac{1}{g_{m2}}，A_v&#x3D;-g_m R_D$$<br>小信号增益与差动小信号的施加方式无关</li>
-<li>半边等效<br>电阻的虚地在阻值的中央<br>源极负反馈：提高线性度、增大差动输入范围（牺牲增益）</li>
-</ul>
-<h2 id="二-共模响应"><a href="#二-共模响应" class="headerlink" title="二 共模响应"></a>二 共模响应</h2><p>尾电流源非理想、电路失配</p>
-<ol>
-<li>非理想电流源有内阻<br>相当于源极负反馈，差动合一<br>影响：共模输入干扰了偏置点，共模输出不是恒值，输出范围减小<br>要减小共模增益，需要增大电流源内阻（增大L）</li>
-<li>电路失配：负载电阻失配和晶体管失配<br>负载电阻失配：共模输入产生差模输出变化<br>$$\Delta V_{diff}&#x3D;\frac{g_m}{1+2g_mR_{SS}} \Delta R$$<br>晶体管失配：<br>$$A_{CM-DM}&#x3D;\frac{(g_{m1}-g_{m2})R_D}{1+(g_{m1}+g_{m2})R_{SS}}$$<br>共模抑制比：<br>$$CMRR&#x3D;\frac{g_m}{\Delta g_m} (1+2g_mR_{SS})$$<br>除了$g_{mb}$失配，$R_{SS}$无限大可以抵消所有失配</li>
-</ol>
-<h1 id="第五章-电流镜和偏置技术"><a href="#第五章-电流镜和偏置技术" class="headerlink" title="第五章 电流镜和偏置技术"></a>第五章 电流镜和偏置技术</h1><p>基本电流镜的缺陷在于沟道长度调制效应使得复制不准确<br>实际上的问题：L不能精准倍增，阈值电压受L的影响，栅宽边缘无法精确确定</p>
-<h2 id="一-两种改进方法"><a href="#一-两种改进方法" class="headerlink" title="一 两种改进方法"></a>一 两种改进方法</h2><ol>
-<li>共源共栅：迫使右侧(v)等于左侧(c)<br>抵抗电压波动的影响：输出节点电压变化的时候，由于共源共栅结构高阻，电流变化不大，由于屏蔽作用，中间节点维持不变。<br>但是浪费了电压余度。</li>
-</ol>
-<ul>
-<li>大信号特性：右上方先进入线性区（屏蔽作用）</li>
-</ul>
-<ol start="2">
-<li>低电压共源共栅：迫使c做出改变<br>让左侧电元件的压降为一个阈值电压<br>$V_b$的产生技术称为偏置技术：串电阻压降为$V_{OD}$，或单独引出$\frac{1}{4}$尺寸的电流镜。</li>
-</ol>
-<h2 id="二-有源电流镜"><a href="#二-有源电流镜" class="headerlink" title="二 有源电流镜"></a>二 有源电流镜</h2><ol>
-<li>大信号分析</li>
-</ol>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 未考 </tag>
+            
+            <tag> 模C </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【课程补充】锁相环PLL</title>
+      <link href="/2023/01/11/a3-%E6%A8%A1C%E9%94%81%E7%9B%B8%E7%8E%AF/"/>
+      <url>/2023/01/11/a3-%E6%A8%A1C%E9%94%81%E7%9B%B8%E7%8E%AF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="模C第十六章-锁相环"><a href="#模C第十六章-锁相环" class="headerlink" title="模C第十六章  锁相环"></a>模C第十六章  锁相环</h1><ul><li><a href="#%E6%A8%A1c%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0--%E9%94%81%E7%9B%B8%E7%8E%AF">模C第十六章  锁相环</a><ul><li><a href="#%E4%B8%80-%E7%AE%80%E5%8D%95%E7%9A%84%E9%94%81%E7%9B%B8%E7%8E%AF">一 简单的锁相环</a><ul><li><a href="#11-%E5%9F%BA%E6%9C%AC%E7%9A%84pll%E7%BB%93%E6%9E%84-ok">1.1 基本的PLL结构 ok</a></li><li><a href="#12-%E7%AE%80%E5%8D%95%E9%94%81%E7%9B%B8%E7%8E%AF%E7%9A%84%E5%8A%A8%E6%80%81%E7%89%B9%E6%80%A7ok">1.2 简单锁相环的动态特性ok</a></li></ul></li><li><a href="#%E4%BA%8C-%E7%94%B5%E8%8D%B7%E6%B3%B5%E9%94%81%E7%9B%B8%E7%8E%AF">二 电荷泵锁相环</a><ul><li><a href="#21-%E9%94%81%E5%AE%9A%E6%8D%95%E8%8E%B7%E9%97%AE%E9%A2%98">2.1 锁定捕获问题</a></li><li><a href="#22-%E9%89%B4%E7%9B%B8%E9%89%B4%E9%A2%91%E5%99%A8">2.2 鉴相&#x2F;鉴频器</a></li><li><a href="#23-%E7%94%B5%E8%8D%B7%E6%B3%B5">2.3 电荷泵</a></li><li><a href="#24-%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%94%B5%E8%8D%B7%E6%B3%B5%E9%94%81%E7%9B%B8%E7%8E%AF">2.4 基本的电荷泵锁相环</a></li></ul></li><li><a href="#%E4%B8%89-%E9%94%81%E7%9B%B8%E7%8E%AF%E4%B8%AD%E7%9A%84%E9%9D%9E%E7%90%86%E6%83%B3%E6%95%88%E5%BA%94">三 锁相环中的非理想效应</a><ul><li><a href="#31-pfdcp%E7%9A%84%E9%9D%9E%E7%90%86%E6%83%B3%E6%80%A7">3.1 PFD&#x2F;CP的非理想性</a></li><li><a href="#32-%E9%94%81%E7%9B%B8%E7%8E%AF%E4%B8%AD%E7%9A%84%E6%8A%96%E5%8A%A8%E7%8E%B0%E8%B1%A1">3.2 锁相环中的抖动现象</a></li></ul></li><li><a href="#%E5%9B%9B-%E5%BB%B6%E8%BF%9F%E9%94%81%E7%9B%B8%E7%8E%AF">四 延迟锁相环</a></li><li><a href="#%E4%BA%94-%E5%BA%94%E7%94%A8">五 应用</a></li></ul></li></ul><h2 id="一-简单的锁相环"><a href="#一-简单的锁相环" class="headerlink" title="一 简单的锁相环"></a>一 简单的锁相环</h2><h3 id="1-1-基本的PLL结构-ok"><a href="#1-1-基本的PLL结构-ok" class="headerlink" title="1.1 基本的PLL结构 ok"></a>1.1 基本的PLL结构 ok</h3><p>鉴相器：平均输出$V_{out}$与其两个输入之间的相位差成线性比力，一个熟悉的例子就是异或门<br>鉴相器和VCO之间必须有低通滤波器LPF的原因是:不希望有高频分量；VCO的控制电压在稳态必须保持恒定<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111215710.png"></p><ul><li>相位阶跃：可以进入稳定</li><li>频率阶跃：控制电压和相位误差均有一个永久改变，“跟踪”</li></ul><p>注意：要使环路稳定，必须相位和频率都稳定到合适的值</p><h3 id="1-2-简单锁相环的动态特性ok"><a href="#1-2-简单锁相环的动态特性ok" class="headerlink" title="1.2 简单锁相环的动态特性ok"></a>1.2 简单锁相环的动态特性ok</h3><p>首先对传递函数要有一个全新的认识：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111223854.png"><br>以这样的视角重新审视锁相环：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111224545.png"> 原点有一个极点，这是一个I型系统。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111225753.png"><br>利用时域分析法：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111225923.png"><br>两者相乘为：$\frac{1}{2} \omega_{LPF}$，同时这是衰减函数的包络$e^{-\zeta \omega_n t}$。<br>这个结果告诉我们：稳定速度和VCO控制线上的电压波动之间的折衷：$\omega_{LPF}$越小，鉴相器输出的高频成分被抑制的越厉害，但稳定的时间常数越长<br>（16.5）告诉我们相位误差和$\zeta$，$K_{PD} K_{VCO}$成反比例，因此要降低相位误差不可变让系统变不稳定。<br>这里也可以用开环传递函数的波特图来理解：当K增大，整个曲线上移，$\omega_n$右移，相位裕度减小。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111232141.png"><br>综上，<strong>折衷考虑：稳定速度、控制电压的波纹（对高频的抑制）、相位误差和稳定性</strong></p><blockquote><p>加入一个重要例题，说明调整时间的计算方法<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111230652.png"></p></blockquote><h2 id="二-电荷泵锁相环"><a href="#二-电荷泵锁相环" class="headerlink" title="二 电荷泵锁相环"></a>二 电荷泵锁相环</h2><h3 id="2-1-锁定捕获问题"><a href="#2-1-锁定捕获问题" class="headerlink" title="2.1 锁定捕获问题"></a>2.1 锁定捕获问题</h3><h3 id="2-2-鉴相-x2F-鉴频器"><a href="#2-2-鉴相-x2F-鉴频器" class="headerlink" title="2.2 鉴相&#x2F;鉴频器"></a>2.2 鉴相&#x2F;鉴频器</h3><h3 id="2-3-电荷泵"><a href="#2-3-电荷泵" class="headerlink" title="2.3 电荷泵"></a>2.3 电荷泵</h3><h3 id="2-4-基本的电荷泵锁相环"><a href="#2-4-基本的电荷泵锁相环" class="headerlink" title="2.4 基本的电荷泵锁相环"></a>2.4 基本的电荷泵锁相环</h3><h2 id="三-锁相环中的非理想效应"><a href="#三-锁相环中的非理想效应" class="headerlink" title="三 锁相环中的非理想效应"></a>三 锁相环中的非理想效应</h2><h3 id="3-1-PFD-x2F-CP的非理想性"><a href="#3-1-PFD-x2F-CP的非理想性" class="headerlink" title="3.1 PFD&#x2F;CP的非理想性"></a>3.1 PFD&#x2F;CP的非理想性</h3><h3 id="3-2-锁相环中的抖动现象"><a href="#3-2-锁相环中的抖动现象" class="headerlink" title="3.2 锁相环中的抖动现象"></a>3.2 锁相环中的抖动现象</h3><h2 id="四-延迟锁相环"><a href="#四-延迟锁相环" class="headerlink" title="四 延迟锁相环"></a>四 延迟锁相环</h2><h2 id="五-应用"><a href="#五-应用" class="headerlink" title="五 应用"></a>五 应用</h2>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>未考</tag>
-        <tag>模C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【高效刷题】模C习题精析</title>
-    <url>/2023/01/09/3a-%E6%A8%A1C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="第一章-概述"><a href="#第一章-概述" class="headerlink" title="第一章 概述"></a>第一章 概述</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223051.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223101.png"></p>
-<h1 id="第二章-MOS器件"><a href="#第二章-MOS器件" class="headerlink" title="第二章 MOS器件"></a>第二章 MOS器件</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223136.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223209.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223223.png"></p>
-<h1 id="第三章-单极放大器"><a href="#第三章-单极放大器" class="headerlink" title="第三章 单极放大器"></a>第三章 单极放大器</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223503.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223514.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223525.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223533.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223625.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223635.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223645.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223653.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223702.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223711.png"></p>
-<h1 id="第四章-差动放大器"><a href="#第四章-差动放大器" class="headerlink" title="第四章 差动放大器"></a>第四章 差动放大器</h1><h1 id="第五章-电流镜"><a href="#第五章-电流镜" class="headerlink" title="第五章 电流镜"></a>第五章 电流镜</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223836.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223846.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223856.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223903.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223912.png"></p>
-<h1 id="第六章-频率响应"><a href="#第六章-频率响应" class="headerlink" title="第六章 频率响应"></a>第六章 频率响应</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223958.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224007.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224014.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224022.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224029.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224036.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224043.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224051.png"></p>
-<h1 id="第七章-噪声"><a href="#第七章-噪声" class="headerlink" title="第七章 噪声"></a>第七章 噪声</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224147.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224155.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224201.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224208.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224217.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224225.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224232.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224240.png"></p>
-<h1 id="第八章-反馈"><a href="#第八章-反馈" class="headerlink" title="第八章 反馈"></a>第八章 反馈</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224408.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224415.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224429.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224439.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224446.png"></p>
-<h1 id="第九章-运算放大器"><a href="#第九章-运算放大器" class="headerlink" title="第九章 运算放大器"></a>第九章 运算放大器</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224731.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224741.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224750.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224759.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224823.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224832.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224904.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224910.png"></p>
-<h1 id="第十章-设计"><a href="#第十章-设计" class="headerlink" title="第十章 设计"></a>第十章 设计</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224917.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224925.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109225009.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109225024.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 模C </tag>
+            
+            <tag> 大创 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【课程补充】振荡器</title>
+      <link href="/2023/01/10/a3-%E6%A8%A1C%E6%8C%AF%E8%8D%A1%E5%99%A8/"/>
+      <url>/2023/01/10/a3-%E6%A8%A1C%E6%8C%AF%E8%8D%A1%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="振荡器"><a href="#振荡器" class="headerlink" title="振荡器"></a>振荡器</h1><h2 id="一-环形振荡器"><a href="#一-环形振荡器" class="headerlink" title="一 环形振荡器"></a>一 环形振荡器</h2><p>首先要明确下图是不可以振荡的<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204401.png"><br>这是由于振荡的条件是在低频中频段的相移为-180°<br>因此，多加一个极点提供相移就有多一些振荡的可能，使用三级反相器，只有每级60°相移时发生振荡，在该频率下的增益为1，因此有结论：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204755.png"><br>三级反相器的反馈，产生的振荡周期为$6T_D$</p><h3 id="振幅限制"><a href="#振幅限制" class="headerlink" title="振幅限制"></a>振幅限制</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110205851.png"><br>对于大多数应用：3到4级环形反相器可以提供最优的性能</p><h3 id="电阻的替换"><a href="#电阻的替换" class="headerlink" title="电阻的替换"></a>电阻的替换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110211116.png"><br>图C的负载还有一个有趣的特性：M3栅源电容由源随器驱动，所以负载相关的时间常数小于二极管接法的时间常数。而且源随器一定的输出阻抗可能对负载产生电感特性</p><h2 id="二-单端口振荡器"><a href="#二-单端口振荡器" class="headerlink" title="二 单端口振荡器"></a>二 单端口振荡器</h2><p>如果单端电路有一负电阻与振荡回路并联，电路就会永远振荡，这种电路被称为单端口振荡器。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110212621.png"></p><h3 id="负电阻"><a href="#负电阻" class="headerlink" title="负电阻"></a>负电阻</h3><p>负电阻的构成思路：给源随器加正反馈（源随器给源随器反馈）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110213915.png"><br>电阻是增量，如果施加的电压增大，流进的电流减小，这就是负电阻。</p><h3 id="负跨导振荡器"><a href="#负跨导振荡器" class="headerlink" title="负跨导振荡器"></a>负跨导振荡器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103640.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103750.png"></p><h3 id="另一种负电阻"><a href="#另一种负电阻" class="headerlink" title="另一种负电阻"></a>另一种负电阻</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111104325.png"></p><h2 id="压控振荡器VCO"><a href="#压控振荡器VCO" class="headerlink" title="压控振荡器VCO"></a>压控振荡器VCO</h2><p>定义：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111110105.png"><br>压控振荡器的重要性能参数：</p><ul><li>中心频率：高到几百GHz</li><li>调节范围：$$K_{VCO}&gt;\frac{\omega_2-\omega_1}{V_2-V_1}$$</li><li>调节线性度</li><li>功耗</li><li>电源与共模抑制</li><li>输出信号纯度</li></ul><h3 id="四-环形振荡器的调节"><a href="#四-环形振荡器的调节" class="headerlink" title="四 环形振荡器的调节"></a>四 环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p><h3 id="正反馈引起的延时变化"><a href="#正反馈引起的延时变化" class="headerlink" title="正反馈引起的延时变化"></a>正反馈引起的延时变化</h3><h3 id="插值法改变延时"><a href="#插值法改变延时" class="headerlink" title="插值法改变延时"></a>插值法改变延时</h3><p><em>（这里还没看懂）</em></p><h2 id="五-VCO的数学模型"><a href="#五-VCO的数学模型" class="headerlink" title="五 VCO的数学模型"></a>五 VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>未考</tag>
-        <tag>模C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知识摘要】自控知识摘要</title>
-    <url>/2023/01/16/3a-%E8%87%AA%E6%8E%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
-    <content><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> 模C </tag>
+            
+            <tag> 大创 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【课程补充】嵌入式系统微架构</title>
+      <link href="/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/"/>
+      <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Arm概述"><a href="#Arm概述" class="headerlink" title="Arm概述"></a>Arm概述</h2><p>ARM:advanced RISC Machine<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171737.png"><br>IP有三种形式：软核（代码-VHDL），固核（网表），硬核（工艺验证、版图等）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171750.png"><br>arm芯片的各个系列：高性能、实时、单片机M（节能）、机器学习、安全领域<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172258.png"><br>功能的升级可以从版本号中看到（指令集的提升）：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171806.png"></p><h2 id="ARM处理器运行模式"><a href="#ARM处理器运行模式" class="headerlink" title="ARM处理器运行模式"></a>ARM处理器运行模式</h2><h3 id="数据的存储：大端和小段"><a href="#数据的存储：大端和小段" class="headerlink" title="数据的存储：大端和小段"></a>数据的存储：大端和小段</h3><p>数据在内存中的摆放：32bits<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172619.png"></p><h3 id="arm的版本"><a href="#arm的版本" class="headerlink" title="arm的版本"></a>arm的版本</h3><p>v2规定了atomic：原子操作，不能被其他拆开<br>v5开始支持DSP<br>v7开始支持TrustZone安全性提高，处理器分A、M、R<br>v8增加了A64位指令集（A32属于thumb指令集）</p><h3 id="ARM的体系结构"><a href="#ARM的体系结构" class="headerlink" title="ARM的体系结构"></a>ARM的体系结构</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110180638.png"><br>ARM指令集：32bit<br>Thumb指令集：16bit</p><h3 id="处理器的运行模式"><a href="#处理器的运行模式" class="headerlink" title="处理器的运行模式"></a>处理器的运行模式</h3><p>针对任务的轻重缓急有不同的硬件资源对应，分为非特权模式（User）和特权模式（other）<br>特权模式：分为系统模式和异常模式（中断和转移）</p>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三下 </category>
+          
       </categories>
-      <tags>
-        <tag>未考</tag>
-        <tag>自控</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【高效刷题】自控习题精析</title>
-    <url>/2023/01/05/3a-%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<p>本文记录自控的例题以典型作业题，本文的作用是汇总可能考到的重点题型，不能覆盖全部考点，不能完全作为刷题的材料，但对基础内容具有概括作用。</p>
-<h1 id="第一章-自动控制的一般概念"><a href="#第一章-自动控制的一般概念" class="headerlink" title="第一章 自动控制的一般概念"></a>第一章 自动控制的一般概念</h1><ol>
-<li><p>分析控制系统的工作原理并画出原理方块图<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221123.png"></p>
-</li>
-<li><p>文字游戏<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221331.png"></p>
-</li>
-<li><p>概念题：开环和闭环控制系统的优缺点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221154.png"></p>
-</li>
-</ol>
-<h1 id="第二章-自动控制系统的数学模型"><a href="#第二章-自动控制系统的数学模型" class="headerlink" title="第二章 自动控制系统的数学模型"></a>第二章 自动控制系统的数学模型</h1><h2 id="1-动力学分析"><a href="#1-动力学分析" class="headerlink" title="1 动力学分析"></a>1 动力学分析</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221552.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221601.png"></p>
-<h2 id="2-转动惯量"><a href="#2-转动惯量" class="headerlink" title="2 转动惯量"></a>2 转动惯量</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221700.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221708.png"></p>
-<h2 id="3-电路系统建模"><a href="#3-电路系统建模" class="headerlink" title="3 电路系统建模"></a>3 电路系统建模</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092756.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092745.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100235.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100244.png"></p>
-<h2 id="4-复杂系统的建模"><a href="#4-复杂系统的建模" class="headerlink" title="4 复杂系统的建模"></a>4 复杂系统的建模</h2><p> 1. 转速控制系统<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093106.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093114.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093122.png"></p>
-<h2 id="5-机械系统"><a href="#5-机械系统" class="headerlink" title="5 机械系统"></a>5 机械系统</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100205.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100144.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100128.png"></p>
-<h2 id="6-惯性环节、震荡环节、微分环节"><a href="#6-惯性环节、震荡环节、微分环节" class="headerlink" title="6  惯性环节、震荡环节、微分环节"></a>6  惯性环节、震荡环节、微分环节</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093326.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093458.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093558.png"></p>
-<h2 id="7-方块图"><a href="#7-方块图" class="headerlink" title="7 方块图"></a>7 方块图</h2><p> 1. 普通<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105163940.png"></p>
-<p> 2. 简单化简<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105202441.png"></p>
-<p> 3. 补一法 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105164106.png"></p>
-<h2 id="8-扰动误差函数的处理"><a href="#8-扰动误差函数的处理" class="headerlink" title="8 扰动误差函数的处理"></a>8 扰动误差函数的处理</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093936.png"></p>
-<h2 id="9-信号流图的绘制"><a href="#9-信号流图的绘制" class="headerlink" title="9 信号流图的绘制"></a>9 信号流图的绘制</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094125.png"></p>
-<h2 id="10-梅逊增益公式"><a href="#10-梅逊增益公式" class="headerlink" title="10 梅逊增益公式"></a>10 梅逊增益公式</h2><ul>
-<li><p>规范格式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094625.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094646.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094656.png"></p>
-</li>
-<li><p>复杂题目<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095329.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095410.png"></p>
-</li>
-</ul>
-<h1 id="第三章-线性系统的时域分析"><a href="#第三章-线性系统的时域分析" class="headerlink" title="第三章 线性系统的时域分析"></a>第三章 线性系统的时域分析</h1><h2 id="1-一阶系统的瞬态响应"><a href="#1-一阶系统的瞬态响应" class="headerlink" title="1 一阶系统的瞬态响应"></a>1 一阶系统的瞬态响应</h2><ol>
-<li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200202.png"></li>
-</ol>
-<p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200213.png"></p>
-<p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200309.png"></p>
-<p> 2. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106202221.png"></p>
-<h2 id="2-特征根分布图"><a href="#2-特征根分布图" class="headerlink" title="2 特征根分布图"></a>2 特征根分布图</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106202323.png"></p>
-<h2 id="3-二阶系统的性能指标"><a href="#3-二阶系统的性能指标" class="headerlink" title="3 二阶系统的性能指标"></a>3 二阶系统的性能指标</h2><p> 1. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200448.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200459.png"></p>
-<p> 2. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204410.png"></p>
-<p> 3. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204503.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204518.png"></p>
-<h2 id="4-高阶系统的性能指标"><a href="#4-高阶系统的性能指标" class="headerlink" title="4 高阶系统的性能指标"></a>4 高阶系统的性能指标</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204648.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204658.png"></p>
-<h2 id="5-劳斯稳定性判据"><a href="#5-劳斯稳定性判据" class="headerlink" title="5 劳斯稳定性判据"></a>5 劳斯稳定性判据</h2><h3 id="简单结论"><a href="#简单结论" class="headerlink" title="简单结论"></a>简单结论</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200759.png"></p>
-<h3 id="第一项系数为0的处理"><a href="#第一项系数为0的处理" class="headerlink" title="第一项系数为0的处理"></a>第一项系数为0的处理</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200913.png"></p>
-<h3 id="辅助方程的处理"><a href="#辅助方程的处理" class="headerlink" title="辅助方程的处理"></a>辅助方程的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201128.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201137.png"></p>
-<h2 id="5-稳定裕量的处理"><a href="#5-稳定裕量的处理" class="headerlink" title="5 稳定裕量的处理"></a>5 稳定裕量的处理</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201317.png"></p>
-<h2 id="6-稳态误差分析"><a href="#6-稳态误差分析" class="headerlink" title="6 稳态误差分析"></a>6 稳态误差分析</h2><ol start="0">
-<li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106205239.png"></p>
-</li>
-<li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201514.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201527.png"></p>
-</li>
-<li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201700.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201720.png"></p>
-</li>
-<li><p>复杂系统的讨论<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106220820.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201835.png"></p>
-</li>
-<li><p>反推传递函数<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106205044.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106205052.png"></p>
-</li>
-</ol>
-<h1 id="第四章-根轨迹分析法"><a href="#第四章-根轨迹分析法" class="headerlink" title="第四章 根轨迹分析法"></a>第四章 根轨迹分析法</h1><h2 id="1-利用试探法和幅值条件（定义）确定根轨迹上的点"><a href="#1-利用试探法和幅值条件（定义）确定根轨迹上的点" class="headerlink" title="1 利用试探法和幅值条件（定义）确定根轨迹上的点"></a>1 利用试探法和幅值条件（定义）确定根轨迹上的点</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221515.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221525.png">  </p>
-<h2 id="2-根轨迹的重要参量"><a href="#2-根轨迹的重要参量" class="headerlink" title="2 根轨迹的重要参量"></a>2 根轨迹的重要参量</h2><ol>
-<li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221725.png"></p>
-</li>
-<li><p>分离会合点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221933.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235430.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222023.png"></p>
-</li>
-<li><p>出射角<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222111.png"></p>
-</li>
-<li><p>与虚轴交点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222144.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222210.png"></p>
-</li>
-</ol>
-<h2 id="3-证明根轨迹的形状"><a href="#3-证明根轨迹的形状" class="headerlink" title="3 证明根轨迹的形状"></a>3 证明根轨迹的形状</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225054.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225104.png"></p>
-<h2 id="4-根轨迹的绘制"><a href="#4-根轨迹的绘制" class="headerlink" title="4 根轨迹的绘制"></a>4 根轨迹的绘制</h2><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225501.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225515.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225549.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225602.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225616.png">  </p>
-<h2 id="5-利用根轨迹计算系统的参数"><a href="#5-利用根轨迹计算系统的参数" class="headerlink" title="5 利用根轨迹计算系统的参数"></a>5 利用根轨迹计算系统的参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225954.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230007.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230019.png"></p>
-<h2 id="6-由参数确定其他参数"><a href="#6-由参数确定其他参数" class="headerlink" title="6 由参数确定其他参数"></a>6 由参数确定其他参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230346.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230359.png"></p>
-<h2 id="7-引入积分环节"><a href="#7-引入积分环节" class="headerlink" title="7 引入积分环节"></a>7 引入积分环节</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230135.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230155.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230205.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230216.png"></p>
-<h1 id="第五章-线性系统的频域分析法"><a href="#第五章-线性系统的频域分析法" class="headerlink" title="第五章 线性系统的频域分析法"></a>第五章 线性系统的频域分析法</h1><h2 id="0-求系统稳态输出误差，求系统函数"><a href="#0-求系统稳态输出误差，求系统函数" class="headerlink" title="0 求系统稳态输出误差，求系统函数"></a>0 求系统稳态输出误差，求系统函数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233127.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233135.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233525.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233535.png"></p>
-<h2 id="1-画出对数坐标图"><a href="#1-画出对数坐标图" class="headerlink" title="1 画出对数坐标图"></a>1 画出对数坐标图</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160143.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160200.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160212.png"></p>
-<h3 id="加上一些细节（画图）："><a href="#加上一些细节（画图）：" class="headerlink" title="加上一些细节（画图）："></a>加上一些细节（画图）：</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233724.png"></p>
-<h3 id="加上一些细节（反推函数）"><a href="#加上一些细节（反推函数）" class="headerlink" title="加上一些细节（反推函数）"></a>加上一些细节（反推函数）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233757.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233823.png"></p>
-<h2 id="2-非最小相位系统的相频特性"><a href="#2-非最小相位系统的相频特性" class="headerlink" title="2 非最小相位系统的相频特性"></a>2 非最小相位系统的相频特性</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164310.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164322.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164335.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164346.png"></p>
-<h2 id="3-极坐标图的绘制"><a href="#3-极坐标图的绘制" class="headerlink" title="3 极坐标图的绘制"></a>3 极坐标图的绘制</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234015.png"></p>
-<h2 id="3-奈奎斯特判断稳定性的基本方法"><a href="#3-奈奎斯特判断稳定性的基本方法" class="headerlink" title="3 奈奎斯特判断稳定性的基本方法"></a>3 奈奎斯特判断稳定性的基本方法</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164546.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164611.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164619.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164628.png"></p>
-<h2 id="4-奈奎斯特稳定判据在I、II型系统中的应用"><a href="#4-奈奎斯特稳定判据在I、II型系统中的应用" class="headerlink" title="4 奈奎斯特稳定判据在I、II型系统中的应用"></a>4 奈奎斯特稳定判据在I、II型系统中的应用</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232328.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232339.png"></p>
-<h2 id="建议：作业中有较为复杂题目"><a href="#建议：作业中有较为复杂题目" class="headerlink" title="建议：作业中有较为复杂题目"></a>建议：作业中有较为复杂题目</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234621.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234629.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234639.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234649.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234659.png"></p>
-<h2 id="5-时间延迟以及左侧绕原点问题（了解）"><a href="#5-时间延迟以及左侧绕原点问题（了解）" class="headerlink" title="5 时间延迟以及左侧绕原点问题（了解）"></a>5 时间延迟以及左侧绕原点问题（了解）</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232644.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232711.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232722.png"></p>
-<h2 id="6-稳定裕度"><a href="#6-稳定裕度" class="headerlink" title="6 稳定裕度"></a>6 稳定裕度</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232832.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232848.png"></p>
-<h2 id="7-开环和闭环频域性能指标"><a href="#7-开环和闭环频域性能指标" class="headerlink" title="7 开环和闭环频域性能指标"></a>7 开环和闭环频域性能指标</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234529.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234539.png"></p>
-<h1 id="第七章-线性系统的设计方法"><a href="#第七章-线性系统的设计方法" class="headerlink" title="第七章 线性系统的设计方法"></a>第七章 线性系统的设计方法</h1><h2 id="1-超前校正"><a href="#1-超前校正" class="headerlink" title="1 超前校正"></a>1 超前校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234926.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234934.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234948.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234955.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235004.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235020.png"></p>
-<h2 id="2-超前校正：作业题"><a href="#2-超前校正：作业题" class="headerlink" title="2 超前校正：作业题"></a>2 超前校正：作业题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235048.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/Pasted%20image%2020221227124210.png"></p>
-<h2 id="3-滞后校正"><a href="#3-滞后校正" class="headerlink" title="3 滞后校正"></a>3 滞后校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235149.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235159.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235207.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235217.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 嵌入式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【课程补充】嵌入式系统概述</title>
+      <link href="/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/"/>
+      <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="嵌入书系统概述"><a href="#嵌入书系统概述" class="headerlink" title="嵌入书系统概述"></a>嵌入书系统概述</h1><h2 id="嵌入式系统概念"><a href="#嵌入式系统概念" class="headerlink" title="嵌入式系统概念"></a>嵌入式系统概念</h2><p>计算机系统有两种：个人计算机（通用计算机）和服务器（机房、云：计算能力非常强大，通过网络7*24h服务，CPU有更强的能力）<br>还有一种系统：嵌入式系统。<br>以下都可以是一个嵌入式系统：一个无线的电动牙刷（PWM芯片）；手环通过蓝牙与手机链接，电池（USB充电）、GPS、计步（陀螺仪）；心脏起搏器；打印机（与计算机的串口通信USB）；扫地机器人；饮料零售机乃至摄像机、无人机、汽车中的防抱死、EPS\BMS等等……<br>嵌入式系统内的芯片和计算机会有很大的差异：i5，i7说的是计算机CPU，但嵌入式系统的CPU能力更弱，能耗低（计算机为15V，大部分嵌入式系统是电池供电），可靠性要求极高（不可以打补丁，系统升级）<br>嵌入式系统两个特点：1 嵌入在其它系统中  2 系统可以执行一定的功能 </p><ul><li>处理器的差异<br>服务器、个人计算机：微处理器IC，内部只有一个CPU，需要外接memory（ROM），外接IO端口<br>嵌入式系统：微控制器Microprocessor，除了CPU，集成了RAM、ROM、Timer、IO、串口控制 </li><li>软件和操作系统OS<br>没有操作系统是单片机，软件一般使用C</li></ul><h2 id="嵌入式微处理器"><a href="#嵌入式微处理器" class="headerlink" title="嵌入式微处理器"></a>嵌入式微处理器</h2><ul><li>嵌入式系统<ul><li>小规模：8bit 16bit</li><li>中规模：16bit 32bit MCU DSP</li><li>大规模：FPGA 可靠性比较高</li></ul></li></ul><p>嵌入式系统的基本组成部分是相同的：Micro Processor、硬盘、IO、Networks、timers定时器单元。<br>其硬件系统的特点为：体积小集成度高；面向特定应用；低功耗；适应恶劣环境<br>指令-&gt; 译码（操作码定义了运算，操作数定义的数据） -&gt;执行</p><ul><li>处理器<ul><li>CU：程序流的控制单元，内部有取指单元</li><li>EU：有执行电路</li></ul></li><li>存储器<ul><li>哈佛结构（程序和数据分开存储）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110161917.png"><br>哈佛结构宽度不同，有很高的执行效率（有各自的总线）但复杂度高</li><li>冯诺依曼结构：代码本身也是一种数据<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110162142.png"><ul><li>计算机必须有计算单元ALU和控制单元CU，以及存储器，输入和输出这就是一个现代计算机的原型</li><li>先取指令再取数据，性能提升遇到了瓶颈</li></ul></li><li>改进的哈佛结构:利用两种结构的优点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110162844.png"><ul><li>CPU运转速度块，RAM运转的慢，因此在中间增加了Cache（SRAM快速缓存），更好的匹配CPU的运行。</li><li>经常使用的数据存在Cache里面，所以Cache和RAM有映射关系，如何寻址如何更新是需要解决的问题。</li></ul></li></ul></li></ul><h2 id="CISC-vs-RISC"><a href="#CISC-vs-RISC" class="headerlink" title="CISC vs RISC"></a>CISC vs RISC</h2><p>不同的处理器认识不同的语言，叫做指令集。<br>每个指令集：一个指令操作码和两个操作对象。<br>随着CPU的升级，需要新的指令集，新的指令集还需要向前兼容上一版本。因此需要将复杂功能的指令加入指令集，要求一条指令完成更多的功能。</p><ul><li>CISC：复杂指令集，更适用于通用计算机</li><li>RISC：精简指令集，“28规则”简化复杂指令–结构简单效率高；更适用于专用的嵌入式系统</li></ul><p>（精简体现在：将80%复杂功能删去，精简了每条指令的执行时间）<br>RISC通过子程序的方式完成CISC中复杂的指令<br>举个例子：让两个数据相乘<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110163842.png"><br>通过CISC指令集，可以估算出运行的时间<br>在RISC中，要求每个指令的执行时间固定（一个时钟周期），但指令数比较少（长度固定4byte），这样有利于流水线<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110164402.png"></p><h2 id="嵌入式系统开发流程"><a href="#嵌入式系统开发流程" class="headerlink" title="嵌入式系统开发流程"></a>嵌入式系统开发流程</h2><p>三个阶段：</p><ul><li>应用分析和设计、外围接口设备</li><li>PCB设计和评估</li><li>焊接、调试和功能测试</li></ul><p>硬件流程<br>软件流程</p><ul><li>编译环境IDE：仿真器（keil等）创建和构建程序</li><li>OS</li><li>software test<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110170552.png"><br>嵌入式的操作系统使用Linux：开源</li></ul><p>Linux开发结构：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171013.png"></p><p>本机的工具链：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171052.png"></p>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三下 </category>
+          
       </categories>
-      <tags>
-        <tag>未考</tag>
-        <tag>自控</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【知识集合】Verilog</title>
-    <url>/2022/12/12/3b-Verilog/</url>
-    <content><![CDATA[<p>本文记录寒假器件自学verilog的笔记。</p>
-<span id="more"></span>
-<h1 id="第二章-Verilog语法的基本概念"><a href="#第二章-Verilog语法的基本概念" class="headerlink" title="第二章 Verilog语法的基本概念"></a>第二章 Verilog语法的基本概念</h1><h2 id="2-1-概述"><a href="#2-1-概述" class="headerlink" title="2.1 概述"></a>2.1 概述</h2><p>VerilogHDL描述的电路设计为该电路的Verilog HDL模型，也称为模块。VerilogHDL即使一种行为描述语言也是一种结构描述语言。可以将功能行为模块通过工具自动的转换为门级互联的结构模块。<br>它可以是实际电路不同级别的抽象</p>
-<ul>
-<li>系统级</li>
-<li>算法级 algorithm level</li>
-<li>RTL级 register transfer level<br>（以上三种属于行为级，只有RTL级彩玉逻辑电路有明确的对应关系）</li>
-<li>门级</li>
-<li>开关级</li>
-</ul>
-<h2 id="2-2-Verilog模块的基本概念"><a href="#2-2-Verilog模块的基本概念" class="headerlink" title="2.2 Verilog模块的基本概念"></a>2.2 Verilog模块的基本概念</h2><p>先用例子了解Verilog模块的特性：</p>
-<ul>
-<li><p>多路选择器<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227160423.png"></p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">module</span> muxtwo(out,a,b,sl);</span><br><span class="line"><span class="keyword">input</span> a,b,sl;<span class="comment">//输入信号名</span></span><br><span class="line"><span class="keyword">output</span> out;<span class="comment">//输出信号名</span></span><br><span class="line"><span class="keyword">reg</span> out;</span><br><span class="line"><span class="keyword">always</span> @ (sl <span class="keyword">or</span> a <span class="keyword">or</span> b)</span><br><span class="line">	<span class="keyword">if</span>(!sl)</span><br><span class="line">		out=a;</span><br><span class="line">	<span class="keyword">else</span> </span><br><span class="line">		out=b;</span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>带有与非门的二选一多路选择器<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227160502.png"></p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">module</span> muxtwo(out,a,b,sl);</span><br><span class="line"><span class="keyword">input</span> a,b,sl;<span class="comment">//输入信号名</span></span><br><span class="line"><span class="keyword">output</span> out; <span class="comment">//输出信号名 </span></span><br><span class="line"><span class="keyword">wire</span> nsl, sela, selb;<span class="comment">//定义内部连接线 </span></span><br><span class="line"><span class="keyword">assign</span> nsl= ~sl;<span class="comment">//求反 </span></span><br><span class="line"><span class="keyword">assign</span> sela= a &amp; nsl;<span class="comment">// 按位与运算 </span></span><br><span class="line"><span class="keyword">assign</span> selb= b &amp; sl; </span><br><span class="line"><span class="keyword">assign</span> out= sela | selb;<span class="comment">//按位或运算 </span></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">module</span> muxtwo (out, a, b, sl); </span><br><span class="line"><span class="keyword">input</span> a, b, sl; </span><br><span class="line"><span class="keyword">output</span> out; <span class="keyword">not</span> u1(nsl, sl); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">1</span> u2(sela, a, nsl); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">1</span> u3(selb, b, sl); </span><br><span class="line"><span class="keyword">or</span> #<span class="number">1</span> u4(out, sela, selb); </span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>上面这些例子都是可以综合的，所谓综合就是将HDL转化为电路并有源。</p>
-<h2 id="2-3-Verilog用于模块的测试"><a href="#2-3-Verilog用于模块的测试" class="headerlink" title="2.3 Verilog用于模块的测试"></a>2.3 Verilog用于模块的测试</h2><p>Verilog还可以用来描述变化的测试信号，称为测试平台（testbench）。通过观测被测试模块的输出信号是否符合要求，可以调试和验证逻辑系统的设计和结构正确与否。<br>例如，将上例中的多路器模块进行测试</p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line">&#x27;<span class="keyword">include</span> <span class="string">&quot;muxtwo.v&quot;</span> <span class="keyword">module</span> t；</span><br><span class="line"><span class="keyword">reg</span> ain，bin，select； </span><br><span class="line"><span class="keyword">reg</span> clock； </span><br><span class="line"><span class="keyword">wire</span> outw； </span><br><span class="line"><span class="keyword">initial</span> <span class="comment">//把寄存器变量初始化为一的确定值 </span></span><br><span class="line"><span class="keyword">begin</span> </span><br><span class="line">	ain = <span class="number">0</span>; </span><br><span class="line">	bin = <span class="number">0</span>; </span><br><span class="line">	select = <span class="number">0</span>; </span><br><span class="line">	clock = <span class="number">0</span>; </span><br><span class="line"><span class="keyword">end</span> </span><br><span class="line"><span class="keyword">always</span> #<span class="number">50</span> clock=~clock； <span class="comment">//产生一个不断重复的周期为100个的时钟信号clock</span></span><br><span class="line"><span class="keyword">always</span> @(<span class="keyword">posedge</span> clock) </span><br><span class="line"><span class="keyword">begin</span> <span class="comment">// &#123;$random&#125;为系统任务，会产生一个随机数 </span></span><br><span class="line">#<span class="number">1</span> ain= &#123;<span class="built_in">$random</span>) % <span class="number">2</span>; <span class="comment">//产生随机的位信号流ain和bin，％2为模2运算 </span></span><br><span class="line">#<span class="number">3</span> bin= &#123;<span class="built_in">$random</span>&#125; % <span class="number">2</span>;<span class="comment">//分别延迟1和3个时间单位后产生随机的位信号流ain和bin</span></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">always</span> #<span class="number">10000</span> select = !select; <span class="comment">//产生周期为10000个单位时间的选通信号变化 //... </span></span><br><span class="line">muxtwo m(<span class="variable">.out</span>(outw)，<span class="variable">.a</span>(ain), <span class="variable">.b</span>(bin), <span class="variable">.sl</span>(select)); </span><br><span class="line"><span class="comment">/* 实例引用多路器，并加入测试信号流，以观察模块的输出out。其中，muxtwo是已经定义的 （行为的或结构的）模块，m表示在本测试模块中有一个名为m的muxtwo的模块，其四个端口分别 为：.out( )，.a( )，.b( )，.sl( )， . 表示端口；后面紧跟端口名，其名称必须与 muxtwo模块定义的端口名一致；小括号内的信号名为与该端口连接的信号线名，可以用别的名，但 必须在本模块中定义，说明其类型。 */</span> </span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>RS出发器的测试<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="comment">//首先需要有rs_flipflop的Verilog描述</span></span><br><span class="line">timescale <span class="number">10</span>ns/<span class="number">1</span>ns</span><br><span class="line"><span class="keyword">module</span> rs_filpflop(q,qbar,r,s);</span><br><span class="line"><span class="keyword">output</span> q,qbar;</span><br><span class="line"><span class="keyword">input</span> r,s;</span><br><span class="line"><span class="keyword">nand</span> #<span class="number">1</span> (q,r,qbar);</span><br><span class="line"><span class="keyword">nand</span> #<span class="number">1</span> (qbar,s,q);</span><br><span class="line"><span class="keyword">endmodule</span></span><br><span class="line"><span class="comment">//然后验证</span></span><br><span class="line"><span class="keyword">module</span> text_rs_flipflop；</span><br><span class="line"><span class="keyword">reg</span> ts,tr;</span><br><span class="line"><span class="keyword">wire</span> tq,tqb;</span><br><span class="line">rs_flipflop u_rsff(<span class="variable">.q</span>(tq),<span class="variable">.s</span>(ts),<span class="variable">.r</span>(tr),<span class="variable">.qbar</span>(tqb));<span class="comment">//被测模块实例引用</span></span><br><span class="line"><span class="keyword">initial</span></span><br><span class="line"><span class="keyword">begin</span><span class="comment">//第一个initial语句给出激励</span></span><br><span class="line">	tr=<span class="number">0</span>;</span><br><span class="line">	ts=<span class="number">0</span>;</span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">1</span></span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">0</span>;</span><br><span class="line">	tr=<span class="number">1</span></span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">1</span>;</span><br><span class="line">	tr=<span class="number">0</span>;</span><br><span class="line">	#<span class="number">5</span> ts=<span class="number">0</span>；</span><br><span class="line">	#<span class="number">5</span> tr=<span class="number">1</span>；</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="keyword">initial</span></span><br><span class="line">	<span class="built_in">$monitor</span>(<span class="string">&quot;at time %t,&quot;</span>,<span class="built_in">$time</span>,<span class="string">&quot;tr=%b,tq=%b,tqb=%b&quot;</span>,tr,ts,tq,tqb);</span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
-输出的波形如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227162729.png"></li>
-</ul>
-<h2 id="2-4-小结"><a href="#2-4-小结" class="headerlink" title="2.4 小结"></a>2.4 小结</h2><p>通过众多例子可以看到：</p>
-<ul>
-<li>所有模块的内容都位于module和endmodule两个语句中间</li>
-<li>模块是可以进行层次嵌套的</li>
-<li>如果每个模块都是可以综合的，则通过综合工具可以把 它们的功能描述全都转换为最基本的逻辑单元描述，最 后可以用一个上层模块通过实例引用把这些模块连接起 来，把它们整合成一个很大的逻辑系统。</li>
-<li>Verilog模块可以分为两种类型：一种是为了让模块最终能生成电路结构，另一种是为了测试所设计电路的逻辑功能是否正确。</li>
-</ul>
-<h1 id="第三章-模块的结构、数据类型、变量和基本运算符号"><a href="#第三章-模块的结构、数据类型、变量和基本运算符号" class="headerlink" title="第三章 模块的结构、数据类型、变量和基本运算符号"></a>第三章 模块的结构、数据类型、变量和基本运算符号</h1><p>[[第3章(2).pdf]]</p>
-<h2 id="3-1-模块的结构"><a href="#3-1-模块的结构" class="headerlink" title="3.1 模块的结构"></a>3.1 模块的结构</h2><p>模块由两部分组成，一部分是接口，另一部分是描述逻辑功能，即定义输入时如何影响输出的。</p>
-<ul>
-<li>Verilog描述的基本单位：用于描述电路的功能、结构以及其他module的通信端口，能够表示：物理块，如IC或ASIC单元；逻辑块，如一个CPU设计的ALU部分；整个系统</li>
-<li>描述方式<ul>
-<li>数据流方式——连续幅值语句</li>
-<li>行为方式——过程语句</li>
-<li>结构方式——其他module和门级原语</li>
-<li>混合方式——行为+结构+数据流等</li>
-</ul>
-</li>
-<li>模块的构成：端口信息，输入输出说明，逻辑描述<br>  语法格式：说明部分+语句部分</li>
-</ul>
-<ol>
-<li>模块端口的定义<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">module</span> 模块名（口<span class="number">1</span>，口<span class="number">2</span>，……）</span><br></pre></td></tr></table></figure></li>
-<li>模块的内容：IO说明、内部信号声明和功能定义</li>
-</ol>
-<ul>
-<li>IO说明的格式<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">input</span> [<span class="number">1</span>:<span class="number">0</span>] 端口名<span class="number">1</span>；</span><br><span class="line"><span class="keyword">inout</span> [<span class="number">2</span>:<span class="number">0</span>] 端口名<span class="number">2</span>；</span><br><span class="line"><span class="comment">//也可以写在端口声明语句里面，格式：</span></span><br><span class="line"><span class="keyword">module</span> module_name （<span class="keyword">input</span> port1,<span class="keyword">output</span> port2）;</span><br></pre></td></tr></table></figure></li>
-<li>内部信号说明：wire reg 类型的变量声明<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">reg</span> [<span class="number">1</span>:<span class="number">0</span>] R1,R2;</span><br><span class="line"><span class="keyword">wire</span>[<span class="number">1</span>:<span class="number">0</span>] w1,w2;</span><br></pre></td></tr></table></figure></li>
-<li>功能定义：assign声明语句，用实例软件，用过程语句如always<ul>
-<li>assign声明：assign，后面再加一个表达式即可</li>
-<li>用示例元件：键入元件名字和项链的引脚，#后面为输出延迟。先写输出后写输入</li>
-<li>always块：异步清零的D触发器<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">assign</span> a=b&amp;c</span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> u1(q,a,b)</span><br></pre></td></tr></table></figure>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">always</span> @(<span class="keyword">posedge</span> clk <span class="keyword">or</span> <span class="keyword">posedge</span> clr);</span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line">	<span class="keyword">if</span>(clr)</span><br><span class="line">		q&lt;=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>（en）</span><br><span class="line">		q&lt;=d;</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-</ul>
-<ol start="3">
-<li>原则：<ul>
-<li>所有过程块、连续赋值语句、实例引用都是并行的</li>
-<li>他们表示的是一种通过变量名相互链接的关系</li>
-<li>同一模块中者三者出现的先后秩序没有关系</li>
-<li>只有连续赋值语句assign和实例引用语句可以独立于过程块而存在于模块的功能定义部分</li>
-</ul>
-</li>
-</ol>
-<h2 id="3-2-数据类型及其常数和变量"><a href="#3-2-数据类型及其常数和变量" class="headerlink" title="3.2 数据类型及其常数和变量"></a>3.2 数据类型及其常数和变量</h2><h3 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h3><p>区分大小写，必须以字母开头，转义标识符要以”&quot;开头，以空格结尾<br>模块、端口和实例的名字都是标识符<br>好的命名原则：使用有意义的名字，不要用$字符，结尾不用下划线。要用大小写混合的名字</p>
-<h3 id="专用标记"><a href="#专用标记" class="headerlink" title="专用标记"></a>专用标记</h3><ol>
-<li><p>系统任务和系统函数$&lt;identifier&gt;</p>
-<ul>
-<li>$开头表示系统任务或者系统函数，任务通过参数传递0或多个值，允许有延时</li>
-<li>函数只返回一个值，不允许延时，函数的执行不需要时间</li>
-<li>系统函数有很多<ul>
-<li>返回当前仿真时间$time</li>
-<li>监视、显示信号值（$display, $monitor）</li>
-<li>停止仿真 $stop</li>
-<li>结束仿真 $ finish</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>延时说明<br>“#” 用于说明延时，不能用于模块的实例化<br>门延时有很多类名字：门延时（gate delay），传输延时（propagation delay）</p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">module</span> MUX2_ <span class="number">1</span> (out, a, b, sel) ; </span><br><span class="line"><span class="keyword">output</span> out ; </span><br><span class="line"><span class="keyword">input</span> a, b, sel ; </span><br><span class="line"><span class="keyword">wire</span> sel_, a1, b1; </span><br><span class="line"><span class="keyword">not</span> #<span class="number">1</span> not1( sel_, sel); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> and1( a1, a, sel_); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> and2( b1, b, sel); </span><br><span class="line"><span class="keyword">or</span> #<span class="number">1</span> or1( out, a1, b1); </span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编译器指令<br>以反引号开始的一些标识符，类似于C语言的宏命令，这些编译指令使仿真编译器进行一些特殊的操作，编译指令一直保持有效直到被覆盖或解除</p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="meta">`<span class="keyword">define</span>, `<span class="keyword">undef</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">ifdef</span>, `<span class="keyword">ifndef</span>, `<span class="keyword">else</span>, `elseif, `<span class="keyword">endif</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">default_nettype</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">include</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">resetall</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">timescale</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">unconnected_drive</span>, `<span class="keyword">nounconnected_drive</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">celldefine</span>, `<span class="keyword">endcelldefine</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">line</span></span></span><br></pre></td></tr></table></figure></li>
-</ol>
-<h3 id="值集合"><a href="#值集合" class="headerlink" title="值集合"></a>值集合</h3><ol>
-<li>基本值<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102170719.png"></li>
-</ol>
-<ul>
-<li>符合现实：<ul>
-<li>nand 一个输入为0，输出总是1，另一个输入不管是x还是z</li>
-<li>nand 两个输入x 输出为x</li>
-<li>z作为输入时候代表x</li>
-<li>如果忘记连输入端，这个输入端是z</li>
-<li>仿真开始时刻，所有端口都是x</li>
-</ul>
-</li>
-</ul>
-<ol start="2">
-<li>常量<br>数字：整数，x，z，负数，下划线</li>
-</ol>
-<ul>
-<li>整数<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102171346.png"><ul>
-<li>例<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102171335.png"></li>
-<li>常量在不说明位宽时候默认为32位![[Pasted image 20230102171509.png]]</li>
-</ul>
-</li>
-<li>参数（parameter）型<br>在Verilog HDL中用parameter定义常量，即用parameter 来定义一个标识符代表一个常量，称为符号常量，即标识符形 式的常量，采用标识符代表一个常量可提高程序的可读性和可 维护性。<br>参数用于定义延时和变量宽度<br>用于参数声明的语句，参数只能被赋值一次，且一直保持不变</li>
-</ul>
-<ol start="2">
-<li>变量<br>是一种在 程序运行中值可以改变的量</li>
-</ol>
-<ul>
-<li><p>wire型：用来表示assign关键字指定的组合逻辑信号。verilog程序模块中输入输出信号类型默认时自动定义为wire型，可以用作任何方程式的输入，也可以用作assign语句或实例元件的输出</p>
-<ul>
-<li>信号格式如下：wire [n-1∶0] 数据名1,数据名2,…数据名i; &#x2F;&#x2F;共有i条总线，每条总 线内有n条线路，或wire [n∶1] 数据名1,数据名2,…数据名i。</li>
-<li>网线需要被持续驱动，驱动它的可以是门和模块，当线网驱动器的值发生变化时候，verilog自动将新值传到线网上![[Pasted image 20230102173348.png]]</li>
-<li>部分选择和位选择(代码见下方)</li>
-<li>多驱动源：驱动一个wire时，逻辑值会发生冲突导致产生不确定值<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102173009.png"><figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line"><span class="keyword">wire</span> [<span class="number">7</span>:<span class="number">0</span>] da;</span><br><span class="line"><span class="keyword">wire</span> [<span class="number">3</span>:<span class="number">0</span>] db;</span><br><span class="line"><span class="keyword">wire</span> dc;</span><br><span class="line"><span class="keyword">assign</span> db=da[<span class="number">7</span>:<span class="number">4</span>]; <span class="comment">//部分选择</span></span><br><span class="line"><span class="keyword">assign</span> dc=da[<span class="number">0</span>]; <span class="comment">//位选择</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><p>reg型：赋新值以前保持原值，用行为描述结构给reg类型赋值，给reg类型赋值在过程块中<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102173454.png"></p>
-<ul>
-<li>注意：reg类型默认初始值位x</li>
-</ul>
-</li>
-<li><p>memory型</p>
-</li>
-</ul>
-<h2 id="3-3-运算符及表达式"><a href="#3-3-运算符及表达式" class="headerlink" title="3.3 运算符及表达式"></a>3.3 运算符及表达式</h2>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 嵌入式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【高效刷题】数C习题精析</title>
+      <link href="/2023/01/09/3a-%E6%95%B0C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+      <url>/2023/01/09/3a-%E6%95%B0C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一章-大纲"><a href="#第一章-大纲" class="headerlink" title="第一章 大纲"></a>第一章 大纲</h1><h2 id="0-测试题"><a href="#0-测试题" class="headerlink" title="0 测试题"></a>0 测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114355.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114414.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114426.png"></p><h1 id="第五章-CMOS反相器静态特性"><a href="#第五章-CMOS反相器静态特性" class="headerlink" title="第五章 CMOS反相器静态特性"></a>第五章 CMOS反相器静态特性</h1><h2 id="0-测试题-1"><a href="#0-测试题-1" class="headerlink" title="0 测试题"></a>0 测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114820.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114833.png"></p><h1 id="第六章-MOS反相器的开关特性和互联线影响"><a href="#第六章-MOS反相器的开关特性和互联线影响" class="headerlink" title="第六章 MOS反相器的开关特性和互联线影响"></a>第六章 MOS反相器的开关特性和互联线影响</h1><h2 id="0-测试题-2"><a href="#0-测试题-2" class="headerlink" title="0 测试题"></a>0 测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109114924.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115048.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115059.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115111.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115122.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115138.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115149.png"></p><h1 id="第七章-组合MOS逻辑电路"><a href="#第七章-组合MOS逻辑电路" class="headerlink" title="第七章 组合MOS逻辑电路"></a>第七章 组合MOS逻辑电路</h1><h2 id="测试题"><a href="#测试题" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115332.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115343.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115358.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115408.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115418.png"></p><h1 id="第八章-时序逻辑电路"><a href="#第八章-时序逻辑电路" class="headerlink" title="第八章 时序逻辑电路"></a>第八章 时序逻辑电路</h1><h2 id="测试题-1"><a href="#测试题-1" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115550.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115557.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115607.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115617.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115628.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115638.png"></p><h1 id="第九章-动态逻辑门"><a href="#第九章-动态逻辑门" class="headerlink" title="第九章 动态逻辑门"></a>第九章 动态逻辑门</h1><h2 id="测试题-2"><a href="#测试题-2" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115823.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115831.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115847.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109115902.png"></p><h1 id="第十章-半导体存储器"><a href="#第十章-半导体存储器" class="headerlink" title="第十章 半导体存储器"></a>第十章 半导体存储器</h1><h2 id="测试题-3"><a href="#测试题-3" class="headerlink" title="测试题"></a>测试题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165255.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165307.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165326.png"></p><h1 id="第十三章-VISIL设计"><a href="#第十三章-VISIL设计" class="headerlink" title="第十三章 VISIL设计"></a>第十三章 VISIL设计</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165413.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165423.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165444.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165454.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165504.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109165512.png"></p>]]></content>
+      
+      
       <categories>
-        <category>大三下</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>Verilog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【课程补充】振荡器</title>
-    <url>/2023/01/10/a3-%E6%A8%A1C%E6%8C%AF%E8%8D%A1%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="振荡器"><a href="#振荡器" class="headerlink" title="振荡器"></a>振荡器</h1><h2 id="一-环形振荡器"><a href="#一-环形振荡器" class="headerlink" title="一 环形振荡器"></a>一 环形振荡器</h2><p>首先要明确下图是不可以振荡的<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204401.png"><br>这是由于振荡的条件是在低频中频段的相移为-180°<br>因此，多加一个极点提供相移就有多一些振荡的可能，使用三级反相器，只有每级60°相移时发生振荡，在该频率下的增益为1，因此有结论：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110204755.png"><br>三级反相器的反馈，产生的振荡周期为$6T_D$</p>
-<h3 id="振幅限制"><a href="#振幅限制" class="headerlink" title="振幅限制"></a>振幅限制</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110205851.png"><br>对于大多数应用：3到4级环形反相器可以提供最优的性能</p>
-<h3 id="电阻的替换"><a href="#电阻的替换" class="headerlink" title="电阻的替换"></a>电阻的替换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110211116.png"><br>图C的负载还有一个有趣的特性：M3栅源电容由源随器驱动，所以负载相关的时间常数小于二极管接法的时间常数。而且源随器一定的输出阻抗可能对负载产生电感特性</p>
-<h2 id="二-单端口振荡器"><a href="#二-单端口振荡器" class="headerlink" title="二 单端口振荡器"></a>二 单端口振荡器</h2><p>如果单端电路有一负电阻与振荡回路并联，电路就会永远振荡，这种电路被称为单端口振荡器。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110212621.png"></p>
-<h3 id="负电阻"><a href="#负电阻" class="headerlink" title="负电阻"></a>负电阻</h3><p>负电阻的构成思路：给源随器加正反馈（源随器给源随器反馈）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110213915.png"><br>电阻是增量，如果施加的电压增大，流进的电流减小，这就是负电阻。</p>
-<h3 id="负跨导振荡器"><a href="#负跨导振荡器" class="headerlink" title="负跨导振荡器"></a>负跨导振荡器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103640.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111103750.png"></p>
-<h3 id="另一种负电阻"><a href="#另一种负电阻" class="headerlink" title="另一种负电阻"></a>另一种负电阻</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111104325.png"></p>
-<h2 id="压控振荡器VCO"><a href="#压控振荡器VCO" class="headerlink" title="压控振荡器VCO"></a>压控振荡器VCO</h2><p>定义：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111110105.png"><br>压控振荡器的重要性能参数：</p>
-<ul>
-<li>中心频率：高到几百GHz</li>
-<li>调节范围：$$K_{VCO}&gt;\frac{\omega_2-\omega_1}{V_2-V_1}$$</li>
-<li>调节线性度</li>
-<li>功耗</li>
-<li>电源与共模抑制</li>
-<li>输出信号纯度</li>
-</ul>
-<h3 id="四-环形振荡器的调节"><a href="#四-环形振荡器的调节" class="headerlink" title="四 环形振荡器的调节"></a>四 环形振荡器的调节</h3><p>使用图13.57的结构，将负载换为一个深耗尽的二极管（压控电阻），可以得到一个正比于$V_{cont}$的频率。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165009.png">它的缺点在于电路的输出摆幅的变化范围很大，为了减小振幅变化，可以通过这个电压来调节伪电流。<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111165356.png"></p>
-<h3 id="正反馈引起的延时变化"><a href="#正反馈引起的延时变化" class="headerlink" title="正反馈引起的延时变化"></a>正反馈引起的延时变化</h3><h3 id="插值法改变延时"><a href="#插值法改变延时" class="headerlink" title="插值法改变延时"></a>插值法改变延时</h3><p><em>（这里还没看懂）</em></p>
-<h2 id="五-VCO的数学模型"><a href="#五-VCO的数学模型" class="headerlink" title="五 VCO的数学模型"></a>五 VCO的数学模型</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111170951.png"><br>定义剩余相位（总相位），它是由积分来的<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111171408.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数C </tag>
+            
+            <tag> 未考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【高效刷题】模C习题精析</title>
+      <link href="/2023/01/09/3a-%E6%A8%A1C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+      <url>/2023/01/09/3a-%E6%A8%A1C%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一章-概述"><a href="#第一章-概述" class="headerlink" title="第一章 概述"></a>第一章 概述</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223051.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223101.png"></p><h1 id="第二章-MOS器件"><a href="#第二章-MOS器件" class="headerlink" title="第二章 MOS器件"></a>第二章 MOS器件</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223136.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223209.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223223.png"></p><h1 id="第三章-单极放大器"><a href="#第三章-单极放大器" class="headerlink" title="第三章 单极放大器"></a>第三章 单极放大器</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223503.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223514.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223525.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223533.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223625.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223635.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223645.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223653.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223702.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223711.png"></p><h1 id="第四章-差动放大器"><a href="#第四章-差动放大器" class="headerlink" title="第四章 差动放大器"></a>第四章 差动放大器</h1><h1 id="第五章-电流镜"><a href="#第五章-电流镜" class="headerlink" title="第五章 电流镜"></a>第五章 电流镜</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223836.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223846.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223856.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223903.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223912.png"></p><h1 id="第六章-频率响应"><a href="#第六章-频率响应" class="headerlink" title="第六章 频率响应"></a>第六章 频率响应</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109223958.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224007.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224014.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224022.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224029.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224036.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224043.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224051.png"></p><h1 id="第七章-噪声"><a href="#第七章-噪声" class="headerlink" title="第七章 噪声"></a>第七章 噪声</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224147.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224155.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224201.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224208.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224217.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224225.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224232.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224240.png"></p><h1 id="第八章-反馈"><a href="#第八章-反馈" class="headerlink" title="第八章 反馈"></a>第八章 反馈</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224408.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224415.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224429.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224439.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224446.png"></p><h1 id="第九章-运算放大器"><a href="#第九章-运算放大器" class="headerlink" title="第九章 运算放大器"></a>第九章 运算放大器</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224731.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224741.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224750.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224759.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224823.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224832.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224904.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224910.png"></p><h1 id="第十章-设计"><a href="#第十章-设计" class="headerlink" title="第十章 设计"></a>第十章 设计</h1><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224917.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109224925.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109225009.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230109225024.png"></p>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>模C</tag>
-        <tag>大创</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【课程补充】锁相环PLL</title>
-    <url>/2023/01/11/a3-%E6%A8%A1C%E9%94%81%E7%9B%B8%E7%8E%AF/</url>
-    <content><![CDATA[<h1 id="模C第十六章-锁相环"><a href="#模C第十六章-锁相环" class="headerlink" title="模C第十六章  锁相环"></a>模C第十六章  锁相环</h1><ul>
-<li><a href="#%E6%A8%A1c%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0--%E9%94%81%E7%9B%B8%E7%8E%AF">模C第十六章  锁相环</a><ul>
-<li><a href="#%E4%B8%80-%E7%AE%80%E5%8D%95%E7%9A%84%E9%94%81%E7%9B%B8%E7%8E%AF">一 简单的锁相环</a><ul>
-<li><a href="#11-%E5%9F%BA%E6%9C%AC%E7%9A%84pll%E7%BB%93%E6%9E%84-ok">1.1 基本的PLL结构 ok</a></li>
-<li><a href="#12-%E7%AE%80%E5%8D%95%E9%94%81%E7%9B%B8%E7%8E%AF%E7%9A%84%E5%8A%A8%E6%80%81%E7%89%B9%E6%80%A7ok">1.2 简单锁相环的动态特性ok</a></li>
-</ul>
-</li>
-<li><a href="#%E4%BA%8C-%E7%94%B5%E8%8D%B7%E6%B3%B5%E9%94%81%E7%9B%B8%E7%8E%AF">二 电荷泵锁相环</a><ul>
-<li><a href="#21-%E9%94%81%E5%AE%9A%E6%8D%95%E8%8E%B7%E9%97%AE%E9%A2%98">2.1 锁定捕获问题</a></li>
-<li><a href="#22-%E9%89%B4%E7%9B%B8%E9%89%B4%E9%A2%91%E5%99%A8">2.2 鉴相&#x2F;鉴频器</a></li>
-<li><a href="#23-%E7%94%B5%E8%8D%B7%E6%B3%B5">2.3 电荷泵</a></li>
-<li><a href="#24-%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%94%B5%E8%8D%B7%E6%B3%B5%E9%94%81%E7%9B%B8%E7%8E%AF">2.4 基本的电荷泵锁相环</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%89-%E9%94%81%E7%9B%B8%E7%8E%AF%E4%B8%AD%E7%9A%84%E9%9D%9E%E7%90%86%E6%83%B3%E6%95%88%E5%BA%94">三 锁相环中的非理想效应</a><ul>
-<li><a href="#31-pfdcp%E7%9A%84%E9%9D%9E%E7%90%86%E6%83%B3%E6%80%A7">3.1 PFD&#x2F;CP的非理想性</a></li>
-<li><a href="#32-%E9%94%81%E7%9B%B8%E7%8E%AF%E4%B8%AD%E7%9A%84%E6%8A%96%E5%8A%A8%E7%8E%B0%E8%B1%A1">3.2 锁相环中的抖动现象</a></li>
-</ul>
-</li>
-<li><a href="#%E5%9B%9B-%E5%BB%B6%E8%BF%9F%E9%94%81%E7%9B%B8%E7%8E%AF">四 延迟锁相环</a></li>
-<li><a href="#%E4%BA%94-%E5%BA%94%E7%94%A8">五 应用</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="一-简单的锁相环"><a href="#一-简单的锁相环" class="headerlink" title="一 简单的锁相环"></a>一 简单的锁相环</h2><h3 id="1-1-基本的PLL结构-ok"><a href="#1-1-基本的PLL结构-ok" class="headerlink" title="1.1 基本的PLL结构 ok"></a>1.1 基本的PLL结构 ok</h3><p>鉴相器：平均输出$V_{out}$与其两个输入之间的相位差成线性比力，一个熟悉的例子就是异或门<br>鉴相器和VCO之间必须有低通滤波器LPF的原因是:不希望有高频分量；VCO的控制电压在稳态必须保持恒定<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111215710.png"></p>
-<ul>
-<li>相位阶跃：可以进入稳定</li>
-<li>频率阶跃：控制电压和相位误差均有一个永久改变，“跟踪”</li>
-</ul>
-<p>注意：要使环路稳定，必须相位和频率都稳定到合适的值</p>
-<h3 id="1-2-简单锁相环的动态特性ok"><a href="#1-2-简单锁相环的动态特性ok" class="headerlink" title="1.2 简单锁相环的动态特性ok"></a>1.2 简单锁相环的动态特性ok</h3><p>首先对传递函数要有一个全新的认识：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111223854.png"><br>以这样的视角重新审视锁相环：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111224545.png"> 原点有一个极点，这是一个I型系统。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111225753.png"><br>利用时域分析法：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111225923.png"><br>两者相乘为：$\frac{1}{2} \omega_{LPF}$，同时这是衰减函数的包络$e^{-\zeta \omega_n t}$。<br>这个结果告诉我们：稳定速度和VCO控制线上的电压波动之间的折衷：$\omega_{LPF}$越小，鉴相器输出的高频成分被抑制的越厉害，但稳定的时间常数越长<br>（16.5）告诉我们相位误差和$\zeta$，$K_{PD} K_{VCO}$成反比例，因此要降低相位误差不可变让系统变不稳定。<br>这里也可以用开环传递函数的波特图来理解：当K增大，整个曲线上移，$\omega_n$右移，相位裕度减小。<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111232141.png"><br>综上，<strong>折衷考虑：稳定速度、控制电压的波纹（对高频的抑制）、相位误差和稳定性</strong></p>
-<blockquote>
-<p>加入一个重要例题，说明调整时间的计算方法<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230111230652.png"></p>
-</blockquote>
-<h2 id="二-电荷泵锁相环"><a href="#二-电荷泵锁相环" class="headerlink" title="二 电荷泵锁相环"></a>二 电荷泵锁相环</h2><h3 id="2-1-锁定捕获问题"><a href="#2-1-锁定捕获问题" class="headerlink" title="2.1 锁定捕获问题"></a>2.1 锁定捕获问题</h3><h3 id="2-2-鉴相-x2F-鉴频器"><a href="#2-2-鉴相-x2F-鉴频器" class="headerlink" title="2.2 鉴相&#x2F;鉴频器"></a>2.2 鉴相&#x2F;鉴频器</h3><h3 id="2-3-电荷泵"><a href="#2-3-电荷泵" class="headerlink" title="2.3 电荷泵"></a>2.3 电荷泵</h3><h3 id="2-4-基本的电荷泵锁相环"><a href="#2-4-基本的电荷泵锁相环" class="headerlink" title="2.4 基本的电荷泵锁相环"></a>2.4 基本的电荷泵锁相环</h3><h2 id="三-锁相环中的非理想效应"><a href="#三-锁相环中的非理想效应" class="headerlink" title="三 锁相环中的非理想效应"></a>三 锁相环中的非理想效应</h2><h3 id="3-1-PFD-x2F-CP的非理想性"><a href="#3-1-PFD-x2F-CP的非理想性" class="headerlink" title="3.1 PFD&#x2F;CP的非理想性"></a>3.1 PFD&#x2F;CP的非理想性</h3><h3 id="3-2-锁相环中的抖动现象"><a href="#3-2-锁相环中的抖动现象" class="headerlink" title="3.2 锁相环中的抖动现象"></a>3.2 锁相环中的抖动现象</h3><h2 id="四-延迟锁相环"><a href="#四-延迟锁相环" class="headerlink" title="四 延迟锁相环"></a>四 延迟锁相环</h2><h2 id="五-应用"><a href="#五-应用" class="headerlink" title="五 应用"></a>五 应用</h2>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 未考 </tag>
+            
+            <tag> 模C </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【高效刷题】自控习题精析</title>
+      <link href="/2023/01/05/3a-%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+      <url>/2023/01/05/3a-%E8%87%AA%E6%8E%A7%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<p>本文记录自控的例题以典型作业题，本文的作用是汇总可能考到的重点题型，不能覆盖全部考点，不能完全作为刷题的材料，但对基础内容具有概括作用。</p><h1 id="第一章-自动控制的一般概念"><a href="#第一章-自动控制的一般概念" class="headerlink" title="第一章 自动控制的一般概念"></a>第一章 自动控制的一般概念</h1><ol><li><p>分析控制系统的工作原理并画出原理方块图<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221123.png"></p></li><li><p>文字游戏<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221331.png"></p></li><li><p>概念题：开环和闭环控制系统的优缺点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221154.png"></p></li></ol><h1 id="第二章-自动控制系统的数学模型"><a href="#第二章-自动控制系统的数学模型" class="headerlink" title="第二章 自动控制系统的数学模型"></a>第二章 自动控制系统的数学模型</h1><h2 id="1-动力学分析"><a href="#1-动力学分析" class="headerlink" title="1 动力学分析"></a>1 动力学分析</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221552.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221601.png"></p><h2 id="2-转动惯量"><a href="#2-转动惯量" class="headerlink" title="2 转动惯量"></a>2 转动惯量</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221700.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102221708.png"></p><h2 id="3-电路系统建模"><a href="#3-电路系统建模" class="headerlink" title="3 电路系统建模"></a>3 电路系统建模</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092756.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103092745.png"><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100235.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100244.png"></p><h2 id="4-复杂系统的建模"><a href="#4-复杂系统的建模" class="headerlink" title="4 复杂系统的建模"></a>4 复杂系统的建模</h2><p> 1. 转速控制系统<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093106.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093114.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093122.png"></p><h2 id="5-机械系统"><a href="#5-机械系统" class="headerlink" title="5 机械系统"></a>5 机械系统</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100205.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100144.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103100128.png"></p><h2 id="6-惯性环节、震荡环节、微分环节"><a href="#6-惯性环节、震荡环节、微分环节" class="headerlink" title="6  惯性环节、震荡环节、微分环节"></a>6  惯性环节、震荡环节、微分环节</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093326.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093458.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093558.png"></p><h2 id="7-方块图"><a href="#7-方块图" class="headerlink" title="7 方块图"></a>7 方块图</h2><p> 1. 普通<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105163940.png"></p><p> 2. 简单化简<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105202441.png"></p><p> 3. 补一法 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105164106.png"></p><h2 id="8-扰动误差函数的处理"><a href="#8-扰动误差函数的处理" class="headerlink" title="8 扰动误差函数的处理"></a>8 扰动误差函数的处理</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093936.png"></p><h2 id="9-信号流图的绘制"><a href="#9-信号流图的绘制" class="headerlink" title="9 信号流图的绘制"></a>9 信号流图的绘制</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094125.png"></p><h2 id="10-梅逊增益公式"><a href="#10-梅逊增益公式" class="headerlink" title="10 梅逊增益公式"></a>10 梅逊增益公式</h2><ul><li><p>规范格式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094625.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094646.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094656.png"></p></li><li><p>复杂题目<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095329.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095410.png"></p></li></ul><h1 id="第三章-线性系统的时域分析"><a href="#第三章-线性系统的时域分析" class="headerlink" title="第三章 线性系统的时域分析"></a>第三章 线性系统的时域分析</h1><h2 id="1-一阶系统的瞬态响应"><a href="#1-一阶系统的瞬态响应" class="headerlink" title="1 一阶系统的瞬态响应"></a>1 一阶系统的瞬态响应</h2><ol><li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200202.png"></li></ol><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200213.png"></p><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200309.png"></p><p> 2. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106202221.png"></p><h2 id="2-特征根分布图"><a href="#2-特征根分布图" class="headerlink" title="2 特征根分布图"></a>2 特征根分布图</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106202323.png"></p><h2 id="3-二阶系统的性能指标"><a href="#3-二阶系统的性能指标" class="headerlink" title="3 二阶系统的性能指标"></a>3 二阶系统的性能指标</h2><p> 1. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200448.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200459.png"></p><p> 2. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204410.png"></p><p> 3. <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204503.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204518.png"></p><h2 id="4-高阶系统的性能指标"><a href="#4-高阶系统的性能指标" class="headerlink" title="4 高阶系统的性能指标"></a>4 高阶系统的性能指标</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204648.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106204658.png"></p><h2 id="5-劳斯稳定性判据"><a href="#5-劳斯稳定性判据" class="headerlink" title="5 劳斯稳定性判据"></a>5 劳斯稳定性判据</h2><h3 id="简单结论"><a href="#简单结论" class="headerlink" title="简单结论"></a>简单结论</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200759.png"></p><h3 id="第一项系数为0的处理"><a href="#第一项系数为0的处理" class="headerlink" title="第一项系数为0的处理"></a>第一项系数为0的处理</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200913.png"></p><h3 id="辅助方程的处理"><a href="#辅助方程的处理" class="headerlink" title="辅助方程的处理"></a>辅助方程的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201128.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201137.png"></p><h2 id="5-稳定裕量的处理"><a href="#5-稳定裕量的处理" class="headerlink" title="5 稳定裕量的处理"></a>5 稳定裕量的处理</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201317.png"></p><h2 id="6-稳态误差分析"><a href="#6-稳态误差分析" class="headerlink" title="6 稳态误差分析"></a>6 稳态误差分析</h2><ol start="0"><li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106205239.png"></p></li><li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201514.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201527.png"></p></li><li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201700.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201720.png"></p></li><li><p>复杂系统的讨论<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106220820.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106201835.png"></p></li><li><p>反推传递函数<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106205044.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106205052.png"></p></li></ol><h1 id="第四章-根轨迹分析法"><a href="#第四章-根轨迹分析法" class="headerlink" title="第四章 根轨迹分析法"></a>第四章 根轨迹分析法</h1><h2 id="1-利用试探法和幅值条件（定义）确定根轨迹上的点"><a href="#1-利用试探法和幅值条件（定义）确定根轨迹上的点" class="headerlink" title="1 利用试探法和幅值条件（定义）确定根轨迹上的点"></a>1 利用试探法和幅值条件（定义）确定根轨迹上的点</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221515.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221525.png">  </p><h2 id="2-根轨迹的重要参量"><a href="#2-根轨迹的重要参量" class="headerlink" title="2 根轨迹的重要参量"></a>2 根轨迹的重要参量</h2><ol><li><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221725.png"></p></li><li><p>分离会合点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106221933.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235430.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222023.png"></p></li><li><p>出射角<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222111.png"></p></li><li><p>与虚轴交点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222144.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222210.png"></p></li></ol><h2 id="3-证明根轨迹的形状"><a href="#3-证明根轨迹的形状" class="headerlink" title="3 证明根轨迹的形状"></a>3 证明根轨迹的形状</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225054.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225104.png"></p><h2 id="4-根轨迹的绘制"><a href="#4-根轨迹的绘制" class="headerlink" title="4 根轨迹的绘制"></a>4 根轨迹的绘制</h2><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225501.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225515.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225549.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225602.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225616.png">  </p><h2 id="5-利用根轨迹计算系统的参数"><a href="#5-利用根轨迹计算系统的参数" class="headerlink" title="5 利用根轨迹计算系统的参数"></a>5 利用根轨迹计算系统的参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225954.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230007.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230019.png"></p><h2 id="6-由参数确定其他参数"><a href="#6-由参数确定其他参数" class="headerlink" title="6 由参数确定其他参数"></a>6 由参数确定其他参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230346.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230359.png"></p><h2 id="7-引入积分环节"><a href="#7-引入积分环节" class="headerlink" title="7 引入积分环节"></a>7 引入积分环节</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230135.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230155.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230205.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230216.png"></p><h1 id="第五章-线性系统的频域分析法"><a href="#第五章-线性系统的频域分析法" class="headerlink" title="第五章 线性系统的频域分析法"></a>第五章 线性系统的频域分析法</h1><h2 id="0-求系统稳态输出误差，求系统函数"><a href="#0-求系统稳态输出误差，求系统函数" class="headerlink" title="0 求系统稳态输出误差，求系统函数"></a>0 求系统稳态输出误差，求系统函数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233127.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233135.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233525.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233535.png"></p><h2 id="1-画出对数坐标图"><a href="#1-画出对数坐标图" class="headerlink" title="1 画出对数坐标图"></a>1 画出对数坐标图</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160143.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160200.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160212.png"></p><h3 id="加上一些细节（画图）："><a href="#加上一些细节（画图）：" class="headerlink" title="加上一些细节（画图）："></a>加上一些细节（画图）：</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233724.png"></p><h3 id="加上一些细节（反推函数）"><a href="#加上一些细节（反推函数）" class="headerlink" title="加上一些细节（反推函数）"></a>加上一些细节（反推函数）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233757.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233823.png"></p><h2 id="2-非最小相位系统的相频特性"><a href="#2-非最小相位系统的相频特性" class="headerlink" title="2 非最小相位系统的相频特性"></a>2 非最小相位系统的相频特性</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164310.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164322.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164335.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164346.png"></p><h2 id="3-极坐标图的绘制"><a href="#3-极坐标图的绘制" class="headerlink" title="3 极坐标图的绘制"></a>3 极坐标图的绘制</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234015.png"></p><h2 id="3-奈奎斯特判断稳定性的基本方法"><a href="#3-奈奎斯特判断稳定性的基本方法" class="headerlink" title="3 奈奎斯特判断稳定性的基本方法"></a>3 奈奎斯特判断稳定性的基本方法</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164546.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164611.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164619.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164628.png"></p><h2 id="4-奈奎斯特稳定判据在I、II型系统中的应用"><a href="#4-奈奎斯特稳定判据在I、II型系统中的应用" class="headerlink" title="4 奈奎斯特稳定判据在I、II型系统中的应用"></a>4 奈奎斯特稳定判据在I、II型系统中的应用</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232328.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232339.png"></p><h2 id="建议：作业中有较为复杂题目"><a href="#建议：作业中有较为复杂题目" class="headerlink" title="建议：作业中有较为复杂题目"></a>建议：作业中有较为复杂题目</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234621.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234629.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234639.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234649.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234659.png"></p><h2 id="5-时间延迟以及左侧绕原点问题（了解）"><a href="#5-时间延迟以及左侧绕原点问题（了解）" class="headerlink" title="5 时间延迟以及左侧绕原点问题（了解）"></a>5 时间延迟以及左侧绕原点问题（了解）</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232644.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232711.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232722.png"></p><h2 id="6-稳定裕度"><a href="#6-稳定裕度" class="headerlink" title="6 稳定裕度"></a>6 稳定裕度</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232832.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232848.png"></p><h2 id="7-开环和闭环频域性能指标"><a href="#7-开环和闭环频域性能指标" class="headerlink" title="7 开环和闭环频域性能指标"></a>7 开环和闭环频域性能指标</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234529.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234539.png"></p><h1 id="第七章-线性系统的设计方法"><a href="#第七章-线性系统的设计方法" class="headerlink" title="第七章 线性系统的设计方法"></a>第七章 线性系统的设计方法</h1><h2 id="1-超前校正"><a href="#1-超前校正" class="headerlink" title="1 超前校正"></a>1 超前校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234926.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234934.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234948.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234955.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235004.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235020.png"></p><h2 id="2-超前校正：作业题"><a href="#2-超前校正：作业题" class="headerlink" title="2 超前校正：作业题"></a>2 超前校正：作业题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235048.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/Pasted%20image%2020221227124210.png"></p><h2 id="3-滞后校正"><a href="#3-滞后校正" class="headerlink" title="3 滞后校正"></a>3 滞后校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235149.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235159.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235207.png"></p><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235217.png"></p>]]></content>
+      
+      
       <categories>
-        <category>大三上</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>模C</tag>
-        <tag>大创</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【课程补充】嵌入式系统微架构</title>
-    <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BE%AE%E6%9E%B6%E6%9E%84/</url>
-    <content><![CDATA[<h2 id="Arm概述"><a href="#Arm概述" class="headerlink" title="Arm概述"></a>Arm概述</h2><p>ARM:advanced RISC Machine<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171737.png"><br>IP有三种形式：软核（代码-VHDL），固核（网表），硬核（工艺验证、版图等）<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171750.png"><br>arm芯片的各个系列：高性能、实时、单片机M（节能）、机器学习、安全领域<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172258.png"><br>功能的升级可以从版本号中看到（指令集的提升）：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171806.png"></p>
-<h2 id="ARM处理器运行模式"><a href="#ARM处理器运行模式" class="headerlink" title="ARM处理器运行模式"></a>ARM处理器运行模式</h2><h3 id="数据的存储：大端和小段"><a href="#数据的存储：大端和小段" class="headerlink" title="数据的存储：大端和小段"></a>数据的存储：大端和小段</h3><p>数据在内存中的摆放：32bits<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110172619.png"></p>
-<h3 id="arm的版本"><a href="#arm的版本" class="headerlink" title="arm的版本"></a>arm的版本</h3><p>v2规定了atomic：原子操作，不能被其他拆开<br>v5开始支持DSP<br>v7开始支持TrustZone安全性提高，处理器分A、M、R<br>v8增加了A64位指令集（A32属于thumb指令集）</p>
-<h3 id="ARM的体系结构"><a href="#ARM的体系结构" class="headerlink" title="ARM的体系结构"></a>ARM的体系结构</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110180638.png"><br>ARM指令集：32bit<br>Thumb指令集：16bit</p>
-<h3 id="处理器的运行模式"><a href="#处理器的运行模式" class="headerlink" title="处理器的运行模式"></a>处理器的运行模式</h3><p>针对任务的轻重缓急有不同的硬件资源对应，分为非特权模式（User）和特权模式（other）<br>特权模式：分为系统模式和异常模式（中断和转移）</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 未考 </tag>
+            
+            <tag> 自控 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【知识集合】Verilog</title>
+      <link href="/2022/12/12/3b-Verilog/"/>
+      <url>/2022/12/12/3b-Verilog/</url>
+      
+        <content type="html"><![CDATA[<p>本文记录寒假器件自学verilog的笔记。</p><span id="more"></span><h1 id="第二章-Verilog语法的基本概念"><a href="#第二章-Verilog语法的基本概念" class="headerlink" title="第二章 Verilog语法的基本概念"></a>第二章 Verilog语法的基本概念</h1><h2 id="2-1-概述"><a href="#2-1-概述" class="headerlink" title="2.1 概述"></a>2.1 概述</h2><p>VerilogHDL描述的电路设计为该电路的Verilog HDL模型，也称为模块。VerilogHDL即使一种行为描述语言也是一种结构描述语言。可以将功能行为模块通过工具自动的转换为门级互联的结构模块。<br>它可以是实际电路不同级别的抽象</p><ul><li>系统级</li><li>算法级 algorithm level</li><li>RTL级 register transfer level<br>（以上三种属于行为级，只有RTL级彩玉逻辑电路有明确的对应关系）</li><li>门级</li><li>开关级</li></ul><h2 id="2-2-Verilog模块的基本概念"><a href="#2-2-Verilog模块的基本概念" class="headerlink" title="2.2 Verilog模块的基本概念"></a>2.2 Verilog模块的基本概念</h2><p>先用例子了解Verilog模块的特性：</p><ul><li><p>多路选择器<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227160423.png"></p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> muxtwo(out,a,b,sl);</span><br><span class="line"><span class="keyword">input</span> a,b,sl;<span class="comment">//输入信号名</span></span><br><span class="line"><span class="keyword">output</span> out;<span class="comment">//输出信号名</span></span><br><span class="line"><span class="keyword">reg</span> out;</span><br><span class="line"><span class="keyword">always</span> @ (sl <span class="keyword">or</span> a <span class="keyword">or</span> b)</span><br><span class="line"><span class="keyword">if</span>(!sl)</span><br><span class="line">out=a;</span><br><span class="line"><span class="keyword">else</span> </span><br><span class="line">out=b;</span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure></li><li><p>带有与非门的二选一多路选择器<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227160502.png"></p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> muxtwo(out,a,b,sl);</span><br><span class="line"><span class="keyword">input</span> a,b,sl;<span class="comment">//输入信号名</span></span><br><span class="line"><span class="keyword">output</span> out; <span class="comment">//输出信号名 </span></span><br><span class="line"><span class="keyword">wire</span> nsl, sela, selb;<span class="comment">//定义内部连接线 </span></span><br><span class="line"><span class="keyword">assign</span> nsl= ~sl;<span class="comment">//求反 </span></span><br><span class="line"><span class="keyword">assign</span> sela= a &amp; nsl;<span class="comment">// 按位与运算 </span></span><br><span class="line"><span class="keyword">assign</span> selb= b &amp; sl; </span><br><span class="line"><span class="keyword">assign</span> out= sela | selb;<span class="comment">//按位或运算 </span></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> muxtwo (out, a, b, sl); </span><br><span class="line"><span class="keyword">input</span> a, b, sl; </span><br><span class="line"><span class="keyword">output</span> out; <span class="keyword">not</span> u1(nsl, sl); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">1</span> u2(sela, a, nsl); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">1</span> u3(selb, b, sl); </span><br><span class="line"><span class="keyword">or</span> #<span class="number">1</span> u4(out, sela, selb); </span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure></li></ul><p>上面这些例子都是可以综合的，所谓综合就是将HDL转化为电路并有源。</p><h2 id="2-3-Verilog用于模块的测试"><a href="#2-3-Verilog用于模块的测试" class="headerlink" title="2.3 Verilog用于模块的测试"></a>2.3 Verilog用于模块的测试</h2><p>Verilog还可以用来描述变化的测试信号，称为测试平台（testbench）。通过观测被测试模块的输出信号是否符合要求，可以调试和验证逻辑系统的设计和结构正确与否。<br>例如，将上例中的多路器模块进行测试</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#x27;<span class="keyword">include</span> <span class="string">&quot;muxtwo.v&quot;</span> <span class="keyword">module</span> t；</span><br><span class="line"><span class="keyword">reg</span> ain，bin，select； </span><br><span class="line"><span class="keyword">reg</span> clock； </span><br><span class="line"><span class="keyword">wire</span> outw； </span><br><span class="line"><span class="keyword">initial</span> <span class="comment">//把寄存器变量初始化为一的确定值 </span></span><br><span class="line"><span class="keyword">begin</span> </span><br><span class="line">ain = <span class="number">0</span>; </span><br><span class="line">bin = <span class="number">0</span>; </span><br><span class="line">select = <span class="number">0</span>; </span><br><span class="line">clock = <span class="number">0</span>; </span><br><span class="line"><span class="keyword">end</span> </span><br><span class="line"><span class="keyword">always</span> #<span class="number">50</span> clock=~clock； <span class="comment">//产生一个不断重复的周期为100个的时钟信号clock</span></span><br><span class="line"><span class="keyword">always</span> @(<span class="keyword">posedge</span> clock) </span><br><span class="line"><span class="keyword">begin</span> <span class="comment">// &#123;$random&#125;为系统任务，会产生一个随机数 </span></span><br><span class="line">#<span class="number">1</span> ain= &#123;<span class="built_in">$random</span>) % <span class="number">2</span>; <span class="comment">//产生随机的位信号流ain和bin，％2为模2运算 </span></span><br><span class="line">#<span class="number">3</span> bin= &#123;<span class="built_in">$random</span>&#125; % <span class="number">2</span>;<span class="comment">//分别延迟1和3个时间单位后产生随机的位信号流ain和bin</span></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">always</span> #<span class="number">10000</span> select = !select; <span class="comment">//产生周期为10000个单位时间的选通信号变化 //... </span></span><br><span class="line">muxtwo m(<span class="variable">.out</span>(outw)，<span class="variable">.a</span>(ain), <span class="variable">.b</span>(bin), <span class="variable">.sl</span>(select)); </span><br><span class="line"><span class="comment">/* 实例引用多路器，并加入测试信号流，以观察模块的输出out。其中，muxtwo是已经定义的 （行为的或结构的）模块，m表示在本测试模块中有一个名为m的muxtwo的模块，其四个端口分别 为：.out( )，.a( )，.b( )，.sl( )， . 表示端口；后面紧跟端口名，其名称必须与 muxtwo模块定义的端口名一致；小括号内的信号名为与该端口连接的信号线名，可以用别的名，但 必须在本模块中定义，说明其类型。 */</span> </span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure><ul><li>RS出发器的测试<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//首先需要有rs_flipflop的Verilog描述</span></span><br><span class="line">timescale <span class="number">10</span>ns/<span class="number">1</span>ns</span><br><span class="line"><span class="keyword">module</span> rs_filpflop(q,qbar,r,s);</span><br><span class="line"><span class="keyword">output</span> q,qbar;</span><br><span class="line"><span class="keyword">input</span> r,s;</span><br><span class="line"><span class="keyword">nand</span> #<span class="number">1</span> (q,r,qbar);</span><br><span class="line"><span class="keyword">nand</span> #<span class="number">1</span> (qbar,s,q);</span><br><span class="line"><span class="keyword">endmodule</span></span><br><span class="line"><span class="comment">//然后验证</span></span><br><span class="line"><span class="keyword">module</span> text_rs_flipflop；</span><br><span class="line"><span class="keyword">reg</span> ts,tr;</span><br><span class="line"><span class="keyword">wire</span> tq,tqb;</span><br><span class="line">rs_flipflop u_rsff(<span class="variable">.q</span>(tq),<span class="variable">.s</span>(ts),<span class="variable">.r</span>(tr),<span class="variable">.qbar</span>(tqb));<span class="comment">//被测模块实例引用</span></span><br><span class="line"><span class="keyword">initial</span></span><br><span class="line"><span class="keyword">begin</span><span class="comment">//第一个initial语句给出激励</span></span><br><span class="line">tr=<span class="number">0</span>;</span><br><span class="line">ts=<span class="number">0</span>;</span><br><span class="line">#<span class="number">5</span> ts=<span class="number">1</span></span><br><span class="line">#<span class="number">5</span> ts=<span class="number">0</span>;</span><br><span class="line">tr=<span class="number">1</span></span><br><span class="line">#<span class="number">5</span> ts=<span class="number">1</span>;</span><br><span class="line">tr=<span class="number">0</span>;</span><br><span class="line">#<span class="number">5</span> ts=<span class="number">0</span>；</span><br><span class="line">#<span class="number">5</span> tr=<span class="number">1</span>；</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="keyword">initial</span></span><br><span class="line"><span class="built_in">$monitor</span>(<span class="string">&quot;at time %t,&quot;</span>,<span class="built_in">$time</span>,<span class="string">&quot;tr=%b,tq=%b,tqb=%b&quot;</span>,tr,ts,tq,tqb);</span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>输出的波形如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221227162729.png"></li></ul><h2 id="2-4-小结"><a href="#2-4-小结" class="headerlink" title="2.4 小结"></a>2.4 小结</h2><p>通过众多例子可以看到：</p><ul><li>所有模块的内容都位于module和endmodule两个语句中间</li><li>模块是可以进行层次嵌套的</li><li>如果每个模块都是可以综合的，则通过综合工具可以把 它们的功能描述全都转换为最基本的逻辑单元描述，最 后可以用一个上层模块通过实例引用把这些模块连接起 来，把它们整合成一个很大的逻辑系统。</li><li>Verilog模块可以分为两种类型：一种是为了让模块最终能生成电路结构，另一种是为了测试所设计电路的逻辑功能是否正确。</li></ul><h1 id="第三章-模块的结构、数据类型、变量和基本运算符号"><a href="#第三章-模块的结构、数据类型、变量和基本运算符号" class="headerlink" title="第三章 模块的结构、数据类型、变量和基本运算符号"></a>第三章 模块的结构、数据类型、变量和基本运算符号</h1><p>[[第3章(2).pdf]]</p><h2 id="3-1-模块的结构"><a href="#3-1-模块的结构" class="headerlink" title="3.1 模块的结构"></a>3.1 模块的结构</h2><p>模块由两部分组成，一部分是接口，另一部分是描述逻辑功能，即定义输入时如何影响输出的。</p><ul><li>Verilog描述的基本单位：用于描述电路的功能、结构以及其他module的通信端口，能够表示：物理块，如IC或ASIC单元；逻辑块，如一个CPU设计的ALU部分；整个系统</li><li>描述方式<ul><li>数据流方式——连续幅值语句</li><li>行为方式——过程语句</li><li>结构方式——其他module和门级原语</li><li>混合方式——行为+结构+数据流等</li></ul></li><li>模块的构成：端口信息，输入输出说明，逻辑描述<br>  语法格式：说明部分+语句部分</li></ul><ol><li>模块端口的定义<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> 模块名（口<span class="number">1</span>，口<span class="number">2</span>，……）</span><br></pre></td></tr></table></figure></li><li>模块的内容：IO说明、内部信号声明和功能定义</li></ol><ul><li>IO说明的格式<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">input</span> [<span class="number">1</span>:<span class="number">0</span>] 端口名<span class="number">1</span>；</span><br><span class="line"><span class="keyword">inout</span> [<span class="number">2</span>:<span class="number">0</span>] 端口名<span class="number">2</span>；</span><br><span class="line"><span class="comment">//也可以写在端口声明语句里面，格式：</span></span><br><span class="line"><span class="keyword">module</span> module_name （<span class="keyword">input</span> port1,<span class="keyword">output</span> port2）;</span><br></pre></td></tr></table></figure></li><li>内部信号说明：wire reg 类型的变量声明<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">reg</span> [<span class="number">1</span>:<span class="number">0</span>] R1,R2;</span><br><span class="line"><span class="keyword">wire</span>[<span class="number">1</span>:<span class="number">0</span>] w1,w2;</span><br></pre></td></tr></table></figure></li><li>功能定义：assign声明语句，用实例软件，用过程语句如always<ul><li>assign声明：assign，后面再加一个表达式即可</li><li>用示例元件：键入元件名字和项链的引脚，#后面为输出延迟。先写输出后写输入</li><li>always块：异步清零的D触发器<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">assign</span> a=b&amp;c</span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> u1(q,a,b)</span><br></pre></td></tr></table></figure><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">always</span> @(<span class="keyword">posedge</span> clk <span class="keyword">or</span> <span class="keyword">posedge</span> clr);</span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line"><span class="keyword">if</span>(clr)</span><br><span class="line">q&lt;=<span class="number">0</span>;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>（en）</span><br><span class="line">q&lt;=d;</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure></li></ul></li></ul><ol start="3"><li>原则：<ul><li>所有过程块、连续赋值语句、实例引用都是并行的</li><li>他们表示的是一种通过变量名相互链接的关系</li><li>同一模块中者三者出现的先后秩序没有关系</li><li>只有连续赋值语句assign和实例引用语句可以独立于过程块而存在于模块的功能定义部分</li></ul></li></ol><h2 id="3-2-数据类型及其常数和变量"><a href="#3-2-数据类型及其常数和变量" class="headerlink" title="3.2 数据类型及其常数和变量"></a>3.2 数据类型及其常数和变量</h2><h3 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h3><p>区分大小写，必须以字母开头，转义标识符要以”&quot;开头，以空格结尾<br>模块、端口和实例的名字都是标识符<br>好的命名原则：使用有意义的名字，不要用$字符，结尾不用下划线。要用大小写混合的名字</p><h3 id="专用标记"><a href="#专用标记" class="headerlink" title="专用标记"></a>专用标记</h3><ol><li><p>系统任务和系统函数$&lt;identifier&gt;</p><ul><li>$开头表示系统任务或者系统函数，任务通过参数传递0或多个值，允许有延时</li><li>函数只返回一个值，不允许延时，函数的执行不需要时间</li><li>系统函数有很多<ul><li>返回当前仿真时间$time</li><li>监视、显示信号值（$display, $monitor）</li><li>停止仿真 $stop</li><li>结束仿真 $ finish</li></ul></li></ul></li><li><p>延时说明<br>“#” 用于说明延时，不能用于模块的实例化<br>门延时有很多类名字：门延时（gate delay），传输延时（propagation delay）</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> MUX2_ <span class="number">1</span> (out, a, b, sel) ; </span><br><span class="line"><span class="keyword">output</span> out ; </span><br><span class="line"><span class="keyword">input</span> a, b, sel ; </span><br><span class="line"><span class="keyword">wire</span> sel_, a1, b1; </span><br><span class="line"><span class="keyword">not</span> #<span class="number">1</span> not1( sel_, sel); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> and1( a1, a, sel_); </span><br><span class="line"><span class="keyword">and</span> #<span class="number">2</span> and2( b1, b, sel); </span><br><span class="line"><span class="keyword">or</span> #<span class="number">1</span> or1( out, a1, b1); </span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure></li><li><p>编译器指令<br>以反引号开始的一些标识符，类似于C语言的宏命令，这些编译指令使仿真编译器进行一些特殊的操作，编译指令一直保持有效直到被覆盖或解除</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">`<span class="keyword">define</span>, `<span class="keyword">undef</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">ifdef</span>, `<span class="keyword">ifndef</span>, `<span class="keyword">else</span>, `elseif, `<span class="keyword">endif</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">default_nettype</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">include</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">resetall</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">timescale</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">unconnected_drive</span>, `<span class="keyword">nounconnected_drive</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">celldefine</span>, `<span class="keyword">endcelldefine</span> </span></span><br><span class="line"><span class="meta">`<span class="keyword">line</span></span></span><br></pre></td></tr></table></figure></li></ol><h3 id="值集合"><a href="#值集合" class="headerlink" title="值集合"></a>值集合</h3><ol><li>基本值<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102170719.png"></li></ol><ul><li>符合现实：<ul><li>nand 一个输入为0，输出总是1，另一个输入不管是x还是z</li><li>nand 两个输入x 输出为x</li><li>z作为输入时候代表x</li><li>如果忘记连输入端，这个输入端是z</li><li>仿真开始时刻，所有端口都是x</li></ul></li></ul><ol start="2"><li>常量<br>数字：整数，x，z，负数，下划线</li></ol><ul><li>整数<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102171346.png"><ul><li>例<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102171335.png"></li><li>常量在不说明位宽时候默认为32位![[Pasted image 20230102171509.png]]</li></ul></li><li>参数（parameter）型<br>在Verilog HDL中用parameter定义常量，即用parameter 来定义一个标识符代表一个常量，称为符号常量，即标识符形 式的常量，采用标识符代表一个常量可提高程序的可读性和可 维护性。<br>参数用于定义延时和变量宽度<br>用于参数声明的语句，参数只能被赋值一次，且一直保持不变</li></ul><ol start="2"><li>变量<br>是一种在 程序运行中值可以改变的量</li></ol><ul><li><p>wire型：用来表示assign关键字指定的组合逻辑信号。verilog程序模块中输入输出信号类型默认时自动定义为wire型，可以用作任何方程式的输入，也可以用作assign语句或实例元件的输出</p><ul><li>信号格式如下：wire [n-1∶0] 数据名1,数据名2,…数据名i; &#x2F;&#x2F;共有i条总线，每条总 线内有n条线路，或wire [n∶1] 数据名1,数据名2,…数据名i。</li><li>网线需要被持续驱动，驱动它的可以是门和模块，当线网驱动器的值发生变化时候，verilog自动将新值传到线网上![[Pasted image 20230102173348.png]]</li><li>部分选择和位选择(代码见下方)</li><li>多驱动源：驱动一个wire时，逻辑值会发生冲突导致产生不确定值<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102173009.png"><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">wire</span> [<span class="number">7</span>:<span class="number">0</span>] da;</span><br><span class="line"><span class="keyword">wire</span> [<span class="number">3</span>:<span class="number">0</span>] db;</span><br><span class="line"><span class="keyword">wire</span> dc;</span><br><span class="line"><span class="keyword">assign</span> db=da[<span class="number">7</span>:<span class="number">4</span>]; <span class="comment">//部分选择</span></span><br><span class="line"><span class="keyword">assign</span> dc=da[<span class="number">0</span>]; <span class="comment">//位选择</span></span><br></pre></td></tr></table></figure></li></ul></li><li><p>reg型：赋新值以前保持原值，用行为描述结构给reg类型赋值，给reg类型赋值在过程块中<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230102173454.png"></p><ul><li>注意：reg类型默认初始值位x</li></ul></li><li><p>memory型</p></li></ul><h2 id="3-3-运算符及表达式"><a href="#3-3-运算符及表达式" class="headerlink" title="3.3 运算符及表达式"></a>3.3 运算符及表达式</h2>]]></content>
+      
+      
       <categories>
-        <category>大三下</category>
+          
+          <category> 大三下 </category>
+          
       </categories>
-      <tags>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【课程补充】嵌入式系统概述</title>
-    <url>/2023/01/10/b3-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<h1 id="嵌入书系统概述"><a href="#嵌入书系统概述" class="headerlink" title="嵌入书系统概述"></a>嵌入书系统概述</h1><h2 id="嵌入式系统概念"><a href="#嵌入式系统概念" class="headerlink" title="嵌入式系统概念"></a>嵌入式系统概念</h2><p>计算机系统有两种：个人计算机（通用计算机）和服务器（机房、云：计算能力非常强大，通过网络7*24h服务，CPU有更强的能力）<br>还有一种系统：嵌入式系统。<br>以下都可以是一个嵌入式系统：一个无线的电动牙刷（PWM芯片）；手环通过蓝牙与手机链接，电池（USB充电）、GPS、计步（陀螺仪）；心脏起搏器；打印机（与计算机的串口通信USB）；扫地机器人；饮料零售机乃至摄像机、无人机、汽车中的防抱死、EPS\BMS等等……<br>嵌入式系统内的芯片和计算机会有很大的差异：i5，i7说的是计算机CPU，但嵌入式系统的CPU能力更弱，能耗低（计算机为15V，大部分嵌入式系统是电池供电），可靠性要求极高（不可以打补丁，系统升级）<br>嵌入式系统两个特点：1 嵌入在其它系统中  2 系统可以执行一定的功能 </p>
-<ul>
-<li>处理器的差异<br>服务器、个人计算机：微处理器IC，内部只有一个CPU，需要外接memory（ROM），外接IO端口<br>嵌入式系统：微控制器Microprocessor，除了CPU，集成了RAM、ROM、Timer、IO、串口控制 </li>
-<li>软件和操作系统OS<br>没有操作系统是单片机，软件一般使用C</li>
-</ul>
-<h2 id="嵌入式微处理器"><a href="#嵌入式微处理器" class="headerlink" title="嵌入式微处理器"></a>嵌入式微处理器</h2><ul>
-<li>嵌入式系统<ul>
-<li>小规模：8bit 16bit</li>
-<li>中规模：16bit 32bit MCU DSP</li>
-<li>大规模：FPGA 可靠性比较高</li>
-</ul>
-</li>
-</ul>
-<p>嵌入式系统的基本组成部分是相同的：Micro Processor、硬盘、IO、Networks、timers定时器单元。<br>其硬件系统的特点为：体积小集成度高；面向特定应用；低功耗；适应恶劣环境<br>指令-&gt; 译码（操作码定义了运算，操作数定义的数据） -&gt;执行</p>
-<ul>
-<li>处理器<ul>
-<li>CU：程序流的控制单元，内部有取指单元</li>
-<li>EU：有执行电路</li>
-</ul>
-</li>
-<li>存储器<ul>
-<li>哈佛结构（程序和数据分开存储）<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110161917.png"><br>哈佛结构宽度不同，有很高的执行效率（有各自的总线）但复杂度高</li>
-<li>冯诺依曼结构：代码本身也是一种数据<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110162142.png"><ul>
-<li>计算机必须有计算单元ALU和控制单元CU，以及存储器，输入和输出这就是一个现代计算机的原型</li>
-<li>先取指令再取数据，性能提升遇到了瓶颈</li>
-</ul>
-</li>
-<li>改进的哈佛结构:利用两种结构的优点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110162844.png"><ul>
-<li>CPU运转速度块，RAM运转的慢，因此在中间增加了Cache（SRAM快速缓存），更好的匹配CPU的运行。</li>
-<li>经常使用的数据存在Cache里面，所以Cache和RAM有映射关系，如何寻址如何更新是需要解决的问题。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="CISC-vs-RISC"><a href="#CISC-vs-RISC" class="headerlink" title="CISC vs RISC"></a>CISC vs RISC</h2><p>不同的处理器认识不同的语言，叫做指令集。<br>每个指令集：一个指令操作码和两个操作对象。<br>随着CPU的升级，需要新的指令集，新的指令集还需要向前兼容上一版本。因此需要将复杂功能的指令加入指令集，要求一条指令完成更多的功能。</p>
-<ul>
-<li>CISC：复杂指令集，更适用于通用计算机</li>
-<li>RISC：精简指令集，“28规则”简化复杂指令–结构简单效率高；更适用于专用的嵌入式系统</li>
-</ul>
-<p>（精简体现在：将80%复杂功能删去，精简了每条指令的执行时间）<br>RISC通过子程序的方式完成CISC中复杂的指令<br>举个例子：让两个数据相乘<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110163842.png"><br>通过CISC指令集，可以估算出运行的时间<br>在RISC中，要求每个指令的执行时间固定（一个时钟周期），但指令数比较少（长度固定4byte），这样有利于流水线<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110164402.png"></p>
-<h2 id="嵌入式系统开发流程"><a href="#嵌入式系统开发流程" class="headerlink" title="嵌入式系统开发流程"></a>嵌入式系统开发流程</h2><p>三个阶段：</p>
-<ul>
-<li>应用分析和设计、外围接口设备</li>
-<li>PCB设计和评估</li>
-<li>焊接、调试和功能测试</li>
-</ul>
-<p>硬件流程<br>软件流程</p>
-<ul>
-<li>编译环境IDE：仿真器（keil等）创建和构建程序</li>
-<li>OS</li>
-<li>software test<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110170552.png"><br>嵌入式的操作系统使用Linux：开源</li>
-</ul>
-<p>Linux开发结构：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171013.png"></p>
-<p>本机的工具链：<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230110171052.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Verilog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【高效刷题】DPS习题精析</title>
+      <link href="/2022/10/29/3a-DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+      <url>/2022/10/29/3a-DPS%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<p>本习题来源于课程习题以及作者本人的作业，将数字信号处理习题进行归纳整理，由于作者本人正处于课程学习阶段，如有问题请及时联系。作者QQ：544654722.</p><ul><li>第七章的作业题尚未整理</li><li>所有作业题需要重新巩固<span id="more"></span></li></ul><h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-判断线性系统"><a href="#1-判断线性系统" class="headerlink" title="1. 判断线性系统"></a>1. 判断线性系统</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225357.png"></p><h3 id="2-判断时不变性"><a href="#2-判断时不变性" class="headerlink" title="2. 判断时不变性"></a>2. 判断时不变性</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225429.png"></p><h3 id="3-因果系统的判断"><a href="#3-因果系统的判断" class="headerlink" title="3. 因果系统的判断"></a>3. 因果系统的判断</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030225503.png"></p><h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><h3 id="1-双边序列的z变换以及有限长序列的处理"><a href="#1-双边序列的z变换以及有限长序列的处理" class="headerlink" title="1. 双边序列的z变换以及有限长序列的处理"></a>1. 双边序列的z变换以及有限长序列的处理</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030230128.png">这道题中，z的正幂项的计算需要留心!其次还要注意在a的值讨论过程中一定要讨论全面。</p><h3 id="2-有限序列的z变换"><a href="#2-有限序列的z变换" class="headerlink" title="2. 有限序列的z变换"></a>2. 有限序列的z变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030231009.png"><br>这三道题很有代表性，对于有限长序列0和无穷点ROC选择时候遵循如下技巧：0左右数值的有无对应着收敛范围0和无穷处点可取和不可取；第三题中，收敛域的判断很有讲究：要从求和式中直接判断！</p><h3 id="3-z反变换——部分分式法"><a href="#3-z反变换——部分分式法" class="headerlink" title="3. z反变换——部分分式法"></a>3. z反变换——部分分式法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232038.png"><br>第一道题中，我们观察发现分子上为$z^2$而分母中只有两个z的多项式，因此需要对分子进行降低阶数处理，当然也可以直接约分为“时间常数式”，如右侧然后进行计算。</p><h3 id="4-z变换与卷积"><a href="#4-z变换与卷积" class="headerlink" title="4. z变换与卷积"></a>4. z变换与卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030232743.png"><br>此题在求解过程中用到了一个移位性质，即时域$n-1$,z域$z^{-1}$</p><h3 id="5-系统函数：z变换与频率响应、求解幅度和相位"><a href="#5-系统函数：z变换与频率响应、求解幅度和相位" class="headerlink" title="5. 系统函数：z变换与频率响应、求解幅度和相位"></a>5. 系统函数：z变换与频率响应、求解幅度和相位</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221030233041.png"></p><h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><h3 id="1-求解z变换、收敛域和零极点图"><a href="#1-求解z变换、收敛域和零极点图" class="headerlink" title="1. 求解z变换、收敛域和零极点图"></a>1. 求解z变换、收敛域和零极点图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104858.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104912.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104935.png"></p><h3 id="2-直接卷积和z变换卷积"><a href="#2-直接卷积和z变换卷积" class="headerlink" title="2. 直接卷积和z变换卷积"></a>2. 直接卷积和z变换卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105030.png"></p><h3 id="3-IDFS"><a href="#3-IDFS" class="headerlink" title="3. IDFS"></a>3. IDFS</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105717.png"></p><h1 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h1><h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><h3 id="1-公式默写"><a href="#1-公式默写" class="headerlink" title="1. 公式默写"></a>1. 公式默写</h3><p>学习本章前，必须对傅里叶变换、傅里叶级数、离散序列的傅里叶变换公式熟练记忆，默写如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031080522.png"></p><h3 id="2-DFS——周期性冲激串和周期序列"><a href="#2-DFS——周期性冲激串和周期序列" class="headerlink" title="2. DFS——周期性冲激串和周期序列"></a>2. DFS——周期性冲激串和周期序列</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081133.png"><br>左侧题目应当作为结论记忆，对于右侧例题，有固定解法如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031081240.png"></p><h3 id="3-DFT"><a href="#3-DFT" class="headerlink" title="3. DFT"></a>3. DFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082620.png"><br>右侧例题的正交特性是关键，复正弦序列的正交特性如下：<br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031082737.png"></p><h3 id="4-DFS和DFT的对应关系"><a href="#4-DFS和DFT的对应关系" class="headerlink" title="4. DFS和DFT的对应关系"></a>4. DFS和DFT的对应关系</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083623.png"></p><h3 id="5-DFT的圆周移位性质和圆周卷积"><a href="#5-DFT的圆周移位性质和圆周卷积" class="headerlink" title="5. DFT的圆周移位性质和圆周卷积"></a>5. DFT的圆周移位性质和圆周卷积</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031083604.png"><br>注意，考试中，卷积运算需要用图解法求解</p><h3 id="6-肉眼观察法求解IDFT"><a href="#6-肉眼观察法求解IDFT" class="headerlink" title="6. 肉眼观察法求解IDFT"></a>6. 肉眼观察法求解IDFT</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031085355.png"><br>其中前后两项对偶，如果不能直接看出来，那么就带入基本公式去计算。</p><h3 id="7-讨论采样点数对DFT的影响（了解）"><a href="#7-讨论采样点数对DFT的影响（了解）" class="headerlink" title="7. 讨论采样点数对DFT的影响（了解）"></a>7. 讨论采样点数对DFT的影响（了解）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031090034.png"></p><h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="1-证明DFS的共轭性质"><a href="#1-证明DFS的共轭性质" class="headerlink" title="1. 证明DFS的共轭性质"></a>1. 证明DFS的共轭性质</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031105846.png"></p><h3 id="2-画幅值和相位谱"><a href="#2-画幅值和相位谱" class="headerlink" title="2. 画幅值和相位谱"></a>2. 画幅值和相位谱</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110146.png"></p><h3 id="3-图解法求卷积"><a href="#3-图解法求卷积" class="headerlink" title="3. 图解法求卷积"></a>3. 图解法求卷积</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110216.png"><br> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110227.png"></p><h3 id="4-零极点图、频率响应图、DFT图"><a href="#4-零极点图、频率响应图、DFT图" class="headerlink" title="4. 零极点图、频率响应图、DFT图"></a>4. 零极点图、频率响应图、DFT图</h3><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031110459.png"></p><h1 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h1><h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><h3 id="1-数字滤波器的结构流图"><a href="#1-数字滤波器的结构流图" class="headerlink" title="1. 数字滤波器的结构流图"></a>1. 数字滤波器的结构流图</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095424.png"><br>作者认为：并联形式中的常数项不是必须要提出来的，因此可以直接通过留数法直接求解</p><h2 id="习题-1"><a href="#习题-1" class="headerlink" title="习题"></a>习题</h2><h3 id="1-级联型和并联型"><a href="#1-级联型和并联型" class="headerlink" title="1. 级联型和并联型"></a>1. 级联型和并联型</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031095949.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100012.png"></p><h3 id="2-节点法的应用"><a href="#2-节点法的应用" class="headerlink" title="2. 节点法的应用"></a>2. 节点法的应用</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031100435.png"></p><h1 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h1><h2 id="例题-4"><a href="#例题-4" class="headerlink" title="例题"></a>例题</h2><h3 id="1-脉冲响应不变法求解数字滤波器的系统函数"><a href="#1-脉冲响应不变法求解数字滤波器的系统函数" class="headerlink" title="1. 脉冲响应不变法求解数字滤波器的系统函数"></a>1. 脉冲响应不变法求解数字滤波器的系统函数</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103506.png"></p><h2 id="习题-2"><a href="#习题-2" class="headerlink" title="习题"></a>习题</h2><h3 id="1-脉冲响应不变法与双线性法"><a href="#1-脉冲响应不变法与双线性法" class="headerlink" title="1. 脉冲响应不变法与双线性法"></a>1. 脉冲响应不变法与双线性法</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103858.png"></p><h3 id="2-模拟频率与数字频率的对应"><a href="#2-模拟频率与数字频率的对应" class="headerlink" title="2. 模拟频率与数字频率的对应"></a>2. 模拟频率与数字频率的对应</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031103922.png"></p><h3 id="3-用双线性法设计巴特沃斯低通滤波器"><a href="#3-用双线性法设计巴特沃斯低通滤波器" class="headerlink" title="3. 用双线性法设计巴特沃斯低通滤波器"></a>3. 用双线性法设计巴特沃斯低通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104031.png"></p><h1 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h1><h2 id="例题-5"><a href="#例题-5" class="headerlink" title="例题"></a>例题</h2><h3 id="1-用矩形窗设计带通滤波器"><a href="#1-用矩形窗设计带通滤波器" class="headerlink" title="1. 用矩形窗设计带通滤波器"></a>1. 用矩形窗设计带通滤波器</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104350.png"></p><h3 id="2-线性相位正交变换"><a href="#2-线性相位正交变换" class="headerlink" title="2. 线性相位正交变换"></a>2. 线性相位正交变换</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104721.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20221031104731.png"></p>]]></content>
+      
+      
       <categories>
-        <category>大三下</category>
+          
+          <category> 大三上 </category>
+          
       </categories>
-      <tags>
-        <tag>嵌入式</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> DSP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
