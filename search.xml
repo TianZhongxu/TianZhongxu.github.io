@@ -216,7 +216,21 @@
 </li>
 <li>寄生电感：可以忽略主要在高频、射频考虑</li>
 </ul>
-<p><strong>互联线延迟的计算</strong></p>
+<p><strong>互联线延迟的计算</strong><br>集总C模型：短互联线、寄生电容占主要、低频信号<br>集总RC模型：对长互联线延迟计算偏大，低性能电路设计可行<br>分布RC模型：基于Elmore定理<br>Elmore定理：延时&#x3D;所有结点电容×“从输入到各自节点与输入到输出节点重复路径上的电阻和”<br>推论：从小电阻到大电阻的延时更短<br>$$\tau_N&#x3D;\frac{rcL^2}{2}&#x3D;\frac{1}{2}RC$$<br>$r、c$是和互联线的层次、材料有关系。比如Poly速度小于Al上<br>考虑驱动源阻抗$R_{Driver}$：<br>$$\tau_D&#x3D;R_{Driver}C_w+\frac{1}{2}R_wC_w$$<br>减小互联线延时：传输线间插入缓冲器</p>
+<h2 id="CMOS反相器的开关功耗"><a href="#CMOS反相器的开关功耗" class="headerlink" title="CMOS反相器的开关功耗"></a>CMOS反相器的开关功耗</h2><ul>
+<li>静态功耗：亚阈值漏电、PN结反向电流（工艺进步，增大）</li>
+<li>动态功耗：信号变化时对负载电容的充放电</li>
+<li>短路功耗：输入信号暂时处于中间电平时，PMOS和NMOS导通<br>大小顺序：动态功耗、短路功耗、静态功耗</li>
+</ul>
+<p>如果一个时钟周期一般反相器上升一半反相器下降，那么平均功率（分段积分也是相同的结果）<br>$$P_{avg}&#x3D;fC_{load}V_{DD}^2$$<br>降低功率：电路耗时增加，能量消耗不一定减小<br>VDD给出的能量：$E_{VDD}&#x3D;C_LV_{DD}^2$<br>电容存储的能量：$\frac{C_LV_{DD}^2}{2}$<br>电容充电时，一半能量消耗在PMOS上；电容放电时候能量消耗在NMOS上<br><strong>衡量电路功耗的指标</strong><br>功耗延时积：$PDP&#x3D;P_{av}t_p$<br>能量延时积：$EDP&#x3D;PDP t_p$体现了能耗、速度、电源电压的折衷<br>利用EDP求最合适的VDD，实现性能和功耗的平衡。减小$V_T$可以减小功率减小延时，EDP大大减小。但会增加静态功耗</p>
+<h2 id="五-超级缓冲器"><a href="#五-超级缓冲器" class="headerlink" title="五 超级缓冲器"></a>五 超级缓冲器</h2><p>各级的延时相同<br>$$\tau_{p,n}&#x3D;\tau_{p0}(1+\frac{\alpha C_g} {C_d})$$<br><strong>优化</strong><br>$\alpha_{opt}$和$C_d&#x2F;C_g$有关，给定$\alpha$可以计算优化级数N<br>$$\alpha_{opt}^{N+1}&#x3D;\frac{C_{load}}{C_g},N+1&#x3D;\frac{ln(C_{load}&#x2F;C_g)}{ln(\alpha_{opt})}$$<br>$N$取整后重新计算$\alpha_{opt}$的结果</p>
+<ul>
+<li>$\beta&#x3D;\frac{W_p}{W_n}$<ul>
+<li>$\beta&#x3D;1.9$:$t_p$最小</li>
+<li>$\beta&#x3D;2.4$:延时对称</li>
+</ul>
+</li>
+</ul>
 <h1 id="第七章-组合逻辑电路"><a href="#第七章-组合逻辑电路" class="headerlink" title="第七章 组合逻辑电路"></a>第七章 组合逻辑电路</h1><blockquote>
 <ul>
 <li>重点是<strong>CMOS组合逻辑电路</strong><ul>
@@ -235,6 +249,33 @@
 <li>传输门逻辑（传输门导通电阻特性&#x2F;<strong>二选一门&#x2F;XOR</strong>&#x2F;布尔表达式的实现方式）</li>
 </ul>
 </blockquote>
+<h2 id="一-伪MOS门电路"><a href="#一-伪MOS门电路" class="headerlink" title="一 伪MOS门电路"></a>一 伪MOS门电路</h2><ul>
+<li>伪NMOS或非门（PMOS导通，NMOS并联）<br>或非门：001；与非门：110；<br>VOH：两驱动管关断，VDD<br>VOL：与伪NMOS反相器情况相同，若输入11，输出更低，将并联的NMOS等效<ul>
+<li>瞬态特性：$C_{load}$更大，相比反相器速度更慢</li>
+</ul>
+</li>
+<li>伪NMOS与非门（PMOS导通，NMOS串联）<ul>
+<li>VOH：VDD</li>
+<li>VOL：NMOS串联等效<br>$$k_{eq}&#x3D;k_{n}&#x2F;2,V_{GS}&#x3D;V_{GS下}，V_{GS}&#x3D;V_{GS1}+V_{GS2}$$<br>瞬态特性：两输入端速度不同，距离输出端更近的输入端A变化，引起的延时更短</li>
+</ul>
+</li>
+</ul>
+<h2 id="二-CMOS门电路"><a href="#二-CMOS门电路" class="headerlink" title="二 CMOS门电路"></a>二 CMOS门电路</h2><p>如果用NMOS做上拉电路则会损失阈值电压</p>
+<ul>
+<li>CMOS或非门电路<br>门限电压Vth：NMOS饱和，PMOS线性<br>$$V_{th}&#x3D;\frac{V_{Tn}+\frac{1}{2} \sqrt{\kappa}(V_{DD}-V_{Tp})}{1+\frac{1}{2}\sqrt{\kappa}},\kappa&#x3D;\frac{k_p}{k_n}$$<br>理想$k_p&#x3D;4k_n$<br>由于体效应，距离输出端近的PMOS上拉能力弱，下拉能力强，因此输入B变化的VTC曲线比A靠左，AB同时变化，（看并联的部分在下方）下拉能力强的在最左端<br>瞬态性能：距离输出端进的输入变化延时小</li>
+<li>CMOS或非门<br>$$V_{th}&#x3D;\frac{V_{Tn}+2 \sqrt{\kappa}(V_{DD}-V_{Tp})}{1+2 \sqrt{\kappa}},\kappa&#x3D;\frac{k_p}{k_n}$$<br>B距离输出端最近，由于体效应下拉能力弱，所以B在右侧。AB同时变化上拉能力强，下拉能力最弱在最右端。</li>
+<li>驱动能力<br>相同驱动能力下（2：1），NAND比NOR面积更小，在逻辑设计中更倾向于用NAND</li>
+</ul>
+<h2 id="三-复杂逻辑电路"><a href="#三-复杂逻辑电路" class="headerlink" title="三 复杂逻辑电路"></a>三 复杂逻辑电路</h2><p>利用NMOS的变化可以实现复杂逻辑电路<br>静态分析：按照最坏条件求解<br>上拉电路的画法：对偶电路法<br>版图上相邻的晶体管不直接连接必须中断扩散去并增加场氧区做间隔，版图面积增大，是应用欧拉路径来实现<br>记住异或门的样子！</p>
+<ul>
+<li>扇出对延时的影响<br>$$\tau_p&#x3D;\tau_0+TC_{in}\frac{C_{ext}}{C_{in}}$$<br>$RC_{in}$为逻辑努力，$C_{ext}&#x2F;C_{in}$为扇出，逻辑门的扇入即为输入端的个数<br>对于NAND逻辑门，$t_p$随扇入二次方增加（大扇入情况下最大传输延时以二次方增加），因此CMOS的扇入最好不超过4<br>随扇出个数线性增加，线性系数为逻辑努力$RC_{in}$<br>$$t_p&#x3D;a_1FI+a_2FI^2+a_3FO$$</li>
+<li>逻辑门被放大了Y倍：<ul>
+<li>逻辑努力相同</li>
+<li>面积扩大Y倍</li>
+</ul>
+</li>
+</ul>
+<h2 id="四-CMOS传输门"><a href="#四-CMOS传输门" class="headerlink" title="四 CMOS传输门"></a>四 CMOS传输门</h2><p>CMOS传输0-1信号的过程：开始NMOS和PMOS均饱和，然后PMOS进入线性，然后NMOS截止<br>在传输全过程，NMOS电阻增大，PMOS电阻减小，并联后的等效电阻几乎不变<br>传输门可以实现MUX、8晶体管异或门、6晶体管异或门、以及各种逻辑表达</p>
 <h1 id="第八章-时序逻辑电路"><a href="#第八章-时序逻辑电路" class="headerlink" title="第八章 时序逻辑电路"></a>第八章 时序逻辑电路</h1><blockquote>
 <ul>
 <li><strong>双稳态电路</strong></li>
@@ -266,6 +307,71 @@
 </li>
 </ul>
 </blockquote>
+<h2 id="一-概述-2"><a href="#一-概述-2" class="headerlink" title="一 概述"></a>一 概述</h2><p>异步：没有时钟，输出变化由输入信号决定<br>同步：同一时钟，边沿发生<br><strong>双稳态元件特性</strong><br>双稳态元件只有两个稳态和一个非稳定状态，只要有一个扰动，电路进入一个稳态</p>
+<ul>
+<li>改变双稳态电路的方法<ul>
+<li>使用驱动能力更强的电路</li>
+<li>断开反馈回路</li>
+</ul>
+</li>
+</ul>
+<p><strong>RS锁存器</strong>（异步）<br>或非门：00保存 10置位 01复位 11禁止<br>与非门：11保存 01置位 10复位 00禁止<br>计算延时（置位）：近似位一个门行动结束后另一个门行动开始<br>$$\tau_{rise,Q}(SR)&#x3D;\tau_{fall,Q}(NOR2)+\tau_{rise,Q}(NOR2)$$<br><strong>SR触发器</strong>（有禁止态）<br>AOI21门：12个晶体管<br>两级NAND2门：16个晶体管<br>相当于RS锁存器的输入倍与门控制<br><strong>JK触发器</strong>（解决禁止态，有振荡）<br>00保存  01复位 10置位 11翻转（振荡）<br>结构：在钟控SR锁存器中，将Q输出接入K与非门，Q！接入J与非门。（用递推方法发现JK*共同构成输入）<br>解决了钟控SR锁存器的不允许状态问题，但引入了震荡问题<br>防止振荡必须让CLK有效期短于传播延时，很难实现，称为时序限制问题<br>利用AOI门比全NAND晶体管更少<br><strong>JK主从触发器</strong>（解决振荡，有毛刺）<br>使用两个JK触发器构成主从式触发器消除振荡现象，任意时刻只有一个锁存器有效，无法输出振荡。<br>触发方式位脉冲触发，若CK有效时输入有毛刺，在下个相位期间对输出产生影响<br>若抵抗输入信号毛刺，可采用边沿触发的触发器<br><strong>D锁存器</strong>（解决禁止态，解决振荡）<br>用两个传输门、两个反相器构造D锁存器：CK&#x3D;1跟随D，CK&#x3D;0维持（正Latch）<br>对于一个高态工作的锁存器：$t_{setup}$与$t_{hold}$相对于下降沿而言，$t_{c2Q}$相对上升沿而言<br>Latch是先观察后保持，保持是多少需要看之前观察的最后时刻观察到了多少</p>
+<ul>
+<li>建立时间$t_{setup}$:D在CK跳变前所需要保持的时间<ul>
+<li>$t_{DQ}$的最小值</li>
+<li>$t_{CQ}$增大5%时候D距离CK的时间</li>
+</ul>
+</li>
+<li>保持时间$t_{hold}$：D在CK跳变后所需要保持稳定不变的时间</li>
+<li>输出延时$t_{CQ}$:从时钟跳变沿到输出Q稳定的时间(正Latch&#x3D;CK上升沿)</li>
+<li>数据延时$t_{DQ}$:Latch特有，在CK&#x3D;1时，数据变化到输出的时间</li>
+</ul>
+<p>$C^{2}MOS$结构：相当于一个开关控制的反相器<br><strong>主从D触发器</strong><br>D触发器在CK的上升沿将数据传入Q：先进入负Latch，再进入正Latch<br>下降沿触发的Dff：ck&#x3D;1时候主一直记忆，下降沿的时候从吐出来，下一个上升沿后主重新开始记忆</p>
+<ul>
+<li>建立时间$t_{setup}$:触发沿来之前必须master就绪，否则双稳态闭环发生冲突</li>
+<li>保持时间$t_{hold}$： 第一个传输门立刻截止，$t_{hold}&#x3D;0$</li>
+<li>输出延时$t_{c2Q}$:数据穿过从触发器的延时</li>
+</ul>
+<p>异步置位&#x2F;复位：将两锁存器的双稳态环路中前向反相器更换为与非&#x2F;或非（复位用或非，置位用与非）<br>同步置位&#x2F;复位：在输入端串联与非&#x2F;或非，使置位&#x2F;复位端有小时候固定输入1&#x2F;0<br>同步使能：在输入端加入多路复用器，不使能时输入&#x3D;输出</p>
+<h2 id="二-时序电路的时序要求"><a href="#二-时序电路的时序要求" class="headerlink" title="二 时序电路的时序要求"></a>二 时序电路的时序要求</h2><p><strong>两大类延时</strong><br>污染延时$t_c$:使输出开始变化的延时<br>传输延时$t_p$:使输出稳定的延时<br><strong>触发器的最大延时和最小延时</strong><br>最大延时：<br>$$t_{pcq}+t_{pd}+t_{setup}&lt;T_C$$<br>最小延时：<br>$$t_{ccq}+t_{cd}&gt;t_{hold}$$<br><strong>两相锁存器电路的最大和最小延时</strong><br>最大延时：<br>$$(t_{pdq1}+t_{pd1})+(t_{pdq2}+t_{pd2})&lt;T_C$$<br>最小延时：<br>$$t_{nonoverlap}+t_{ccq}+t_{cd}&gt;t_{hold}$$</p>
+<h2 id="三-时间借用与时间偏斜"><a href="#三-时间借用与时间偏斜" class="headerlink" title="三 时间借用与时间偏斜"></a>三 时间借用与时间偏斜</h2><p><strong>时间借用</strong><br>触发器有严格的时间周期，不能借用时间<br>锁存器透明状态时本级组合逻辑开始工作，这时上一级锁存器锁定，若上一级组合逻辑运算未完成，可以允许拖延到本级下降沿来临前的$t_{setup}$时刻</p>
+<ul>
+<li>每一级都可以向下一级借用时间</li>
+<li>若两级成环则第二级不能借用时间，两者必须在一个周期完成<br>最大借用时间：<br>$$t_{borrow}&lt;\frac{T}{2}-(t_{setup}+t_{nonoverlap})$$</li>
+</ul>
+<p><strong>时钟偏斜</strong><br>两时钟信号到达两个不同期间的时间差可能比预设偏离$t_{skew}$<br>skew增加了保持时间非法的可能性</p>
+<ul>
+<li>触发器：最大延时减小skew，最小延时增大skew</li>
+<li>锁存器：最大借用减小skew，最小延时增大skew，最大延时不变</li>
+</ul>
+<p>触发器<br>$$t_{pcq}+t_{pd}+t_{setup}+t_{skew}&lt;T_C$$<br>$$t_{ccq}+t_{cd}-t_{skew}&gt;t_{hold}$$<br>锁存器<br>$$(t_{pdq1}+t_{pd1})+(t_{pdq2}+t_{pd2})&lt;T_C$$<br>$$t_{nonoverlap}+t_{ccq}+t_{cd}-t_{skew}&gt;t_{hold}$$<br>$$t_{borrow}&lt;\frac{T}{2}-(t_{setup}+t_{nonoverlap})-t_{skew}$$<br>技巧：把skew加在小的那一方</p>
+<h2 id="四-时钟网络的能耗与节能措施"><a href="#四-时钟网络的能耗与节能措施" class="headerlink" title="四 时钟网络的能耗与节能措施"></a>四 时钟网络的能耗与节能措施</h2><p>与时钟相关的能耗包括时钟网络功耗、触发器或寄存器功耗部分</p>
+<ul>
+<li>时钟网络能耗<ul>
+<li>动态功耗：$fCV^2$，包括线电容、中继器电容、负载电容</li>
+<li>静态功耗：$V_{DD}I_{leak}$</li>
+</ul>
+</li>
+<li>单个触发器能耗包括<ul>
+<li>动态功耗$fCV^2$，其中包括内部节点电容、输出节点电容、本地时钟缓冲电容给、以及乘以其翻转概率</li>
+<li>静态功耗$V_{DD}I_{leak}$，自身漏电流、本地时钟缓冲器漏电流</li>
+</ul>
+</li>
+</ul>
+<h2 id="五-施密特触发器"><a href="#五-施密特触发器" class="headerlink" title="五 施密特触发器"></a>五 施密特触发器</h2><p>两种结构：抗干扰能力增强、迟滞比较</p>
+<ul>
+<li>第一种：<ul>
+<li>输出从1到0：输出1时下拉能力变弱，延迟下拉；</li>
+<li>输出从0到1：输出0时上拉能力变弱，延迟上拉：</li>
+<li>完成了迟滞比较的功能</li>
+</ul>
+</li>
+<li>第二种：<ul>
+<li>输出从0到1：输出0时帮助下拉</li>
+<li>输出从1到0：输出1时帮助上拉</li>
+</ul>
+</li>
+</ul>
 <h1 id="第九章-动态逻辑电路"><a href="#第九章-动态逻辑电路" class="headerlink" title="第九章 动态逻辑电路"></a>第九章 动态逻辑电路</h1><blockquote>
 <ul>
 <li>基本概念——相对静态逻辑</li>
