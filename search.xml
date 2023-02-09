@@ -843,10 +843,7 @@
   <entry>
     <title>【知识摘要】自控知识摘要</title>
     <url>/2023/01/16/3a-%E8%87%AA%E6%8E%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E6%91%98%E8%A6%81/</url>
-    <content><![CDATA[<h1 id="第二章-自动控制系统的数学模型"><a href="#第二章-自动控制系统的数学模型" class="headerlink" title="第二章 自动控制系统的数学模型"></a>第二章 自动控制系统的数学模型</h1><blockquote>
-<p>微分方程<br>传递函数<br>方块图、信号类流图<br>梅逊公式<br>各种模型的转换</p>
-</blockquote>
-<p><strong>微分方程</strong>：线性化<br><strong>传递函数</strong></p>
+    <content><![CDATA[<h1 id="第二章-自动控制系统的数学模型"><a href="#第二章-自动控制系统的数学模型" class="headerlink" title="第二章 自动控制系统的数学模型"></a>第二章 自动控制系统的数学模型</h1><p><strong>微分方程</strong>：线性化<br><strong>传递函数</strong></p>
 <ul>
 <li>三种形式<ul>
 <li>有理分式</li>
@@ -1404,7 +1401,7 @@
 </ol>
 <h1 id="第四章-差动放大器"><a href="#第四章-差动放大器" class="headerlink" title="第四章 差动放大器"></a>第四章 差动放大器</h1><p>差动电路的优势：抑制电源噪声和共模噪声，增大输出摆幅<br>差动电路的劣势：面积和功耗翻倍，各自的独立噪声部分变大</p>
 <ul>
-<li>伪差动：两个单端放大器叠加，放大特性不受共模位置变化影响</li>
+<li>伪差动：两个单端放大器叠加，放大特性受共模位置变化影响</li>
 <li>真差动：当输入差动小信号电流不能均分</li>
 </ul>
 <h2 id="一-差动电路"><a href="#一-差动电路" class="headerlink" title="一 差动电路"></a>一 差动电路</h2><ol>
