@@ -590,13 +590,11 @@
 <h2 id="7-方块图"><a href="#7-方块图" class="headerlink" title="7 方块图"></a>7 方块图</h2><p> 1. 普通<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105163940.png"></p>
 <p> 2. 简单化简<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105202441.png"></p>
 <p> 3. 补一法 <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230105164106.png"></p>
-<h2 id="8-扰动误差函数的处理"><a href="#8-扰动误差函数的处理" class="headerlink" title="8 扰动误差函数的处理"></a>8 扰动误差函数的处理</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093936.png"></p>
-<h2 id="9-信号流图的绘制"><a href="#9-信号流图的绘制" class="headerlink" title="9 信号流图的绘制"></a>9 信号流图的绘制</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094125.png"></p>
+<h2 id="8-扰动误差函数的处理"><a href="#8-扰动误差函数的处理" class="headerlink" title="8 扰动误差函数的处理"></a>8 扰动误差函数的处理</h2><p><strong>使用梅逊增益公式，注意输入和输出的位置！</strong><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103093936.png"></p>
+<h2 id="9-信号流图的绘制"><a href="#9-信号流图的绘制" class="headerlink" title="9 信号流图的绘制"></a>9 信号流图的绘制</h2><p><strong>在求第二个的时候很容易落下一条前向通道！</strong><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094125.png"></p>
 <h2 id="10-梅逊增益公式"><a href="#10-梅逊增益公式" class="headerlink" title="10 梅逊增益公式"></a>10 梅逊增益公式</h2><ul>
-<li><p>规范格式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094625.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094646.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094656.png"></p>
-</li>
-<li><p>复杂题目<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095329.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095410.png"></p>
-</li>
+<li>规范格式<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094625.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094646.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103094656.png"></li>
+<li>复杂题目<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095329.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095339.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230103095410.png"></li>
 </ul>
 <h1 id="第三章-线性系统的时域分析"><a href="#第三章-线性系统的时域分析" class="headerlink" title="第三章 线性系统的时域分析"></a>第三章 线性系统的时域分析</h1><h2 id="1-一阶系统的瞬态响应"><a href="#1-一阶系统的瞬态响应" class="headerlink" title="1 一阶系统的瞬态响应"></a>1 一阶系统的瞬态响应</h2><ol>
 <li><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106200202.png"></li>
@@ -636,57 +634,26 @@
 <li><p>与虚轴交点<img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222144.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106222210.png"></p>
 </li>
 </ol>
-<h2 id="3-证明根轨迹的形状"><a href="#3-证明根轨迹的形状" class="headerlink" title="3 证明根轨迹的形状"></a>3 证明根轨迹的形状</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225054.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225104.png"></p>
+<h2 id="3-证明根轨迹的形状"><a href="#3-证明根轨迹的形状" class="headerlink" title="3 证明根轨迹的形状"></a>3 证明根轨迹的形状</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225054.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225104.png"></p>
 <h2 id="4-根轨迹的绘制"><a href="#4-根轨迹的绘制" class="headerlink" title="4 根轨迹的绘制"></a>4 根轨迹的绘制</h2><p> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225501.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225515.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225549.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225602.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225616.png">  </p>
 <h2 id="5-利用根轨迹计算系统的参数"><a href="#5-利用根轨迹计算系统的参数" class="headerlink" title="5 利用根轨迹计算系统的参数"></a>5 利用根轨迹计算系统的参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106225954.png">   <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230007.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230019.png"></p>
-<h2 id="6-由参数确定其他参数"><a href="#6-由参数确定其他参数" class="headerlink" title="6 由参数确定其他参数"></a>6 由参数确定其他参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230346.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230359.png"></p>
+<h2 id="6-由参数确定其他参数"><a href="#6-由参数确定其他参数" class="headerlink" title="6 由参数确定其他参数"></a>6 由参数确定其他参数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230346.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230359.png"></p>
 <h2 id="7-引入积分环节"><a href="#7-引入积分环节" class="headerlink" title="7 引入积分环节"></a>7 引入积分环节</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230135.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230155.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230205.png">  <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230106230216.png"></p>
-<h1 id="第五章-线性系统的频域分析法"><a href="#第五章-线性系统的频域分析法" class="headerlink" title="第五章 线性系统的频域分析法"></a>第五章 线性系统的频域分析法</h1><h2 id="0-求系统稳态输出误差，求系统函数"><a href="#0-求系统稳态输出误差，求系统函数" class="headerlink" title="0 求系统稳态输出误差，求系统函数"></a>0 求系统稳态输出误差，求系统函数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233127.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233135.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233525.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233535.png"></p>
-<h2 id="1-画出对数坐标图"><a href="#1-画出对数坐标图" class="headerlink" title="1 画出对数坐标图"></a>1 画出对数坐标图</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160143.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160200.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160212.png"></p>
+<h1 id="第五章-线性系统的频域分析法"><a href="#第五章-线性系统的频域分析法" class="headerlink" title="第五章 线性系统的频域分析法"></a>第五章 线性系统的频域分析法</h1><h2 id="0-求系统稳态输出误差，求系统函数"><a href="#0-求系统稳态输出误差，求系统函数" class="headerlink" title="0 求系统稳态输出误差，求系统函数"></a>0 求系统稳态输出误差，求系统函数</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233127.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233135.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233525.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233535.png"></p>
+<h2 id="1-画出对数坐标图"><a href="#1-画出对数坐标图" class="headerlink" title="1 画出对数坐标图"></a>1 画出对数坐标图</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160143.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160200.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107160212.png"></p>
 <h3 id="加上一些细节（画图）："><a href="#加上一些细节（画图）：" class="headerlink" title="加上一些细节（画图）："></a>加上一些细节（画图）：</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233724.png"></p>
-<h3 id="加上一些细节（反推函数）"><a href="#加上一些细节（反推函数）" class="headerlink" title="加上一些细节（反推函数）"></a>加上一些细节（反推函数）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233757.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233823.png"></p>
-<h2 id="2-非最小相位系统的相频特性"><a href="#2-非最小相位系统的相频特性" class="headerlink" title="2 非最小相位系统的相频特性"></a>2 非最小相位系统的相频特性</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164310.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164322.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164335.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164346.png"></p>
+<h3 id="加上一些细节（反推函数）"><a href="#加上一些细节（反推函数）" class="headerlink" title="加上一些细节（反推函数）"></a>加上一些细节（反推函数）</h3><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233757.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107233823.png"></p>
+<h2 id="2-非最小相位系统的相频特性"><a href="#2-非最小相位系统的相频特性" class="headerlink" title="2 非最小相位系统的相频特性"></a>2 非最小相位系统的相频特性</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164310.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164322.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164335.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164346.png"></p>
 <h2 id="3-极坐标图的绘制"><a href="#3-极坐标图的绘制" class="headerlink" title="3 极坐标图的绘制"></a>3 极坐标图的绘制</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234015.png"></p>
-<h2 id="3-奈奎斯特判断稳定性的基本方法"><a href="#3-奈奎斯特判断稳定性的基本方法" class="headerlink" title="3 奈奎斯特判断稳定性的基本方法"></a>3 奈奎斯特判断稳定性的基本方法</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164546.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164611.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164619.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164628.png"></p>
-<h2 id="4-奈奎斯特稳定判据在I、II型系统中的应用"><a href="#4-奈奎斯特稳定判据在I、II型系统中的应用" class="headerlink" title="4 奈奎斯特稳定判据在I、II型系统中的应用"></a>4 奈奎斯特稳定判据在I、II型系统中的应用</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232328.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232339.png"></p>
-<h2 id="建议：作业中有较为复杂题目"><a href="#建议：作业中有较为复杂题目" class="headerlink" title="建议：作业中有较为复杂题目"></a>建议：作业中有较为复杂题目</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234621.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234629.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234639.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234649.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234659.png"></p>
-<h2 id="5-时间延迟以及左侧绕原点问题（了解）"><a href="#5-时间延迟以及左侧绕原点问题（了解）" class="headerlink" title="5 时间延迟以及左侧绕原点问题（了解）"></a>5 时间延迟以及左侧绕原点问题（了解）</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232644.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232711.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232722.png"></p>
-<h2 id="6-稳定裕度"><a href="#6-稳定裕度" class="headerlink" title="6 稳定裕度"></a>6 稳定裕度</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232832.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232848.png"></p>
-<h2 id="7-开环和闭环频域性能指标"><a href="#7-开环和闭环频域性能指标" class="headerlink" title="7 开环和闭环频域性能指标"></a>7 开环和闭环频域性能指标</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234529.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234539.png"></p>
-<h1 id="第七章-线性系统的设计方法"><a href="#第七章-线性系统的设计方法" class="headerlink" title="第七章 线性系统的设计方法"></a>第七章 线性系统的设计方法</h1><h2 id="1-超前校正"><a href="#1-超前校正" class="headerlink" title="1 超前校正"></a>1 超前校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234926.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234934.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234948.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234955.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235004.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235020.png"></p>
-<h2 id="2-超前校正：作业题"><a href="#2-超前校正：作业题" class="headerlink" title="2 超前校正：作业题"></a>2 超前校正：作业题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235048.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/Pasted%20image%2020221227124210.png"></p>
-<h2 id="3-滞后校正"><a href="#3-滞后校正" class="headerlink" title="3 滞后校正"></a>3 滞后校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235149.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235159.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235207.png"></p>
-<p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235217.png"></p>
+<h2 id="3-奈奎斯特判断稳定性的基本方法"><a href="#3-奈奎斯特判断稳定性的基本方法" class="headerlink" title="3 奈奎斯特判断稳定性的基本方法"></a>3 奈奎斯特判断稳定性的基本方法</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164546.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164611.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164619.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107164628.png"></p>
+<h2 id="4-奈奎斯特稳定判据在I、II型系统中的应用"><a href="#4-奈奎斯特稳定判据在I、II型系统中的应用" class="headerlink" title="4 奈奎斯特稳定判据在I、II型系统中的应用"></a>4 奈奎斯特稳定判据在I、II型系统中的应用</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232328.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232339.png"></p>
+<h2 id="建议：作业中有较为复杂题目"><a href="#建议：作业中有较为复杂题目" class="headerlink" title="建议：作业中有较为复杂题目"></a>建议：作业中有较为复杂题目</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234621.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234629.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234639.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234649.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234659.png"></p>
+<h2 id="5-时间延迟以及左侧绕原点问题（了解）"><a href="#5-时间延迟以及左侧绕原点问题（了解）" class="headerlink" title="5 时间延迟以及左侧绕原点问题（了解）"></a>5 时间延迟以及左侧绕原点问题（了解）</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232644.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232711.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232722.png"></p>
+<h2 id="6-稳定裕度"><a href="#6-稳定裕度" class="headerlink" title="6 稳定裕度"></a>6 稳定裕度</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232832.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107232848.png"></p>
+<h2 id="7-开环和闭环频域性能指标"><a href="#7-开环和闭环频域性能指标" class="headerlink" title="7 开环和闭环频域性能指标"></a>7 开环和闭环频域性能指标</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234529.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234539.png"></p>
+<h1 id="第七章-线性系统的设计方法"><a href="#第七章-线性系统的设计方法" class="headerlink" title="第七章 线性系统的设计方法"></a>第七章 线性系统的设计方法</h1><h2 id="1-超前校正"><a href="#1-超前校正" class="headerlink" title="1 超前校正"></a>1 超前校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234926.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234934.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234948.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107234955.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235004.png"> <img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235020.png"></p>
+<h2 id="2-超前校正：作业题"><a href="#2-超前校正：作业题" class="headerlink" title="2 超前校正：作业题"></a>2 超前校正：作业题</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235048.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/Pasted%20image%2020221227124210.png"></p>
+<h2 id="3-滞后校正"><a href="#3-滞后校正" class="headerlink" title="3 滞后校正"></a>3 滞后校正</h2><p><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235149.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235159.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235207.png"><br><img src="https://raw.githubusercontent.com/TianZhongxu/BlogImage/main/img/20230107235217.png"></p>
 ]]></content>
       <categories>
         <category>大三上</category>
@@ -931,7 +898,7 @@
 <ul>
 <li>典型环节的波特图<br>比例环节<br>积分环节<br>惯性环节：贡献-3dB带宽，$\frac{1}{T}$<br>振荡环节：（幅频、相频特性的快速写法），近似成两个带宽相同的惯性环节，$\frac{1}{T}$后以-40dB&#x2F;dec,$\zeta$越小，谐振峰值越大。转折之前第三象限，转折之后第四象限<br>微分环节：积分环节、惯性环节、振荡环节的对称</li>
 </ul>
-<h2 id="三-开环系统对数频率特性绘制"><a href="#三-开环系统对数频率特性绘制" class="headerlink" title="三 开环系统对数频率特性绘制"></a>三 开环系统对数频率特性绘制</h2><p>最小相位系统的判断依据：右半平面是否有极点或零点<br>手动计算非最小相位系统的相位时，非最小相位处按照$180°-\beta$处理，分子上不变，分母上整体加负号</p>
+<h2 id="三-开环系统对数频率特性绘制"><a href="#三-开环系统对数频率特性绘制" class="headerlink" title="三 开环系统对数频率特性绘制"></a>三 开环系统对数频率特性绘制</h2><p>最小相位系统的判断依据：右半平面是否有极点或零点<br>手动计算非最小相位系统（-1项）的相位时，非最小相位处按照$180°-\beta$处理，分子上不变，分母上整体加负号<br>手动计算非最小相位系统（+1项）的相位时，直接加负号</p>
 <h2 id="四-极坐标图"><a href="#四-极坐标图" class="headerlink" title="四 极坐标图"></a>四 极坐标图</h2><ul>
 <li>典型环节的极坐标图<br>比例环节：就是一个点<br>积分环节：在虚轴上，上面是负，下面是正<br>惯性环节：（均在右侧）下半圆是正，上半圆是负<br>振荡环节：在惯性环节的基础上，进入了左半平面，但$\omega$为无穷时，还指向原点<br>延迟环节：中心在原点的一个圆<br>微分环节：纯微分——比例环节的上下对称；一阶——平移纯微分环节（右侧）；二阶——$\omega$趋于无穷时，轨迹进入左侧</li>
 </ul>
