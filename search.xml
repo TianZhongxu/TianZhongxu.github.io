@@ -2643,12 +2643,24 @@
   <entry>
     <title>【电赛准备】零碎知识点</title>
     <url>/2023/02/22/8-%E7%94%B5%E8%B5%9B%E9%9B%B6%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="1-放大-抬升调理模块"><a href="#1-放大-抬升调理模块" class="headerlink" title="1. 放大+抬升调理模块"></a>1. 放大+抬升调理模块</h2><p><img src="https://s2.loli.net/2023/02/22/IZeza5ul48CB7Ym.png"><br>输入端通过大电容间隔交流成分和直流成分，可在直流一侧获得耦合信号。（大电容对交流电阻抗小，交流信号中VCC为交流地，可看作一个高通给滤波器；直流中，电容为断路，因此实现了在IN处的耦合）<br>反馈回路可以用同样的分析方法：对于直流来说，电容是断路，DC成分相当于一个跟随，对于交流来说电容相当于一根导线，交流信号流过的是反馈回路进行了放大。以此实现了在一个输出偏置上的信号偏置。</p>
+]]></content>
       <categories>
         <category>大三下</category>
       </categories>
       <tags>
         <tag>电赛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【CET6】仔细阅读</title>
+    <url>/2023/02/22/8-%E5%85%AD%E7%BA%A7%E4%BB%94%E7%BB%86%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>大三下</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
       </tags>
   </entry>
 </search>
