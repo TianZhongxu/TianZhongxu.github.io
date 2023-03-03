@@ -58,7 +58,7 @@
       <link href="/2023/02/22/8-aVerilog%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
       <url>/2023/02/22/8-aVerilog%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="第三章-模块的结构、数据类型、变量和基本运算符号"><a href="#第三章-模块的结构、数据类型、变量和基本运算符号" class="headerlink" title="第三章 模块的结构、数据类型、变量和基本运算符号"></a>第三章 模块的结构、数据类型、变量和基本运算符号</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-值集合中x和z的含义"><a href="#1-值集合中x和z的含义" class="headerlink" title="1 值集合中x和z的含义"></a>1 值集合中x和z的含义</h3><p><img src="https://s2.loli.net/2023/03/03/IJbj7nCQF4kqrpy.png"><br>输入z会被解释为x<br>x未知<br>z高阻，无驱动</p><h3 id="2-常量的表示"><a href="#2-常量的表示" class="headerlink" title="2 常量的表示"></a>2 常量的表示</h3><p><img src="https://s2.loli.net/2023/03/03/pQZ592Ig64WHf8J.png"></p><h3 id="3-变量wire的共同驱动问题"><a href="#3-变量wire的共同驱动问题" class="headerlink" title="3 变量wire的共同驱动问题"></a>3 变量wire的共同驱动问题</h3><p><img src="https://s2.loli.net/2023/03/03/mZpQsuiwxTqVRg4.png"></p><h3 id="4-Memory的表示"><a href="#4-Memory的表示" class="headerlink" title="4 Memory的表示"></a>4 Memory的表示</h3><p><img src="https://s2.loli.net/2023/03/03/RQWzcC4lH8hMS7L.png"></p><h3 id="5-存储器之间的赋值方法"><a href="#5-存储器之间的赋值方法" class="headerlink" title="5 存储器之间的赋值方法"></a>5 存储器之间的赋值方法</h3><p><img src="https://s2.loli.net/2023/03/03/yPT3eD1RlkipbS4.png"></p>]]></content>
       
       
       <categories>
