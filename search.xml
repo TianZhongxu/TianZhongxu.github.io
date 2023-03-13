@@ -2702,7 +2702,9 @@
   <entry>
     <title>【习题精析】模拟集成电路II</title>
     <url>/2023/02/22/8-a%E6%A8%A1%E9%9B%86%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="第二章-运算放大器"><a href="#第二章-运算放大器" class="headerlink" title="第二章 运算放大器"></a>第二章 运算放大器</h1><h1 id="第三章-运算放大器的反馈"><a href="#第三章-运算放大器的反馈" class="headerlink" title="第三章 运算放大器的反馈"></a>第三章 运算放大器的反馈</h1><h3 id="一-电流电压转换器"><a href="#一-电流电压转换器" class="headerlink" title="一 电流电压转换器"></a>一 电流电压转换器</h3><h4 id="利用返回比计算输入输出电阻、增益"><a href="#利用返回比计算输入输出电阻、增益" class="headerlink" title="利用返回比计算输入输出电阻、增益"></a>利用返回比计算输入输出电阻、增益</h4><p><img src="https://s2.loli.net/2023/03/13/DBAGmlvY8qubwKL.png"></p>
+    <content><![CDATA[<h1 id="第二章-运算放大器"><a href="#第二章-运算放大器" class="headerlink" title="第二章 运算放大器"></a>第二章 运算放大器</h1><h3 id="一-负阻转换器"><a href="#一-负阻转换器" class="headerlink" title="一 负阻转换器"></a>一 负阻转换器</h3><h4 id="负阻转换器的推导"><a href="#负阻转换器的推导" class="headerlink" title="负阻转换器的推导"></a>负阻转换器的推导</h4><p><img src="https://s2.loli.net/2023/03/13/uoqyvfDmBrJ2ZHl.png"></p>
+<h3 id="二-返回比"><a href="#二-返回比" class="headerlink" title="二 返回比"></a>二 返回比</h3><h4 id="返回比的计算"><a href="#返回比的计算" class="headerlink" title="返回比的计算"></a>返回比的计算</h4><p><img src="https://s2.loli.net/2023/03/13/1aP74tofmg3r2kW.png"></p>
+<h1 id="第三章-运算放大器的反馈"><a href="#第三章-运算放大器的反馈" class="headerlink" title="第三章 运算放大器的反馈"></a>第三章 运算放大器的反馈</h1><h3 id="一-电流电压转换器"><a href="#一-电流电压转换器" class="headerlink" title="一 电流电压转换器"></a>一 电流电压转换器</h3><h4 id="利用返回比计算输入输出电阻、增益"><a href="#利用返回比计算输入输出电阻、增益" class="headerlink" title="利用返回比计算输入输出电阻、增益"></a>利用返回比计算输入输出电阻、增益</h4><p><img src="https://s2.loli.net/2023/03/13/DBAGmlvY8qubwKL.png"></p>
 <h4 id="高精度IV转换器的增益推导"><a href="#高精度IV转换器的增益推导" class="headerlink" title="高精度IV转换器的增益推导"></a>高精度IV转换器的增益推导</h4><p><img src="https://s2.loli.net/2023/03/13/tsbI6u8eP3Ghl7M.png"></p>
 <h3 id="二-电压电流转换器"><a href="#二-电压电流转换器" class="headerlink" title="二 电压电流转换器"></a>二 电压电流转换器</h3><h4 id="两种结构和结论推导"><a href="#两种结构和结论推导" class="headerlink" title="两种结构和结论推导"></a>两种结构和结论推导</h4><p><img src="https://s2.loli.net/2023/03/13/57oQhLpzgEkwIB6.png"></p>
 <h3 id="三-电流放大器"><a href="#三-电流放大器" class="headerlink" title="三 电流放大器"></a>三 电流放大器</h3><h4 id="电流放大器的两种形式及其推导"><a href="#电流放大器的两种形式及其推导" class="headerlink" title="电流放大器的两种形式及其推导"></a>电流放大器的两种形式及其推导</h4><p><img src="https://s2.loli.net/2023/03/13/MbV5DcGjeRfh6Pv.png"><br><img src="https://s2.loli.net/2023/03/13/FwkQmhZxJIiNS7y.png"></p>
@@ -2717,6 +2719,11 @@
 <h3 id="六-换能器"><a href="#六-换能器" class="headerlink" title="六 换能器"></a>六 换能器</h3><h4 id="换能器的推导"><a href="#换能器的推导" class="headerlink" title="换能器的推导"></a>换能器的推导</h4><p><img src="https://s2.loli.net/2023/03/13/oE3FgrNVmU6Qe7q.png"></p>
 <h4 id="单运放实现换能器"><a href="#单运放实现换能器" class="headerlink" title="单运放实现换能器"></a>单运放实现换能器</h4><p><img src="https://s2.loli.net/2023/03/13/8P4Jw6BTqpi1rXa.png"></p>
 <h4 id="换能器线性化的方法"><a href="#换能器线性化的方法" class="headerlink" title="换能器线性化的方法"></a>换能器线性化的方法</h4><p><img src="https://s2.loli.net/2023/03/13/9ip1PDLoKZguzUG.png"></p>
+<h1 id="第四章-有源滤波器"><a href="#第四章-有源滤波器" class="headerlink" title="第四章 有源滤波器"></a>第四章 有源滤波器</h1><h3 id="一-有源滤波器的总体描述"><a href="#一-有源滤波器的总体描述" class="headerlink" title="一 有源滤波器的总体描述"></a>一 有源滤波器的总体描述</h3><h4 id="why有源滤波器？品质因素的物理意义？有源滤波器限制？"><a href="#why有源滤波器？品质因素的物理意义？有源滤波器限制？" class="headerlink" title="why有源滤波器？品质因素的物理意义？有源滤波器限制？"></a>why有源滤波器？品质因素的物理意义？有源滤波器限制？</h4><p><img src="https://s2.loli.net/2023/03/13/6IkHhz25pqAQSK4.png"></p>
+<h3 id="二-一阶有源滤波器"><a href="#二-一阶有源滤波器" class="headerlink" title="二 一阶有源滤波器"></a>二 一阶有源滤波器</h3><h4 id="电荷泵同向积分器的原理与推导"><a href="#电荷泵同向积分器的原理与推导" class="headerlink" title="电荷泵同向积分器的原理与推导"></a>电荷泵同向积分器的原理与推导</h4><p><img src="https://s2.loli.net/2023/03/13/fpmIwiKnMHNAGt2.png"></p>
+<h4 id="低通滤波器与高通滤波器的传递函数"><a href="#低通滤波器与高通滤波器的传递函数" class="headerlink" title="低通滤波器与高通滤波器的传递函数"></a>低通滤波器与高通滤波器的传递函数</h4><p><img src="https://s2.loli.net/2023/03/13/MT3oIk9jhBYrPLv.png"></p>
+<h4 id="带通滤波器的推导和用”比大小”理解"><a href="#带通滤波器的推导和用”比大小”理解" class="headerlink" title="带通滤波器的推导和用”比大小”理解"></a>带通滤波器的推导和用”比大小”理解</h4><p><img src="https://s2.loli.net/2023/03/13/HuKSYgF3WCDTfdq.png"></p>
+<h4 id="全通滤波器的传递函数与电路结构"><a href="#全通滤波器的传递函数与电路结构" class="headerlink" title="全通滤波器的传递函数与电路结构"></a>全通滤波器的传递函数与电路结构</h4><p><img src="https://s2.loli.net/2023/03/13/PFToQDqnKpSAWyV.png"></p>
 ]]></content>
       <categories>
         <category>大三下</category>
