@@ -2659,11 +2659,28 @@
   <entry>
     <title>【习题精析】Verilog</title>
     <url>/2023/02/22/8-aVerilog%E4%B9%A0%E9%A2%98%E7%B2%BE%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="第三章-模块的结构、数据类型、变量和基本运算符号"><a href="#第三章-模块的结构、数据类型、变量和基本运算符号" class="headerlink" title="第三章 模块的结构、数据类型、变量和基本运算符号"></a>第三章 模块的结构、数据类型、变量和基本运算符号</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-值集合中x和z的含义"><a href="#1-值集合中x和z的含义" class="headerlink" title="1 值集合中x和z的含义"></a>1 值集合中x和z的含义</h3><p><img src="https://s2.loli.net/2023/03/03/IJbj7nCQF4kqrpy.png"><br>输入z会被解释为x<br>x未知<br>z高阻，无驱动</p>
+    <content><![CDATA[<h1 id="代码中容易出现的问题"><a href="#代码中容易出现的问题" class="headerlink" title="代码中容易出现的问题"></a>代码中容易出现的问题</h1><h1 id="第三章-模块的结构、数据类型、变量和基本运算符号"><a href="#第三章-模块的结构、数据类型、变量和基本运算符号" class="headerlink" title="第三章 模块的结构、数据类型、变量和基本运算符号"></a>第三章 模块的结构、数据类型、变量和基本运算符号</h1><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="1-值集合中x和z的含义"><a href="#1-值集合中x和z的含义" class="headerlink" title="1 值集合中x和z的含义"></a>1 值集合中x和z的含义</h3><p><img src="https://s2.loli.net/2023/03/03/IJbj7nCQF4kqrpy.png"><br>输入z会被解释为x<br>x未知<br>z高阻，无驱动</p>
 <h3 id="2-常量的表示"><a href="#2-常量的表示" class="headerlink" title="2 常量的表示"></a>2 常量的表示</h3><p><img src="https://s2.loli.net/2023/03/03/pQZ592Ig64WHf8J.png"></p>
 <h3 id="3-变量wire的共同驱动问题"><a href="#3-变量wire的共同驱动问题" class="headerlink" title="3 变量wire的共同驱动问题"></a>3 变量wire的共同驱动问题</h3><p><img src="https://s2.loli.net/2023/03/03/mZpQsuiwxTqVRg4.png"></p>
 <h3 id="4-Memory的表示"><a href="#4-Memory的表示" class="headerlink" title="4 Memory的表示"></a>4 Memory的表示</h3><p><img src="https://s2.loli.net/2023/03/03/RQWzcC4lH8hMS7L.png"></p>
 <h3 id="5-存储器之间的赋值方法"><a href="#5-存储器之间的赋值方法" class="headerlink" title="5 存储器之间的赋值方法"></a>5 存储器之间的赋值方法</h3><p><img src="https://s2.loli.net/2023/03/03/yPT3eD1RlkipbS4.png"></p>
+<h1 id="第四章-运算符、赋值语句和结构说明语句"><a href="#第四章-运算符、赋值语句和结构说明语句" class="headerlink" title="第四章 运算符、赋值语句和结构说明语句"></a>第四章 运算符、赋值语句和结构说明语句</h1><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><h3 id="1-运算符"><a href="#1-运算符" class="headerlink" title="1 运算符"></a>1 运算符</h3><p>运算符有如下几种：逻辑运算符（与或非）、关系运算符（大于小于 大于等于）、等式运算符、移位运算符、拼接运算符、赋值、归约操作符</p>
+<ul>
+<li>判断一个数是否含有x的检测方法：<br><img src="https://s2.loli.net/2023/03/13/XqdDhI3vMaHFy6O.png"></li>
+</ul>
+<h3 id="2-赋值语句-块语句"><a href="#2-赋值语句-块语句" class="headerlink" title="2 赋值语句 块语句"></a>2 赋值语句 块语句</h3><p><strong>阻塞赋值与非阻塞赋值</strong><br><img src="https://s2.loli.net/2023/03/13/8uGt9KmYwH6k7ic.png"></p>
+<h1 id="第五章-条件语句、循环语句、块语句与生成语句"><a href="#第五章-条件语句、循环语句、块语句与生成语句" class="headerlink" title="第五章 条件语句、循环语句、块语句与生成语句"></a>第五章 条件语句、循环语句、块语句与生成语句</h1><h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><h3 id="1-条件语句"><a href="#1-条件语句" class="headerlink" title="1 条件语句"></a>1 条件语句</h3><ul>
+<li>0,x,z对于if来说是什么？<ul>
+<li>都是0</li>
+</ul>
+</li>
+<li>Case语句里面只需有一个default；xz的默认宽度是32位因此需要注意所有表达式值的位宽必须相等</li>
+<li>Case和casez、casex<ul>
+<li>casez：认为z是无关位，不做比较</li>
+<li>casex：x和z都是无关位</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>大三下</category>
@@ -2708,8 +2725,8 @@
 <h3 id="三-返回比"><a href="#三-返回比" class="headerlink" title="三 返回比"></a>三 返回比</h3><h4 id="返回比的计算"><a href="#返回比的计算" class="headerlink" title="返回比的计算"></a>返回比的计算</h4><p><img src="https://s2.loli.net/2023/03/13/1aP74tofmg3r2kW.png"></p>
 <h1 id="第三章-运算放大器的反馈"><a href="#第三章-运算放大器的反馈" class="headerlink" title="第三章 运算放大器的反馈"></a>第三章 运算放大器的反馈</h1><h3 id="一-电流电压转换器"><a href="#一-电流电压转换器" class="headerlink" title="一 电流电压转换器"></a>一 电流电压转换器</h3><h4 id="利用返回比计算输入输出电阻、增益"><a href="#利用返回比计算输入输出电阻、增益" class="headerlink" title="利用返回比计算输入输出电阻、增益"></a>利用返回比计算输入输出电阻、增益</h4><p><img src="https://s2.loli.net/2023/03/13/DBAGmlvY8qubwKL.png"></p>
 <h4 id="高精度IV转换器的增益推导"><a href="#高精度IV转换器的增益推导" class="headerlink" title="高精度IV转换器的增益推导"></a>高精度IV转换器的增益推导</h4><p><img src="https://s2.loli.net/2023/03/13/tsbI6u8eP3Ghl7M.png"></p>
-<h3 id="二-电压电流转换器"><a href="#二-电压电流转换器" class="headerlink" title="二 电压电流转换器"></a>二 电压电流转换器</h3><h4 id="两种结构和结论推导"><a href="#两种结构和结论推导" class="headerlink" title="两种结构和结论推导"></a>两种结构和结论推导</h4><p><img src="https://s2.loli.net/2023/03/13/57oQhLpzgEkwIB6.png"></p>
-<h3 id="三-电流放大器"><a href="#三-电流放大器" class="headerlink" title="三 电流放大器"></a>三 电流放大器</h3><h4 id="电流放大器的两种形式及其推导"><a href="#电流放大器的两种形式及其推导" class="headerlink" title="电流放大器的两种形式及其推导"></a>电流放大器的两种形式及其推导</h4><p><img src="https://s2.loli.net/2023/03/13/MbV5DcGjeRfh6Pv.png"><br><img src="https://s2.loli.net/2023/03/13/FwkQmhZxJIiNS7y.png"></p>
+<h3 id="二-电压电流转换器"><a href="#二-电压电流转换器" class="headerlink" title="二 电压电流转换器"></a>二 电压电流转换器</h3><h4 id="两种结构和结论推导"><a href="#两种结构和结论推导" class="headerlink" title="两种结构和结论推导"></a>两种结构和结论推导</h4><p><img src="https://s2.loli.net/2023/03/13/MbV5DcGjeRfh6Pv.png"><br><img src="https://s2.loli.net/2023/03/13/57oQhLpzgEkwIB6.png"></p>
+<h3 id="三-电流放大器"><a href="#三-电流放大器" class="headerlink" title="三 电流放大器"></a>三 电流放大器</h3><h4 id="电流放大器的两种形式及其推导"><a href="#电流放大器的两种形式及其推导" class="headerlink" title="电流放大器的两种形式及其推导"></a>电流放大器的两种形式及其推导</h4><p><img src="https://s2.loli.net/2023/03/13/FwkQmhZxJIiNS7y.png"></p>
 <h4 id="改造电路——大多数场景（诺顿等效）"><a href="#改造电路——大多数场景（诺顿等效）" class="headerlink" title="改造电路——大多数场景（诺顿等效）"></a>改造电路——大多数场景（诺顿等效）</h4><p><img src="https://s2.loli.net/2023/03/13/VFgYe7hiRrfoxpL.png"></p>
 <h4 id="进一步改造电路"><a href="#进一步改造电路" class="headerlink" title="进一步改造电路"></a>进一步改造电路</h4><p><img src="https://s2.loli.net/2023/03/13/AEMB9xnWLkcPTw5.png"></p>
 <h3 id="四-差分放大器"><a href="#四-差分放大器" class="headerlink" title="四 差分放大器"></a>四 差分放大器</h3><h4 id="差分放大器的失配推导"><a href="#差分放大器的失配推导" class="headerlink" title="差分放大器的失配推导"></a>差分放大器的失配推导</h4><p><img src="https://s2.loli.net/2023/03/13/5agFNCqPzniKQX6.png"></p>
