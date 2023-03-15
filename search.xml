@@ -2713,8 +2713,8 @@
 <li>说明大端和小端的区别<br>1word&#x3D;8byte&#x3D;64bit<br>小端格式：一个word的最低位存放数据的最低字节byte，比如：X86结构处理器<br>大端格式：一个word的最高位存放数据的最低字节byte，比如：IBM的Power PC处理器<br>ARM两种格式都可以配置</li>
 </ul>
 <h4 id="发射多发射、超长指令字处理器"><a href="#发射多发射、超长指令字处理器" class="headerlink" title="发射多发射、超长指令字处理器"></a>发射多发射、超长指令字处理器</h4><ul>
-<li>说明单发射和多发射，解释超标量处理器和超长指令字处理器</li>
-<li>说明超长指令字处理器限制并行的因素</li>
+<li>说明单发射和多发射，解释超标量处理器和超长指令字处理器<br><img src="https://s2.loli.net/2023/03/15/SqnoVzyUNCiDIFK.png"><br><img src="https://s2.loli.net/2023/03/15/wgrLiKzhptkj39y.png"></li>
+<li>说明超长指令字处理器限制并行的因素<br><img src="https://s2.loli.net/2023/03/15/UQsxScnu3oKgkH1.png"></li>
 </ul>
 <h3 id="2-符号数的表示"><a href="#2-符号数的表示" class="headerlink" title="2 符号数的表示"></a>2 符号数的表示</h3><ul>
 <li>8位原码、反码、补码各能代表多少个数？</li>
