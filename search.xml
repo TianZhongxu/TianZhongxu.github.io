@@ -2744,7 +2744,12 @@
 <h2 id="四-ARM处理器指令集（重要）"><a href="#四-ARM处理器指令集（重要）" class="headerlink" title="四 ARM处理器指令集（重要）"></a>四 ARM处理器指令集（重要）</h2><h3 id="1-指令的存储"><a href="#1-指令的存储" class="headerlink" title="1 指令的存储"></a>1 指令的存储</h3><h4 id="大端格式和小端格式的意义和实例"><a href="#大端格式和小端格式的意义和实例" class="headerlink" title="大端格式和小端格式的意义和实例"></a>大端格式和小端格式的意义和实例</h4><p><img src="https://s2.loli.net/2023/03/15/3DR1JmBNFwCfyPQ.png"></p>
 <h3 id="2-指令集"><a href="#2-指令集" class="headerlink" title="2 指令集"></a>2 指令集</h3><h4 id="指令三种类型和作用"><a href="#指令三种类型和作用" class="headerlink" title="指令三种类型和作用"></a>指令三种类型和作用</h4><p><img src="https://s2.loli.net/2023/03/15/gzs9Z2r61woaq4H.png"></p>
 <h4 id="ARM指令的编码格式"><a href="#ARM指令的编码格式" class="headerlink" title="ARM指令的编码格式"></a>ARM指令的编码格式</h4><p><img src="https://s2.loli.net/2023/03/15/5gjOXCUvAPWi3JY.png"></p>
-<h4 id="数据处理指令的移位、汇编格式、寻址方式"><a href="#数据处理指令的移位、汇编格式、寻址方式" class="headerlink" title="数据处理指令的移位、汇编格式、寻址方式"></a>数据处理指令的移位、汇编格式、寻址方式</h4><h2 id="五-ARM汇编语言程序设计"><a href="#五-ARM汇编语言程序设计" class="headerlink" title="五 ARM汇编语言程序设计"></a>五 ARM汇编语言程序设计</h2><h2 id="六-Thumb指令集（不考）"><a href="#六-Thumb指令集（不考）" class="headerlink" title="六 Thumb指令集（不考）"></a>六 Thumb指令集（不考）</h2>]]></content>
+<h4 id="数据处理指令的移位、汇编格式、寻址方式"><a href="#数据处理指令的移位、汇编格式、寻址方式" class="headerlink" title="数据处理指令的移位、汇编格式、寻址方式"></a>数据处理指令的移位、汇编格式、寻址方式</h4><p><img src="https://s2.loli.net/2023/03/16/vAI3shfFG4Bz7EU.png"><br><img src="https://s2.loli.net/2023/03/16/DvMNeHOp2Iytq9a.png"></p>
+<h4 id="数据处理指令集的加减、加减常数、反向减（常）、乘法、乘加以及怎么save状态？"><a href="#数据处理指令集的加减、加减常数、反向减（常）、乘法、乘加以及怎么save状态？" class="headerlink" title="数据处理指令集的加减、加减常数、反向减（常）、乘法、乘加以及怎么save状态？"></a>数据处理指令集的加减、加减常数、反向减（常）、乘法、乘加以及怎么save状态？</h4><p><img src="https://s2.loli.net/2023/03/16/RKd9s2mtZSbBnYx.png"></p>
+<h4 id="数据处理指令集中，用乘法指令为何不能实现r0-35？如何转换为加减运算？"><a href="#数据处理指令集中，用乘法指令为何不能实现r0-35？如何转换为加减运算？" class="headerlink" title="数据处理指令集中，用乘法指令为何不能实现r0*35？如何转换为加减运算？"></a>数据处理指令集中，用乘法指令为何不能实现r0*35？如何转换为加减运算？</h4><p><img src="https://s2.loli.net/2023/03/16/N4VFeLYOohz9CPD.png"></p>
+<h4 id="数据处理指令集的逻辑运算有什么？"><a href="#数据处理指令集的逻辑运算有什么？" class="headerlink" title="数据处理指令集的逻辑运算有什么？"></a>数据处理指令集的逻辑运算有什么？</h4><p><img src="https://s2.loli.net/2023/03/16/95bX1Mcrq7eQPBK.png"></p>
+<h4 id="寄存器传输和比较操作"><a href="#寄存器传输和比较操作" class="headerlink" title="寄存器传输和比较操作"></a>寄存器传输和比较操作</h4><p><img src="https://s2.loli.net/2023/03/16/Nwmvxs3LaPAWdzC.png"></p>
+<h2 id="五-ARM汇编语言程序设计"><a href="#五-ARM汇编语言程序设计" class="headerlink" title="五 ARM汇编语言程序设计"></a>五 ARM汇编语言程序设计</h2><h2 id="六-Thumb指令集（不考）"><a href="#六-Thumb指令集（不考）" class="headerlink" title="六 Thumb指令集（不考）"></a>六 Thumb指令集（不考）</h2>]]></content>
       <categories>
         <category>大三下</category>
       </categories>
